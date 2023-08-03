@@ -4,9 +4,25 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gen:wc:dev": "rm -rf dist && tsc && node dist/scripts/generate.js",
+    "gen:wc": "rm -rf dist && rm -rf packages/wc-icons/src/components/* && tsc && node dist/scripts/generate.js"
   },
+  "private": true,
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/fs-extra": "^9.0.13",
+    "@types/glob": "^8.0.0",
+    "@types/node": "^18.11.10",
+    "@types/svg-parser": "^2.0.3",
+    "consola": "^2.15.3",
+    "fs-extra": "^11.1.0",
+    "glob": "^8.0.3",
+    "svg-parser": "^2.0.4",
+    "svg-sprite-loader": "^6.0.11",
+    "svgo": "^3.0.2",
+    "typescript": "^4.9.3"
+  }
 }
