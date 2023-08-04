@@ -6,15 +6,2483 @@
  */
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 export namespace Components {
-    interface IconAdd {
+    interface IconAcoustic {
         /**
           * 图标颜色
          */
         "color": string;
         /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
           * 图标大小
          */
         "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconAddCircle {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconAddCircleFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconAddSquare {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconAddSquareFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconAddText {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconAlignTextBoth {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconAlignTextCenter {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconAlignTextLeft {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconAlignTextMiddle {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconAlignTextRight {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconAlipay {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconAlphabeticalSortingAsc {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconAlphabeticalSortingDesc {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconAnnouncement {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconAnnouncementFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconApple {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconArrowDown {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconArrowDownCircle {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconArrowLeft {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconArrowLeftCircle {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconArrowRight {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconArrowRightCircle {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconArrowUp {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconArrowUpCircle {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconAt {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconAttentionCircle {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconAttentionCircleFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconAutoLineHeight {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconAvatar {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconBack {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconBackFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconBackgroundColor {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconBackspace {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconBankCard {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconBook {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconBookOpen {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconBookmark {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconBrightness {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconBrightnessFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconBrowserChrome {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconBrowserSafari {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconBrowserSafariFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconCalendar {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconCalendarFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconCamera {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconCameraFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconCaretDown {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconCaretLeft {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconCaretRight {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconCaretUp {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconCheck {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconCheckCircle {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconCheckCircleFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconClearFormat {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconClearFormatFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconClose {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconCloseCircle {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconCloseCircleFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconCloseRemind {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconCloseWifi {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconCode {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconCodeBrackets {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconCollectionRecords {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconCommunication {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconCommunicationFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconCopy {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconCopyFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconCorrect {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconCurrency {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconCustomerServiceFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconCutting {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconDamageMap {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
         /**
           * 图标线条宽度
          */
@@ -26,9 +2494,9821 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
           * 图标大小
          */
         "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconDeleteFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconDislike {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconDot {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconDoubleDown {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconDoubleDownCircle {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconDoubleLeft {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconDoubleLeftCircle {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconDoubleRight {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconDoubleRightCircle {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconDoubleUp {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconDoubleUpCircle {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconDown {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconDownCircle {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconDownSquare {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconDownload {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconDownloadCloud {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconDropDownList {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconEdit {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconEditFile {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconEditFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconEditName {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconEditSquare {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconEditSquareFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconError {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconExpandDown {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconEye {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconEyeFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconEyeSlash {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconEyes {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconEyesClose {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconEyesFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconFacebook {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconFacebookSquare {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconFemale {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconFilter {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconFilterFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconFinance {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconFindList {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconFingerprint {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconFoldUp {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconFolderOpen {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconFolderOpenFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconFolderPlus {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconFolderSuccess {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconFontSize {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconForbid {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconForbidFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconFriendsCircleFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconFullScreen {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconFullScreenPlay {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconFullScreenPlayFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconFullSelection {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconFullSelectionFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconGithub {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconGithubCircle {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconGitlabFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconGoEnd {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconGoOn {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconGoStart {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconGoogleFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconH {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconH1 {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconH2 {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconH3 {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconH4 {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconH5 {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconH6 {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconH7 {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconH8 {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconH9 {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconHarm {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconHarmFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconHelpCircle {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconHelpCircleFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconHelpSquare {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconHelpSquareFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconHistory {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconHome {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconHomeFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconHtmlFiveFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconIdCardH {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconIndentLeft {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconIndentRight {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconInfoCircle {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconInfoCircleFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconIntersection {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconLarkFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconLayers {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconLayersFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconLeft {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconLeftCircle {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconLeftSquare {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconLike {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconLikeFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconLink {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconListAdd {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconListAlphabet {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconListNumbers {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconLoading {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconLoadingDot {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconLocal {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconLocalFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconLocation {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconLocationFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconLock {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconLockFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconLog {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconLoopOnce {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconMailOpen {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconMailOpenFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconMailReview {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconMale {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconMapDraw {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconMapDrawFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconMessage {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconMessageFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconMessageUnread {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconMinus {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconMoon {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconMoonFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconMore {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconMoreApp {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconMoreAppFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconMoreCircle {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconMoreCircleFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconMoreVertical {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconMoreVerticalCircle {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconMoreVerticalCircleFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconMove {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconMpWeixinCircleFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconMusic {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconMusicByte {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconMusicByteFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconMusicFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconMusicList {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconMute {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconMuteFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconNext {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconNextFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconNotebookAndPen {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconNotebookAndPenFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconOffScreen {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconOneToOne {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconPause {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconPauseCircle {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconPauseCircleFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconPeople {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconPeopleFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconPeopleMinusDown {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconPeopleMinusUp {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconPeoplePlusDown {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconPeoplePlusUp {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconPeoples {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconPercentage {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconPerformance {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconPhone {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconPhoneCall {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconPhoneCallFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconPhoneFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconPicFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconPieCircle {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconPlay {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconPlayCircle {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconPlayCircleFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconPlayCycle {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconPlayFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconPlayOnce {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconPlus {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconPlusCross {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconPower {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconPrinter {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconProtect {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconProtectFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconQrcode {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconRadio {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconRadioFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconRecordDisc {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconRedoCircle {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconReduceCircle {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconReduceCircleFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconReduceSquareFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconRefresh {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconRemind {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconRemindFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconReturn {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconRight {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconRightCircle {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconRightSquare {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconRound {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconRoundFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconRss {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconScanCode {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconScanning {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconScreenshot {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconScreenshotFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconSearch {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconSend {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconSetting {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconSettingConfig {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconSettingFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconSettings {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconSettingsFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconShake {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconShare {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconShareFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconShieldAdd {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconShieldAddFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconShoppingBag {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconShoppingBagFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconShoppingCart {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconShoppingCartAdd {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconShoppingCartAddFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconShoppingCartDel {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconShoppingCartDelFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconShoppingCartFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconSmallCheck {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconSmallClose {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconSmallDown {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconSmallLeft {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconSmallRight {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconSquare {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconStar {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconStarFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconSun {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconSunFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconSwitchButton {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconSwitchButtonFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconTag {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconTaobaoCircle {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconTelegram {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconTencentQq {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconTextBold {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconTextItalic {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconTextStyle {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconTextStyleList {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconTextUnderline {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconThumbsDown {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconThumbsDownRFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconThumbsUp {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconThumbsUpLFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconTiktokFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconToLeft {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconToRight {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconToTop {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconToTopSmall {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconToutiao {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconTranslate {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconTwitterFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconUndoCircle {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconUnlock {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconUnlockFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconUp {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconUpCircle {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconUpSquare {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconUpload {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconUploadCloud {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconUploadLogs {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconViewGridCard {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconViewGridDetail {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconViewGridList {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconVoice {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconVoiceFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconVoiceInput {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconVoiceInputFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconVoiceOff {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconVoicePlay {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconVolumeDown {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconVolumeDownFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconVolumeMute {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconVolumeMuteFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconVolumeNotice {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconVolumeNoticeFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconVolumeSmall {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconVolumeSmallFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconVolumeUp {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconVolumeUpFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconWallet {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconWaterfallsH {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconWaterfallsV {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconWavesLeft {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconWavesRight {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconWeiboFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconWeixinScanFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconWifi {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconWindowsFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconYoutubeFilled {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconZoomIn {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
+    }
+    interface IconZoomOut {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
+          * 图标大小
+         */
+        "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
         /**
           * 图标线条宽度
          */
@@ -36,11 +12316,443 @@ export namespace Components {
     }
 }
 declare global {
-    interface HTMLIconAddElement extends Components.IconAdd, HTMLStencilElement {
+    interface HTMLIconAcousticElement extends Components.IconAcoustic, HTMLStencilElement {
     }
-    var HTMLIconAddElement: {
-        prototype: HTMLIconAddElement;
-        new (): HTMLIconAddElement;
+    var HTMLIconAcousticElement: {
+        prototype: HTMLIconAcousticElement;
+        new (): HTMLIconAcousticElement;
+    };
+    interface HTMLIconAddCircleElement extends Components.IconAddCircle, HTMLStencilElement {
+    }
+    var HTMLIconAddCircleElement: {
+        prototype: HTMLIconAddCircleElement;
+        new (): HTMLIconAddCircleElement;
+    };
+    interface HTMLIconAddCircleFilledElement extends Components.IconAddCircleFilled, HTMLStencilElement {
+    }
+    var HTMLIconAddCircleFilledElement: {
+        prototype: HTMLIconAddCircleFilledElement;
+        new (): HTMLIconAddCircleFilledElement;
+    };
+    interface HTMLIconAddSquareElement extends Components.IconAddSquare, HTMLStencilElement {
+    }
+    var HTMLIconAddSquareElement: {
+        prototype: HTMLIconAddSquareElement;
+        new (): HTMLIconAddSquareElement;
+    };
+    interface HTMLIconAddSquareFilledElement extends Components.IconAddSquareFilled, HTMLStencilElement {
+    }
+    var HTMLIconAddSquareFilledElement: {
+        prototype: HTMLIconAddSquareFilledElement;
+        new (): HTMLIconAddSquareFilledElement;
+    };
+    interface HTMLIconAddTextElement extends Components.IconAddText, HTMLStencilElement {
+    }
+    var HTMLIconAddTextElement: {
+        prototype: HTMLIconAddTextElement;
+        new (): HTMLIconAddTextElement;
+    };
+    interface HTMLIconAlignTextBothElement extends Components.IconAlignTextBoth, HTMLStencilElement {
+    }
+    var HTMLIconAlignTextBothElement: {
+        prototype: HTMLIconAlignTextBothElement;
+        new (): HTMLIconAlignTextBothElement;
+    };
+    interface HTMLIconAlignTextCenterElement extends Components.IconAlignTextCenter, HTMLStencilElement {
+    }
+    var HTMLIconAlignTextCenterElement: {
+        prototype: HTMLIconAlignTextCenterElement;
+        new (): HTMLIconAlignTextCenterElement;
+    };
+    interface HTMLIconAlignTextLeftElement extends Components.IconAlignTextLeft, HTMLStencilElement {
+    }
+    var HTMLIconAlignTextLeftElement: {
+        prototype: HTMLIconAlignTextLeftElement;
+        new (): HTMLIconAlignTextLeftElement;
+    };
+    interface HTMLIconAlignTextMiddleElement extends Components.IconAlignTextMiddle, HTMLStencilElement {
+    }
+    var HTMLIconAlignTextMiddleElement: {
+        prototype: HTMLIconAlignTextMiddleElement;
+        new (): HTMLIconAlignTextMiddleElement;
+    };
+    interface HTMLIconAlignTextRightElement extends Components.IconAlignTextRight, HTMLStencilElement {
+    }
+    var HTMLIconAlignTextRightElement: {
+        prototype: HTMLIconAlignTextRightElement;
+        new (): HTMLIconAlignTextRightElement;
+    };
+    interface HTMLIconAlipayElement extends Components.IconAlipay, HTMLStencilElement {
+    }
+    var HTMLIconAlipayElement: {
+        prototype: HTMLIconAlipayElement;
+        new (): HTMLIconAlipayElement;
+    };
+    interface HTMLIconAlphabeticalSortingAscElement extends Components.IconAlphabeticalSortingAsc, HTMLStencilElement {
+    }
+    var HTMLIconAlphabeticalSortingAscElement: {
+        prototype: HTMLIconAlphabeticalSortingAscElement;
+        new (): HTMLIconAlphabeticalSortingAscElement;
+    };
+    interface HTMLIconAlphabeticalSortingDescElement extends Components.IconAlphabeticalSortingDesc, HTMLStencilElement {
+    }
+    var HTMLIconAlphabeticalSortingDescElement: {
+        prototype: HTMLIconAlphabeticalSortingDescElement;
+        new (): HTMLIconAlphabeticalSortingDescElement;
+    };
+    interface HTMLIconAnnouncementElement extends Components.IconAnnouncement, HTMLStencilElement {
+    }
+    var HTMLIconAnnouncementElement: {
+        prototype: HTMLIconAnnouncementElement;
+        new (): HTMLIconAnnouncementElement;
+    };
+    interface HTMLIconAnnouncementFilledElement extends Components.IconAnnouncementFilled, HTMLStencilElement {
+    }
+    var HTMLIconAnnouncementFilledElement: {
+        prototype: HTMLIconAnnouncementFilledElement;
+        new (): HTMLIconAnnouncementFilledElement;
+    };
+    interface HTMLIconAppleElement extends Components.IconApple, HTMLStencilElement {
+    }
+    var HTMLIconAppleElement: {
+        prototype: HTMLIconAppleElement;
+        new (): HTMLIconAppleElement;
+    };
+    interface HTMLIconArrowDownElement extends Components.IconArrowDown, HTMLStencilElement {
+    }
+    var HTMLIconArrowDownElement: {
+        prototype: HTMLIconArrowDownElement;
+        new (): HTMLIconArrowDownElement;
+    };
+    interface HTMLIconArrowDownCircleElement extends Components.IconArrowDownCircle, HTMLStencilElement {
+    }
+    var HTMLIconArrowDownCircleElement: {
+        prototype: HTMLIconArrowDownCircleElement;
+        new (): HTMLIconArrowDownCircleElement;
+    };
+    interface HTMLIconArrowLeftElement extends Components.IconArrowLeft, HTMLStencilElement {
+    }
+    var HTMLIconArrowLeftElement: {
+        prototype: HTMLIconArrowLeftElement;
+        new (): HTMLIconArrowLeftElement;
+    };
+    interface HTMLIconArrowLeftCircleElement extends Components.IconArrowLeftCircle, HTMLStencilElement {
+    }
+    var HTMLIconArrowLeftCircleElement: {
+        prototype: HTMLIconArrowLeftCircleElement;
+        new (): HTMLIconArrowLeftCircleElement;
+    };
+    interface HTMLIconArrowRightElement extends Components.IconArrowRight, HTMLStencilElement {
+    }
+    var HTMLIconArrowRightElement: {
+        prototype: HTMLIconArrowRightElement;
+        new (): HTMLIconArrowRightElement;
+    };
+    interface HTMLIconArrowRightCircleElement extends Components.IconArrowRightCircle, HTMLStencilElement {
+    }
+    var HTMLIconArrowRightCircleElement: {
+        prototype: HTMLIconArrowRightCircleElement;
+        new (): HTMLIconArrowRightCircleElement;
+    };
+    interface HTMLIconArrowUpElement extends Components.IconArrowUp, HTMLStencilElement {
+    }
+    var HTMLIconArrowUpElement: {
+        prototype: HTMLIconArrowUpElement;
+        new (): HTMLIconArrowUpElement;
+    };
+    interface HTMLIconArrowUpCircleElement extends Components.IconArrowUpCircle, HTMLStencilElement {
+    }
+    var HTMLIconArrowUpCircleElement: {
+        prototype: HTMLIconArrowUpCircleElement;
+        new (): HTMLIconArrowUpCircleElement;
+    };
+    interface HTMLIconAtElement extends Components.IconAt, HTMLStencilElement {
+    }
+    var HTMLIconAtElement: {
+        prototype: HTMLIconAtElement;
+        new (): HTMLIconAtElement;
+    };
+    interface HTMLIconAttentionCircleElement extends Components.IconAttentionCircle, HTMLStencilElement {
+    }
+    var HTMLIconAttentionCircleElement: {
+        prototype: HTMLIconAttentionCircleElement;
+        new (): HTMLIconAttentionCircleElement;
+    };
+    interface HTMLIconAttentionCircleFilledElement extends Components.IconAttentionCircleFilled, HTMLStencilElement {
+    }
+    var HTMLIconAttentionCircleFilledElement: {
+        prototype: HTMLIconAttentionCircleFilledElement;
+        new (): HTMLIconAttentionCircleFilledElement;
+    };
+    interface HTMLIconAutoLineHeightElement extends Components.IconAutoLineHeight, HTMLStencilElement {
+    }
+    var HTMLIconAutoLineHeightElement: {
+        prototype: HTMLIconAutoLineHeightElement;
+        new (): HTMLIconAutoLineHeightElement;
+    };
+    interface HTMLIconAvatarElement extends Components.IconAvatar, HTMLStencilElement {
+    }
+    var HTMLIconAvatarElement: {
+        prototype: HTMLIconAvatarElement;
+        new (): HTMLIconAvatarElement;
+    };
+    interface HTMLIconBackElement extends Components.IconBack, HTMLStencilElement {
+    }
+    var HTMLIconBackElement: {
+        prototype: HTMLIconBackElement;
+        new (): HTMLIconBackElement;
+    };
+    interface HTMLIconBackFilledElement extends Components.IconBackFilled, HTMLStencilElement {
+    }
+    var HTMLIconBackFilledElement: {
+        prototype: HTMLIconBackFilledElement;
+        new (): HTMLIconBackFilledElement;
+    };
+    interface HTMLIconBackgroundColorElement extends Components.IconBackgroundColor, HTMLStencilElement {
+    }
+    var HTMLIconBackgroundColorElement: {
+        prototype: HTMLIconBackgroundColorElement;
+        new (): HTMLIconBackgroundColorElement;
+    };
+    interface HTMLIconBackspaceElement extends Components.IconBackspace, HTMLStencilElement {
+    }
+    var HTMLIconBackspaceElement: {
+        prototype: HTMLIconBackspaceElement;
+        new (): HTMLIconBackspaceElement;
+    };
+    interface HTMLIconBankCardElement extends Components.IconBankCard, HTMLStencilElement {
+    }
+    var HTMLIconBankCardElement: {
+        prototype: HTMLIconBankCardElement;
+        new (): HTMLIconBankCardElement;
+    };
+    interface HTMLIconBookElement extends Components.IconBook, HTMLStencilElement {
+    }
+    var HTMLIconBookElement: {
+        prototype: HTMLIconBookElement;
+        new (): HTMLIconBookElement;
+    };
+    interface HTMLIconBookOpenElement extends Components.IconBookOpen, HTMLStencilElement {
+    }
+    var HTMLIconBookOpenElement: {
+        prototype: HTMLIconBookOpenElement;
+        new (): HTMLIconBookOpenElement;
+    };
+    interface HTMLIconBookmarkElement extends Components.IconBookmark, HTMLStencilElement {
+    }
+    var HTMLIconBookmarkElement: {
+        prototype: HTMLIconBookmarkElement;
+        new (): HTMLIconBookmarkElement;
+    };
+    interface HTMLIconBrightnessElement extends Components.IconBrightness, HTMLStencilElement {
+    }
+    var HTMLIconBrightnessElement: {
+        prototype: HTMLIconBrightnessElement;
+        new (): HTMLIconBrightnessElement;
+    };
+    interface HTMLIconBrightnessFilledElement extends Components.IconBrightnessFilled, HTMLStencilElement {
+    }
+    var HTMLIconBrightnessFilledElement: {
+        prototype: HTMLIconBrightnessFilledElement;
+        new (): HTMLIconBrightnessFilledElement;
+    };
+    interface HTMLIconBrowserChromeElement extends Components.IconBrowserChrome, HTMLStencilElement {
+    }
+    var HTMLIconBrowserChromeElement: {
+        prototype: HTMLIconBrowserChromeElement;
+        new (): HTMLIconBrowserChromeElement;
+    };
+    interface HTMLIconBrowserSafariElement extends Components.IconBrowserSafari, HTMLStencilElement {
+    }
+    var HTMLIconBrowserSafariElement: {
+        prototype: HTMLIconBrowserSafariElement;
+        new (): HTMLIconBrowserSafariElement;
+    };
+    interface HTMLIconBrowserSafariFilledElement extends Components.IconBrowserSafariFilled, HTMLStencilElement {
+    }
+    var HTMLIconBrowserSafariFilledElement: {
+        prototype: HTMLIconBrowserSafariFilledElement;
+        new (): HTMLIconBrowserSafariFilledElement;
+    };
+    interface HTMLIconCalendarElement extends Components.IconCalendar, HTMLStencilElement {
+    }
+    var HTMLIconCalendarElement: {
+        prototype: HTMLIconCalendarElement;
+        new (): HTMLIconCalendarElement;
+    };
+    interface HTMLIconCalendarFilledElement extends Components.IconCalendarFilled, HTMLStencilElement {
+    }
+    var HTMLIconCalendarFilledElement: {
+        prototype: HTMLIconCalendarFilledElement;
+        new (): HTMLIconCalendarFilledElement;
+    };
+    interface HTMLIconCameraElement extends Components.IconCamera, HTMLStencilElement {
+    }
+    var HTMLIconCameraElement: {
+        prototype: HTMLIconCameraElement;
+        new (): HTMLIconCameraElement;
+    };
+    interface HTMLIconCameraFilledElement extends Components.IconCameraFilled, HTMLStencilElement {
+    }
+    var HTMLIconCameraFilledElement: {
+        prototype: HTMLIconCameraFilledElement;
+        new (): HTMLIconCameraFilledElement;
+    };
+    interface HTMLIconCaretDownElement extends Components.IconCaretDown, HTMLStencilElement {
+    }
+    var HTMLIconCaretDownElement: {
+        prototype: HTMLIconCaretDownElement;
+        new (): HTMLIconCaretDownElement;
+    };
+    interface HTMLIconCaretLeftElement extends Components.IconCaretLeft, HTMLStencilElement {
+    }
+    var HTMLIconCaretLeftElement: {
+        prototype: HTMLIconCaretLeftElement;
+        new (): HTMLIconCaretLeftElement;
+    };
+    interface HTMLIconCaretRightElement extends Components.IconCaretRight, HTMLStencilElement {
+    }
+    var HTMLIconCaretRightElement: {
+        prototype: HTMLIconCaretRightElement;
+        new (): HTMLIconCaretRightElement;
+    };
+    interface HTMLIconCaretUpElement extends Components.IconCaretUp, HTMLStencilElement {
+    }
+    var HTMLIconCaretUpElement: {
+        prototype: HTMLIconCaretUpElement;
+        new (): HTMLIconCaretUpElement;
+    };
+    interface HTMLIconCheckElement extends Components.IconCheck, HTMLStencilElement {
+    }
+    var HTMLIconCheckElement: {
+        prototype: HTMLIconCheckElement;
+        new (): HTMLIconCheckElement;
+    };
+    interface HTMLIconCheckCircleElement extends Components.IconCheckCircle, HTMLStencilElement {
+    }
+    var HTMLIconCheckCircleElement: {
+        prototype: HTMLIconCheckCircleElement;
+        new (): HTMLIconCheckCircleElement;
+    };
+    interface HTMLIconCheckCircleFilledElement extends Components.IconCheckCircleFilled, HTMLStencilElement {
+    }
+    var HTMLIconCheckCircleFilledElement: {
+        prototype: HTMLIconCheckCircleFilledElement;
+        new (): HTMLIconCheckCircleFilledElement;
+    };
+    interface HTMLIconClearFormatElement extends Components.IconClearFormat, HTMLStencilElement {
+    }
+    var HTMLIconClearFormatElement: {
+        prototype: HTMLIconClearFormatElement;
+        new (): HTMLIconClearFormatElement;
+    };
+    interface HTMLIconClearFormatFilledElement extends Components.IconClearFormatFilled, HTMLStencilElement {
+    }
+    var HTMLIconClearFormatFilledElement: {
+        prototype: HTMLIconClearFormatFilledElement;
+        new (): HTMLIconClearFormatFilledElement;
+    };
+    interface HTMLIconCloseElement extends Components.IconClose, HTMLStencilElement {
+    }
+    var HTMLIconCloseElement: {
+        prototype: HTMLIconCloseElement;
+        new (): HTMLIconCloseElement;
+    };
+    interface HTMLIconCloseCircleElement extends Components.IconCloseCircle, HTMLStencilElement {
+    }
+    var HTMLIconCloseCircleElement: {
+        prototype: HTMLIconCloseCircleElement;
+        new (): HTMLIconCloseCircleElement;
+    };
+    interface HTMLIconCloseCircleFilledElement extends Components.IconCloseCircleFilled, HTMLStencilElement {
+    }
+    var HTMLIconCloseCircleFilledElement: {
+        prototype: HTMLIconCloseCircleFilledElement;
+        new (): HTMLIconCloseCircleFilledElement;
+    };
+    interface HTMLIconCloseRemindElement extends Components.IconCloseRemind, HTMLStencilElement {
+    }
+    var HTMLIconCloseRemindElement: {
+        prototype: HTMLIconCloseRemindElement;
+        new (): HTMLIconCloseRemindElement;
+    };
+    interface HTMLIconCloseWifiElement extends Components.IconCloseWifi, HTMLStencilElement {
+    }
+    var HTMLIconCloseWifiElement: {
+        prototype: HTMLIconCloseWifiElement;
+        new (): HTMLIconCloseWifiElement;
+    };
+    interface HTMLIconCodeElement extends Components.IconCode, HTMLStencilElement {
+    }
+    var HTMLIconCodeElement: {
+        prototype: HTMLIconCodeElement;
+        new (): HTMLIconCodeElement;
+    };
+    interface HTMLIconCodeBracketsElement extends Components.IconCodeBrackets, HTMLStencilElement {
+    }
+    var HTMLIconCodeBracketsElement: {
+        prototype: HTMLIconCodeBracketsElement;
+        new (): HTMLIconCodeBracketsElement;
+    };
+    interface HTMLIconCollectionRecordsElement extends Components.IconCollectionRecords, HTMLStencilElement {
+    }
+    var HTMLIconCollectionRecordsElement: {
+        prototype: HTMLIconCollectionRecordsElement;
+        new (): HTMLIconCollectionRecordsElement;
+    };
+    interface HTMLIconCommunicationElement extends Components.IconCommunication, HTMLStencilElement {
+    }
+    var HTMLIconCommunicationElement: {
+        prototype: HTMLIconCommunicationElement;
+        new (): HTMLIconCommunicationElement;
+    };
+    interface HTMLIconCommunicationFilledElement extends Components.IconCommunicationFilled, HTMLStencilElement {
+    }
+    var HTMLIconCommunicationFilledElement: {
+        prototype: HTMLIconCommunicationFilledElement;
+        new (): HTMLIconCommunicationFilledElement;
+    };
+    interface HTMLIconCopyElement extends Components.IconCopy, HTMLStencilElement {
+    }
+    var HTMLIconCopyElement: {
+        prototype: HTMLIconCopyElement;
+        new (): HTMLIconCopyElement;
+    };
+    interface HTMLIconCopyFilledElement extends Components.IconCopyFilled, HTMLStencilElement {
+    }
+    var HTMLIconCopyFilledElement: {
+        prototype: HTMLIconCopyFilledElement;
+        new (): HTMLIconCopyFilledElement;
+    };
+    interface HTMLIconCorrectElement extends Components.IconCorrect, HTMLStencilElement {
+    }
+    var HTMLIconCorrectElement: {
+        prototype: HTMLIconCorrectElement;
+        new (): HTMLIconCorrectElement;
+    };
+    interface HTMLIconCurrencyElement extends Components.IconCurrency, HTMLStencilElement {
+    }
+    var HTMLIconCurrencyElement: {
+        prototype: HTMLIconCurrencyElement;
+        new (): HTMLIconCurrencyElement;
+    };
+    interface HTMLIconCustomerServiceFilledElement extends Components.IconCustomerServiceFilled, HTMLStencilElement {
+    }
+    var HTMLIconCustomerServiceFilledElement: {
+        prototype: HTMLIconCustomerServiceFilledElement;
+        new (): HTMLIconCustomerServiceFilledElement;
+    };
+    interface HTMLIconCuttingElement extends Components.IconCutting, HTMLStencilElement {
+    }
+    var HTMLIconCuttingElement: {
+        prototype: HTMLIconCuttingElement;
+        new (): HTMLIconCuttingElement;
+    };
+    interface HTMLIconDamageMapElement extends Components.IconDamageMap, HTMLStencilElement {
+    }
+    var HTMLIconDamageMapElement: {
+        prototype: HTMLIconDamageMapElement;
+        new (): HTMLIconDamageMapElement;
     };
     interface HTMLIconDeleteElement extends Components.IconDelete, HTMLStencilElement {
     }
@@ -48,21 +12760,4577 @@ declare global {
         prototype: HTMLIconDeleteElement;
         new (): HTMLIconDeleteElement;
     };
+    interface HTMLIconDeleteFilledElement extends Components.IconDeleteFilled, HTMLStencilElement {
+    }
+    var HTMLIconDeleteFilledElement: {
+        prototype: HTMLIconDeleteFilledElement;
+        new (): HTMLIconDeleteFilledElement;
+    };
+    interface HTMLIconDislikeElement extends Components.IconDislike, HTMLStencilElement {
+    }
+    var HTMLIconDislikeElement: {
+        prototype: HTMLIconDislikeElement;
+        new (): HTMLIconDislikeElement;
+    };
+    interface HTMLIconDotElement extends Components.IconDot, HTMLStencilElement {
+    }
+    var HTMLIconDotElement: {
+        prototype: HTMLIconDotElement;
+        new (): HTMLIconDotElement;
+    };
+    interface HTMLIconDoubleDownElement extends Components.IconDoubleDown, HTMLStencilElement {
+    }
+    var HTMLIconDoubleDownElement: {
+        prototype: HTMLIconDoubleDownElement;
+        new (): HTMLIconDoubleDownElement;
+    };
+    interface HTMLIconDoubleDownCircleElement extends Components.IconDoubleDownCircle, HTMLStencilElement {
+    }
+    var HTMLIconDoubleDownCircleElement: {
+        prototype: HTMLIconDoubleDownCircleElement;
+        new (): HTMLIconDoubleDownCircleElement;
+    };
+    interface HTMLIconDoubleLeftElement extends Components.IconDoubleLeft, HTMLStencilElement {
+    }
+    var HTMLIconDoubleLeftElement: {
+        prototype: HTMLIconDoubleLeftElement;
+        new (): HTMLIconDoubleLeftElement;
+    };
+    interface HTMLIconDoubleLeftCircleElement extends Components.IconDoubleLeftCircle, HTMLStencilElement {
+    }
+    var HTMLIconDoubleLeftCircleElement: {
+        prototype: HTMLIconDoubleLeftCircleElement;
+        new (): HTMLIconDoubleLeftCircleElement;
+    };
+    interface HTMLIconDoubleRightElement extends Components.IconDoubleRight, HTMLStencilElement {
+    }
+    var HTMLIconDoubleRightElement: {
+        prototype: HTMLIconDoubleRightElement;
+        new (): HTMLIconDoubleRightElement;
+    };
+    interface HTMLIconDoubleRightCircleElement extends Components.IconDoubleRightCircle, HTMLStencilElement {
+    }
+    var HTMLIconDoubleRightCircleElement: {
+        prototype: HTMLIconDoubleRightCircleElement;
+        new (): HTMLIconDoubleRightCircleElement;
+    };
+    interface HTMLIconDoubleUpElement extends Components.IconDoubleUp, HTMLStencilElement {
+    }
+    var HTMLIconDoubleUpElement: {
+        prototype: HTMLIconDoubleUpElement;
+        new (): HTMLIconDoubleUpElement;
+    };
+    interface HTMLIconDoubleUpCircleElement extends Components.IconDoubleUpCircle, HTMLStencilElement {
+    }
+    var HTMLIconDoubleUpCircleElement: {
+        prototype: HTMLIconDoubleUpCircleElement;
+        new (): HTMLIconDoubleUpCircleElement;
+    };
+    interface HTMLIconDownElement extends Components.IconDown, HTMLStencilElement {
+    }
+    var HTMLIconDownElement: {
+        prototype: HTMLIconDownElement;
+        new (): HTMLIconDownElement;
+    };
+    interface HTMLIconDownCircleElement extends Components.IconDownCircle, HTMLStencilElement {
+    }
+    var HTMLIconDownCircleElement: {
+        prototype: HTMLIconDownCircleElement;
+        new (): HTMLIconDownCircleElement;
+    };
+    interface HTMLIconDownSquareElement extends Components.IconDownSquare, HTMLStencilElement {
+    }
+    var HTMLIconDownSquareElement: {
+        prototype: HTMLIconDownSquareElement;
+        new (): HTMLIconDownSquareElement;
+    };
+    interface HTMLIconDownloadElement extends Components.IconDownload, HTMLStencilElement {
+    }
+    var HTMLIconDownloadElement: {
+        prototype: HTMLIconDownloadElement;
+        new (): HTMLIconDownloadElement;
+    };
+    interface HTMLIconDownloadCloudElement extends Components.IconDownloadCloud, HTMLStencilElement {
+    }
+    var HTMLIconDownloadCloudElement: {
+        prototype: HTMLIconDownloadCloudElement;
+        new (): HTMLIconDownloadCloudElement;
+    };
+    interface HTMLIconDropDownListElement extends Components.IconDropDownList, HTMLStencilElement {
+    }
+    var HTMLIconDropDownListElement: {
+        prototype: HTMLIconDropDownListElement;
+        new (): HTMLIconDropDownListElement;
+    };
+    interface HTMLIconEditElement extends Components.IconEdit, HTMLStencilElement {
+    }
+    var HTMLIconEditElement: {
+        prototype: HTMLIconEditElement;
+        new (): HTMLIconEditElement;
+    };
+    interface HTMLIconEditFileElement extends Components.IconEditFile, HTMLStencilElement {
+    }
+    var HTMLIconEditFileElement: {
+        prototype: HTMLIconEditFileElement;
+        new (): HTMLIconEditFileElement;
+    };
+    interface HTMLIconEditFilledElement extends Components.IconEditFilled, HTMLStencilElement {
+    }
+    var HTMLIconEditFilledElement: {
+        prototype: HTMLIconEditFilledElement;
+        new (): HTMLIconEditFilledElement;
+    };
+    interface HTMLIconEditNameElement extends Components.IconEditName, HTMLStencilElement {
+    }
+    var HTMLIconEditNameElement: {
+        prototype: HTMLIconEditNameElement;
+        new (): HTMLIconEditNameElement;
+    };
+    interface HTMLIconEditSquareElement extends Components.IconEditSquare, HTMLStencilElement {
+    }
+    var HTMLIconEditSquareElement: {
+        prototype: HTMLIconEditSquareElement;
+        new (): HTMLIconEditSquareElement;
+    };
+    interface HTMLIconEditSquareFilledElement extends Components.IconEditSquareFilled, HTMLStencilElement {
+    }
+    var HTMLIconEditSquareFilledElement: {
+        prototype: HTMLIconEditSquareFilledElement;
+        new (): HTMLIconEditSquareFilledElement;
+    };
+    interface HTMLIconErrorElement extends Components.IconError, HTMLStencilElement {
+    }
+    var HTMLIconErrorElement: {
+        prototype: HTMLIconErrorElement;
+        new (): HTMLIconErrorElement;
+    };
+    interface HTMLIconExpandDownElement extends Components.IconExpandDown, HTMLStencilElement {
+    }
+    var HTMLIconExpandDownElement: {
+        prototype: HTMLIconExpandDownElement;
+        new (): HTMLIconExpandDownElement;
+    };
+    interface HTMLIconEyeElement extends Components.IconEye, HTMLStencilElement {
+    }
+    var HTMLIconEyeElement: {
+        prototype: HTMLIconEyeElement;
+        new (): HTMLIconEyeElement;
+    };
+    interface HTMLIconEyeFilledElement extends Components.IconEyeFilled, HTMLStencilElement {
+    }
+    var HTMLIconEyeFilledElement: {
+        prototype: HTMLIconEyeFilledElement;
+        new (): HTMLIconEyeFilledElement;
+    };
+    interface HTMLIconEyeSlashElement extends Components.IconEyeSlash, HTMLStencilElement {
+    }
+    var HTMLIconEyeSlashElement: {
+        prototype: HTMLIconEyeSlashElement;
+        new (): HTMLIconEyeSlashElement;
+    };
+    interface HTMLIconEyesElement extends Components.IconEyes, HTMLStencilElement {
+    }
+    var HTMLIconEyesElement: {
+        prototype: HTMLIconEyesElement;
+        new (): HTMLIconEyesElement;
+    };
+    interface HTMLIconEyesCloseElement extends Components.IconEyesClose, HTMLStencilElement {
+    }
+    var HTMLIconEyesCloseElement: {
+        prototype: HTMLIconEyesCloseElement;
+        new (): HTMLIconEyesCloseElement;
+    };
+    interface HTMLIconEyesFilledElement extends Components.IconEyesFilled, HTMLStencilElement {
+    }
+    var HTMLIconEyesFilledElement: {
+        prototype: HTMLIconEyesFilledElement;
+        new (): HTMLIconEyesFilledElement;
+    };
+    interface HTMLIconFacebookElement extends Components.IconFacebook, HTMLStencilElement {
+    }
+    var HTMLIconFacebookElement: {
+        prototype: HTMLIconFacebookElement;
+        new (): HTMLIconFacebookElement;
+    };
+    interface HTMLIconFacebookSquareElement extends Components.IconFacebookSquare, HTMLStencilElement {
+    }
+    var HTMLIconFacebookSquareElement: {
+        prototype: HTMLIconFacebookSquareElement;
+        new (): HTMLIconFacebookSquareElement;
+    };
+    interface HTMLIconFemaleElement extends Components.IconFemale, HTMLStencilElement {
+    }
+    var HTMLIconFemaleElement: {
+        prototype: HTMLIconFemaleElement;
+        new (): HTMLIconFemaleElement;
+    };
+    interface HTMLIconFilterElement extends Components.IconFilter, HTMLStencilElement {
+    }
+    var HTMLIconFilterElement: {
+        prototype: HTMLIconFilterElement;
+        new (): HTMLIconFilterElement;
+    };
+    interface HTMLIconFilterFilledElement extends Components.IconFilterFilled, HTMLStencilElement {
+    }
+    var HTMLIconFilterFilledElement: {
+        prototype: HTMLIconFilterFilledElement;
+        new (): HTMLIconFilterFilledElement;
+    };
+    interface HTMLIconFinanceElement extends Components.IconFinance, HTMLStencilElement {
+    }
+    var HTMLIconFinanceElement: {
+        prototype: HTMLIconFinanceElement;
+        new (): HTMLIconFinanceElement;
+    };
+    interface HTMLIconFindListElement extends Components.IconFindList, HTMLStencilElement {
+    }
+    var HTMLIconFindListElement: {
+        prototype: HTMLIconFindListElement;
+        new (): HTMLIconFindListElement;
+    };
+    interface HTMLIconFingerprintElement extends Components.IconFingerprint, HTMLStencilElement {
+    }
+    var HTMLIconFingerprintElement: {
+        prototype: HTMLIconFingerprintElement;
+        new (): HTMLIconFingerprintElement;
+    };
+    interface HTMLIconFoldUpElement extends Components.IconFoldUp, HTMLStencilElement {
+    }
+    var HTMLIconFoldUpElement: {
+        prototype: HTMLIconFoldUpElement;
+        new (): HTMLIconFoldUpElement;
+    };
+    interface HTMLIconFolderOpenElement extends Components.IconFolderOpen, HTMLStencilElement {
+    }
+    var HTMLIconFolderOpenElement: {
+        prototype: HTMLIconFolderOpenElement;
+        new (): HTMLIconFolderOpenElement;
+    };
+    interface HTMLIconFolderOpenFilledElement extends Components.IconFolderOpenFilled, HTMLStencilElement {
+    }
+    var HTMLIconFolderOpenFilledElement: {
+        prototype: HTMLIconFolderOpenFilledElement;
+        new (): HTMLIconFolderOpenFilledElement;
+    };
+    interface HTMLIconFolderPlusElement extends Components.IconFolderPlus, HTMLStencilElement {
+    }
+    var HTMLIconFolderPlusElement: {
+        prototype: HTMLIconFolderPlusElement;
+        new (): HTMLIconFolderPlusElement;
+    };
+    interface HTMLIconFolderSuccessElement extends Components.IconFolderSuccess, HTMLStencilElement {
+    }
+    var HTMLIconFolderSuccessElement: {
+        prototype: HTMLIconFolderSuccessElement;
+        new (): HTMLIconFolderSuccessElement;
+    };
+    interface HTMLIconFontSizeElement extends Components.IconFontSize, HTMLStencilElement {
+    }
+    var HTMLIconFontSizeElement: {
+        prototype: HTMLIconFontSizeElement;
+        new (): HTMLIconFontSizeElement;
+    };
+    interface HTMLIconForbidElement extends Components.IconForbid, HTMLStencilElement {
+    }
+    var HTMLIconForbidElement: {
+        prototype: HTMLIconForbidElement;
+        new (): HTMLIconForbidElement;
+    };
+    interface HTMLIconForbidFilledElement extends Components.IconForbidFilled, HTMLStencilElement {
+    }
+    var HTMLIconForbidFilledElement: {
+        prototype: HTMLIconForbidFilledElement;
+        new (): HTMLIconForbidFilledElement;
+    };
+    interface HTMLIconFriendsCircleFilledElement extends Components.IconFriendsCircleFilled, HTMLStencilElement {
+    }
+    var HTMLIconFriendsCircleFilledElement: {
+        prototype: HTMLIconFriendsCircleFilledElement;
+        new (): HTMLIconFriendsCircleFilledElement;
+    };
+    interface HTMLIconFullScreenElement extends Components.IconFullScreen, HTMLStencilElement {
+    }
+    var HTMLIconFullScreenElement: {
+        prototype: HTMLIconFullScreenElement;
+        new (): HTMLIconFullScreenElement;
+    };
+    interface HTMLIconFullScreenPlayElement extends Components.IconFullScreenPlay, HTMLStencilElement {
+    }
+    var HTMLIconFullScreenPlayElement: {
+        prototype: HTMLIconFullScreenPlayElement;
+        new (): HTMLIconFullScreenPlayElement;
+    };
+    interface HTMLIconFullScreenPlayFilledElement extends Components.IconFullScreenPlayFilled, HTMLStencilElement {
+    }
+    var HTMLIconFullScreenPlayFilledElement: {
+        prototype: HTMLIconFullScreenPlayFilledElement;
+        new (): HTMLIconFullScreenPlayFilledElement;
+    };
+    interface HTMLIconFullSelectionElement extends Components.IconFullSelection, HTMLStencilElement {
+    }
+    var HTMLIconFullSelectionElement: {
+        prototype: HTMLIconFullSelectionElement;
+        new (): HTMLIconFullSelectionElement;
+    };
+    interface HTMLIconFullSelectionFilledElement extends Components.IconFullSelectionFilled, HTMLStencilElement {
+    }
+    var HTMLIconFullSelectionFilledElement: {
+        prototype: HTMLIconFullSelectionFilledElement;
+        new (): HTMLIconFullSelectionFilledElement;
+    };
+    interface HTMLIconGithubElement extends Components.IconGithub, HTMLStencilElement {
+    }
+    var HTMLIconGithubElement: {
+        prototype: HTMLIconGithubElement;
+        new (): HTMLIconGithubElement;
+    };
+    interface HTMLIconGithubCircleElement extends Components.IconGithubCircle, HTMLStencilElement {
+    }
+    var HTMLIconGithubCircleElement: {
+        prototype: HTMLIconGithubCircleElement;
+        new (): HTMLIconGithubCircleElement;
+    };
+    interface HTMLIconGitlabFilledElement extends Components.IconGitlabFilled, HTMLStencilElement {
+    }
+    var HTMLIconGitlabFilledElement: {
+        prototype: HTMLIconGitlabFilledElement;
+        new (): HTMLIconGitlabFilledElement;
+    };
+    interface HTMLIconGoEndElement extends Components.IconGoEnd, HTMLStencilElement {
+    }
+    var HTMLIconGoEndElement: {
+        prototype: HTMLIconGoEndElement;
+        new (): HTMLIconGoEndElement;
+    };
+    interface HTMLIconGoOnElement extends Components.IconGoOn, HTMLStencilElement {
+    }
+    var HTMLIconGoOnElement: {
+        prototype: HTMLIconGoOnElement;
+        new (): HTMLIconGoOnElement;
+    };
+    interface HTMLIconGoStartElement extends Components.IconGoStart, HTMLStencilElement {
+    }
+    var HTMLIconGoStartElement: {
+        prototype: HTMLIconGoStartElement;
+        new (): HTMLIconGoStartElement;
+    };
+    interface HTMLIconGoogleFilledElement extends Components.IconGoogleFilled, HTMLStencilElement {
+    }
+    var HTMLIconGoogleFilledElement: {
+        prototype: HTMLIconGoogleFilledElement;
+        new (): HTMLIconGoogleFilledElement;
+    };
+    interface HTMLIconHElement extends Components.IconH, HTMLStencilElement {
+    }
+    var HTMLIconHElement: {
+        prototype: HTMLIconHElement;
+        new (): HTMLIconHElement;
+    };
+    interface HTMLIconH1Element extends Components.IconH1, HTMLStencilElement {
+    }
+    var HTMLIconH1Element: {
+        prototype: HTMLIconH1Element;
+        new (): HTMLIconH1Element;
+    };
+    interface HTMLIconH2Element extends Components.IconH2, HTMLStencilElement {
+    }
+    var HTMLIconH2Element: {
+        prototype: HTMLIconH2Element;
+        new (): HTMLIconH2Element;
+    };
+    interface HTMLIconH3Element extends Components.IconH3, HTMLStencilElement {
+    }
+    var HTMLIconH3Element: {
+        prototype: HTMLIconH3Element;
+        new (): HTMLIconH3Element;
+    };
+    interface HTMLIconH4Element extends Components.IconH4, HTMLStencilElement {
+    }
+    var HTMLIconH4Element: {
+        prototype: HTMLIconH4Element;
+        new (): HTMLIconH4Element;
+    };
+    interface HTMLIconH5Element extends Components.IconH5, HTMLStencilElement {
+    }
+    var HTMLIconH5Element: {
+        prototype: HTMLIconH5Element;
+        new (): HTMLIconH5Element;
+    };
+    interface HTMLIconH6Element extends Components.IconH6, HTMLStencilElement {
+    }
+    var HTMLIconH6Element: {
+        prototype: HTMLIconH6Element;
+        new (): HTMLIconH6Element;
+    };
+    interface HTMLIconH7Element extends Components.IconH7, HTMLStencilElement {
+    }
+    var HTMLIconH7Element: {
+        prototype: HTMLIconH7Element;
+        new (): HTMLIconH7Element;
+    };
+    interface HTMLIconH8Element extends Components.IconH8, HTMLStencilElement {
+    }
+    var HTMLIconH8Element: {
+        prototype: HTMLIconH8Element;
+        new (): HTMLIconH8Element;
+    };
+    interface HTMLIconH9Element extends Components.IconH9, HTMLStencilElement {
+    }
+    var HTMLIconH9Element: {
+        prototype: HTMLIconH9Element;
+        new (): HTMLIconH9Element;
+    };
+    interface HTMLIconHarmElement extends Components.IconHarm, HTMLStencilElement {
+    }
+    var HTMLIconHarmElement: {
+        prototype: HTMLIconHarmElement;
+        new (): HTMLIconHarmElement;
+    };
+    interface HTMLIconHarmFilledElement extends Components.IconHarmFilled, HTMLStencilElement {
+    }
+    var HTMLIconHarmFilledElement: {
+        prototype: HTMLIconHarmFilledElement;
+        new (): HTMLIconHarmFilledElement;
+    };
+    interface HTMLIconHelpCircleElement extends Components.IconHelpCircle, HTMLStencilElement {
+    }
+    var HTMLIconHelpCircleElement: {
+        prototype: HTMLIconHelpCircleElement;
+        new (): HTMLIconHelpCircleElement;
+    };
+    interface HTMLIconHelpCircleFilledElement extends Components.IconHelpCircleFilled, HTMLStencilElement {
+    }
+    var HTMLIconHelpCircleFilledElement: {
+        prototype: HTMLIconHelpCircleFilledElement;
+        new (): HTMLIconHelpCircleFilledElement;
+    };
+    interface HTMLIconHelpSquareElement extends Components.IconHelpSquare, HTMLStencilElement {
+    }
+    var HTMLIconHelpSquareElement: {
+        prototype: HTMLIconHelpSquareElement;
+        new (): HTMLIconHelpSquareElement;
+    };
+    interface HTMLIconHelpSquareFilledElement extends Components.IconHelpSquareFilled, HTMLStencilElement {
+    }
+    var HTMLIconHelpSquareFilledElement: {
+        prototype: HTMLIconHelpSquareFilledElement;
+        new (): HTMLIconHelpSquareFilledElement;
+    };
+    interface HTMLIconHistoryElement extends Components.IconHistory, HTMLStencilElement {
+    }
+    var HTMLIconHistoryElement: {
+        prototype: HTMLIconHistoryElement;
+        new (): HTMLIconHistoryElement;
+    };
+    interface HTMLIconHomeElement extends Components.IconHome, HTMLStencilElement {
+    }
+    var HTMLIconHomeElement: {
+        prototype: HTMLIconHomeElement;
+        new (): HTMLIconHomeElement;
+    };
+    interface HTMLIconHomeFilledElement extends Components.IconHomeFilled, HTMLStencilElement {
+    }
+    var HTMLIconHomeFilledElement: {
+        prototype: HTMLIconHomeFilledElement;
+        new (): HTMLIconHomeFilledElement;
+    };
+    interface HTMLIconHtmlFiveFilledElement extends Components.IconHtmlFiveFilled, HTMLStencilElement {
+    }
+    var HTMLIconHtmlFiveFilledElement: {
+        prototype: HTMLIconHtmlFiveFilledElement;
+        new (): HTMLIconHtmlFiveFilledElement;
+    };
+    interface HTMLIconIdCardHElement extends Components.IconIdCardH, HTMLStencilElement {
+    }
+    var HTMLIconIdCardHElement: {
+        prototype: HTMLIconIdCardHElement;
+        new (): HTMLIconIdCardHElement;
+    };
+    interface HTMLIconIndentLeftElement extends Components.IconIndentLeft, HTMLStencilElement {
+    }
+    var HTMLIconIndentLeftElement: {
+        prototype: HTMLIconIndentLeftElement;
+        new (): HTMLIconIndentLeftElement;
+    };
+    interface HTMLIconIndentRightElement extends Components.IconIndentRight, HTMLStencilElement {
+    }
+    var HTMLIconIndentRightElement: {
+        prototype: HTMLIconIndentRightElement;
+        new (): HTMLIconIndentRightElement;
+    };
+    interface HTMLIconInfoCircleElement extends Components.IconInfoCircle, HTMLStencilElement {
+    }
+    var HTMLIconInfoCircleElement: {
+        prototype: HTMLIconInfoCircleElement;
+        new (): HTMLIconInfoCircleElement;
+    };
+    interface HTMLIconInfoCircleFilledElement extends Components.IconInfoCircleFilled, HTMLStencilElement {
+    }
+    var HTMLIconInfoCircleFilledElement: {
+        prototype: HTMLIconInfoCircleFilledElement;
+        new (): HTMLIconInfoCircleFilledElement;
+    };
+    interface HTMLIconIntersectionElement extends Components.IconIntersection, HTMLStencilElement {
+    }
+    var HTMLIconIntersectionElement: {
+        prototype: HTMLIconIntersectionElement;
+        new (): HTMLIconIntersectionElement;
+    };
+    interface HTMLIconLarkFilledElement extends Components.IconLarkFilled, HTMLStencilElement {
+    }
+    var HTMLIconLarkFilledElement: {
+        prototype: HTMLIconLarkFilledElement;
+        new (): HTMLIconLarkFilledElement;
+    };
+    interface HTMLIconLayersElement extends Components.IconLayers, HTMLStencilElement {
+    }
+    var HTMLIconLayersElement: {
+        prototype: HTMLIconLayersElement;
+        new (): HTMLIconLayersElement;
+    };
+    interface HTMLIconLayersFilledElement extends Components.IconLayersFilled, HTMLStencilElement {
+    }
+    var HTMLIconLayersFilledElement: {
+        prototype: HTMLIconLayersFilledElement;
+        new (): HTMLIconLayersFilledElement;
+    };
+    interface HTMLIconLeftElement extends Components.IconLeft, HTMLStencilElement {
+    }
+    var HTMLIconLeftElement: {
+        prototype: HTMLIconLeftElement;
+        new (): HTMLIconLeftElement;
+    };
+    interface HTMLIconLeftCircleElement extends Components.IconLeftCircle, HTMLStencilElement {
+    }
+    var HTMLIconLeftCircleElement: {
+        prototype: HTMLIconLeftCircleElement;
+        new (): HTMLIconLeftCircleElement;
+    };
+    interface HTMLIconLeftSquareElement extends Components.IconLeftSquare, HTMLStencilElement {
+    }
+    var HTMLIconLeftSquareElement: {
+        prototype: HTMLIconLeftSquareElement;
+        new (): HTMLIconLeftSquareElement;
+    };
+    interface HTMLIconLikeElement extends Components.IconLike, HTMLStencilElement {
+    }
+    var HTMLIconLikeElement: {
+        prototype: HTMLIconLikeElement;
+        new (): HTMLIconLikeElement;
+    };
+    interface HTMLIconLikeFilledElement extends Components.IconLikeFilled, HTMLStencilElement {
+    }
+    var HTMLIconLikeFilledElement: {
+        prototype: HTMLIconLikeFilledElement;
+        new (): HTMLIconLikeFilledElement;
+    };
+    interface HTMLIconLinkElement extends Components.IconLink, HTMLStencilElement {
+    }
+    var HTMLIconLinkElement: {
+        prototype: HTMLIconLinkElement;
+        new (): HTMLIconLinkElement;
+    };
+    interface HTMLIconListAddElement extends Components.IconListAdd, HTMLStencilElement {
+    }
+    var HTMLIconListAddElement: {
+        prototype: HTMLIconListAddElement;
+        new (): HTMLIconListAddElement;
+    };
+    interface HTMLIconListAlphabetElement extends Components.IconListAlphabet, HTMLStencilElement {
+    }
+    var HTMLIconListAlphabetElement: {
+        prototype: HTMLIconListAlphabetElement;
+        new (): HTMLIconListAlphabetElement;
+    };
+    interface HTMLIconListNumbersElement extends Components.IconListNumbers, HTMLStencilElement {
+    }
+    var HTMLIconListNumbersElement: {
+        prototype: HTMLIconListNumbersElement;
+        new (): HTMLIconListNumbersElement;
+    };
+    interface HTMLIconLoadingElement extends Components.IconLoading, HTMLStencilElement {
+    }
+    var HTMLIconLoadingElement: {
+        prototype: HTMLIconLoadingElement;
+        new (): HTMLIconLoadingElement;
+    };
+    interface HTMLIconLoadingDotElement extends Components.IconLoadingDot, HTMLStencilElement {
+    }
+    var HTMLIconLoadingDotElement: {
+        prototype: HTMLIconLoadingDotElement;
+        new (): HTMLIconLoadingDotElement;
+    };
+    interface HTMLIconLocalElement extends Components.IconLocal, HTMLStencilElement {
+    }
+    var HTMLIconLocalElement: {
+        prototype: HTMLIconLocalElement;
+        new (): HTMLIconLocalElement;
+    };
+    interface HTMLIconLocalFilledElement extends Components.IconLocalFilled, HTMLStencilElement {
+    }
+    var HTMLIconLocalFilledElement: {
+        prototype: HTMLIconLocalFilledElement;
+        new (): HTMLIconLocalFilledElement;
+    };
+    interface HTMLIconLocationElement extends Components.IconLocation, HTMLStencilElement {
+    }
+    var HTMLIconLocationElement: {
+        prototype: HTMLIconLocationElement;
+        new (): HTMLIconLocationElement;
+    };
+    interface HTMLIconLocationFilledElement extends Components.IconLocationFilled, HTMLStencilElement {
+    }
+    var HTMLIconLocationFilledElement: {
+        prototype: HTMLIconLocationFilledElement;
+        new (): HTMLIconLocationFilledElement;
+    };
+    interface HTMLIconLockElement extends Components.IconLock, HTMLStencilElement {
+    }
+    var HTMLIconLockElement: {
+        prototype: HTMLIconLockElement;
+        new (): HTMLIconLockElement;
+    };
+    interface HTMLIconLockFilledElement extends Components.IconLockFilled, HTMLStencilElement {
+    }
+    var HTMLIconLockFilledElement: {
+        prototype: HTMLIconLockFilledElement;
+        new (): HTMLIconLockFilledElement;
+    };
+    interface HTMLIconLogElement extends Components.IconLog, HTMLStencilElement {
+    }
+    var HTMLIconLogElement: {
+        prototype: HTMLIconLogElement;
+        new (): HTMLIconLogElement;
+    };
+    interface HTMLIconLoopOnceElement extends Components.IconLoopOnce, HTMLStencilElement {
+    }
+    var HTMLIconLoopOnceElement: {
+        prototype: HTMLIconLoopOnceElement;
+        new (): HTMLIconLoopOnceElement;
+    };
+    interface HTMLIconMailOpenElement extends Components.IconMailOpen, HTMLStencilElement {
+    }
+    var HTMLIconMailOpenElement: {
+        prototype: HTMLIconMailOpenElement;
+        new (): HTMLIconMailOpenElement;
+    };
+    interface HTMLIconMailOpenFilledElement extends Components.IconMailOpenFilled, HTMLStencilElement {
+    }
+    var HTMLIconMailOpenFilledElement: {
+        prototype: HTMLIconMailOpenFilledElement;
+        new (): HTMLIconMailOpenFilledElement;
+    };
+    interface HTMLIconMailReviewElement extends Components.IconMailReview, HTMLStencilElement {
+    }
+    var HTMLIconMailReviewElement: {
+        prototype: HTMLIconMailReviewElement;
+        new (): HTMLIconMailReviewElement;
+    };
+    interface HTMLIconMaleElement extends Components.IconMale, HTMLStencilElement {
+    }
+    var HTMLIconMaleElement: {
+        prototype: HTMLIconMaleElement;
+        new (): HTMLIconMaleElement;
+    };
+    interface HTMLIconMapDrawElement extends Components.IconMapDraw, HTMLStencilElement {
+    }
+    var HTMLIconMapDrawElement: {
+        prototype: HTMLIconMapDrawElement;
+        new (): HTMLIconMapDrawElement;
+    };
+    interface HTMLIconMapDrawFilledElement extends Components.IconMapDrawFilled, HTMLStencilElement {
+    }
+    var HTMLIconMapDrawFilledElement: {
+        prototype: HTMLIconMapDrawFilledElement;
+        new (): HTMLIconMapDrawFilledElement;
+    };
+    interface HTMLIconMessageElement extends Components.IconMessage, HTMLStencilElement {
+    }
+    var HTMLIconMessageElement: {
+        prototype: HTMLIconMessageElement;
+        new (): HTMLIconMessageElement;
+    };
+    interface HTMLIconMessageFilledElement extends Components.IconMessageFilled, HTMLStencilElement {
+    }
+    var HTMLIconMessageFilledElement: {
+        prototype: HTMLIconMessageFilledElement;
+        new (): HTMLIconMessageFilledElement;
+    };
+    interface HTMLIconMessageUnreadElement extends Components.IconMessageUnread, HTMLStencilElement {
+    }
+    var HTMLIconMessageUnreadElement: {
+        prototype: HTMLIconMessageUnreadElement;
+        new (): HTMLIconMessageUnreadElement;
+    };
+    interface HTMLIconMinusElement extends Components.IconMinus, HTMLStencilElement {
+    }
+    var HTMLIconMinusElement: {
+        prototype: HTMLIconMinusElement;
+        new (): HTMLIconMinusElement;
+    };
+    interface HTMLIconMoonElement extends Components.IconMoon, HTMLStencilElement {
+    }
+    var HTMLIconMoonElement: {
+        prototype: HTMLIconMoonElement;
+        new (): HTMLIconMoonElement;
+    };
+    interface HTMLIconMoonFilledElement extends Components.IconMoonFilled, HTMLStencilElement {
+    }
+    var HTMLIconMoonFilledElement: {
+        prototype: HTMLIconMoonFilledElement;
+        new (): HTMLIconMoonFilledElement;
+    };
+    interface HTMLIconMoreElement extends Components.IconMore, HTMLStencilElement {
+    }
+    var HTMLIconMoreElement: {
+        prototype: HTMLIconMoreElement;
+        new (): HTMLIconMoreElement;
+    };
+    interface HTMLIconMoreAppElement extends Components.IconMoreApp, HTMLStencilElement {
+    }
+    var HTMLIconMoreAppElement: {
+        prototype: HTMLIconMoreAppElement;
+        new (): HTMLIconMoreAppElement;
+    };
+    interface HTMLIconMoreAppFilledElement extends Components.IconMoreAppFilled, HTMLStencilElement {
+    }
+    var HTMLIconMoreAppFilledElement: {
+        prototype: HTMLIconMoreAppFilledElement;
+        new (): HTMLIconMoreAppFilledElement;
+    };
+    interface HTMLIconMoreCircleElement extends Components.IconMoreCircle, HTMLStencilElement {
+    }
+    var HTMLIconMoreCircleElement: {
+        prototype: HTMLIconMoreCircleElement;
+        new (): HTMLIconMoreCircleElement;
+    };
+    interface HTMLIconMoreCircleFilledElement extends Components.IconMoreCircleFilled, HTMLStencilElement {
+    }
+    var HTMLIconMoreCircleFilledElement: {
+        prototype: HTMLIconMoreCircleFilledElement;
+        new (): HTMLIconMoreCircleFilledElement;
+    };
+    interface HTMLIconMoreVerticalElement extends Components.IconMoreVertical, HTMLStencilElement {
+    }
+    var HTMLIconMoreVerticalElement: {
+        prototype: HTMLIconMoreVerticalElement;
+        new (): HTMLIconMoreVerticalElement;
+    };
+    interface HTMLIconMoreVerticalCircleElement extends Components.IconMoreVerticalCircle, HTMLStencilElement {
+    }
+    var HTMLIconMoreVerticalCircleElement: {
+        prototype: HTMLIconMoreVerticalCircleElement;
+        new (): HTMLIconMoreVerticalCircleElement;
+    };
+    interface HTMLIconMoreVerticalCircleFilledElement extends Components.IconMoreVerticalCircleFilled, HTMLStencilElement {
+    }
+    var HTMLIconMoreVerticalCircleFilledElement: {
+        prototype: HTMLIconMoreVerticalCircleFilledElement;
+        new (): HTMLIconMoreVerticalCircleFilledElement;
+    };
+    interface HTMLIconMoveElement extends Components.IconMove, HTMLStencilElement {
+    }
+    var HTMLIconMoveElement: {
+        prototype: HTMLIconMoveElement;
+        new (): HTMLIconMoveElement;
+    };
+    interface HTMLIconMpWeixinCircleFilledElement extends Components.IconMpWeixinCircleFilled, HTMLStencilElement {
+    }
+    var HTMLIconMpWeixinCircleFilledElement: {
+        prototype: HTMLIconMpWeixinCircleFilledElement;
+        new (): HTMLIconMpWeixinCircleFilledElement;
+    };
+    interface HTMLIconMusicElement extends Components.IconMusic, HTMLStencilElement {
+    }
+    var HTMLIconMusicElement: {
+        prototype: HTMLIconMusicElement;
+        new (): HTMLIconMusicElement;
+    };
+    interface HTMLIconMusicByteElement extends Components.IconMusicByte, HTMLStencilElement {
+    }
+    var HTMLIconMusicByteElement: {
+        prototype: HTMLIconMusicByteElement;
+        new (): HTMLIconMusicByteElement;
+    };
+    interface HTMLIconMusicByteFilledElement extends Components.IconMusicByteFilled, HTMLStencilElement {
+    }
+    var HTMLIconMusicByteFilledElement: {
+        prototype: HTMLIconMusicByteFilledElement;
+        new (): HTMLIconMusicByteFilledElement;
+    };
+    interface HTMLIconMusicFilledElement extends Components.IconMusicFilled, HTMLStencilElement {
+    }
+    var HTMLIconMusicFilledElement: {
+        prototype: HTMLIconMusicFilledElement;
+        new (): HTMLIconMusicFilledElement;
+    };
+    interface HTMLIconMusicListElement extends Components.IconMusicList, HTMLStencilElement {
+    }
+    var HTMLIconMusicListElement: {
+        prototype: HTMLIconMusicListElement;
+        new (): HTMLIconMusicListElement;
+    };
+    interface HTMLIconMuteElement extends Components.IconMute, HTMLStencilElement {
+    }
+    var HTMLIconMuteElement: {
+        prototype: HTMLIconMuteElement;
+        new (): HTMLIconMuteElement;
+    };
+    interface HTMLIconMuteFilledElement extends Components.IconMuteFilled, HTMLStencilElement {
+    }
+    var HTMLIconMuteFilledElement: {
+        prototype: HTMLIconMuteFilledElement;
+        new (): HTMLIconMuteFilledElement;
+    };
+    interface HTMLIconNextElement extends Components.IconNext, HTMLStencilElement {
+    }
+    var HTMLIconNextElement: {
+        prototype: HTMLIconNextElement;
+        new (): HTMLIconNextElement;
+    };
+    interface HTMLIconNextFilledElement extends Components.IconNextFilled, HTMLStencilElement {
+    }
+    var HTMLIconNextFilledElement: {
+        prototype: HTMLIconNextFilledElement;
+        new (): HTMLIconNextFilledElement;
+    };
+    interface HTMLIconNotebookAndPenElement extends Components.IconNotebookAndPen, HTMLStencilElement {
+    }
+    var HTMLIconNotebookAndPenElement: {
+        prototype: HTMLIconNotebookAndPenElement;
+        new (): HTMLIconNotebookAndPenElement;
+    };
+    interface HTMLIconNotebookAndPenFilledElement extends Components.IconNotebookAndPenFilled, HTMLStencilElement {
+    }
+    var HTMLIconNotebookAndPenFilledElement: {
+        prototype: HTMLIconNotebookAndPenFilledElement;
+        new (): HTMLIconNotebookAndPenFilledElement;
+    };
+    interface HTMLIconOffScreenElement extends Components.IconOffScreen, HTMLStencilElement {
+    }
+    var HTMLIconOffScreenElement: {
+        prototype: HTMLIconOffScreenElement;
+        new (): HTMLIconOffScreenElement;
+    };
+    interface HTMLIconOneToOneElement extends Components.IconOneToOne, HTMLStencilElement {
+    }
+    var HTMLIconOneToOneElement: {
+        prototype: HTMLIconOneToOneElement;
+        new (): HTMLIconOneToOneElement;
+    };
+    interface HTMLIconPauseElement extends Components.IconPause, HTMLStencilElement {
+    }
+    var HTMLIconPauseElement: {
+        prototype: HTMLIconPauseElement;
+        new (): HTMLIconPauseElement;
+    };
+    interface HTMLIconPauseCircleElement extends Components.IconPauseCircle, HTMLStencilElement {
+    }
+    var HTMLIconPauseCircleElement: {
+        prototype: HTMLIconPauseCircleElement;
+        new (): HTMLIconPauseCircleElement;
+    };
+    interface HTMLIconPauseCircleFilledElement extends Components.IconPauseCircleFilled, HTMLStencilElement {
+    }
+    var HTMLIconPauseCircleFilledElement: {
+        prototype: HTMLIconPauseCircleFilledElement;
+        new (): HTMLIconPauseCircleFilledElement;
+    };
+    interface HTMLIconPeopleElement extends Components.IconPeople, HTMLStencilElement {
+    }
+    var HTMLIconPeopleElement: {
+        prototype: HTMLIconPeopleElement;
+        new (): HTMLIconPeopleElement;
+    };
+    interface HTMLIconPeopleFilledElement extends Components.IconPeopleFilled, HTMLStencilElement {
+    }
+    var HTMLIconPeopleFilledElement: {
+        prototype: HTMLIconPeopleFilledElement;
+        new (): HTMLIconPeopleFilledElement;
+    };
+    interface HTMLIconPeopleMinusDownElement extends Components.IconPeopleMinusDown, HTMLStencilElement {
+    }
+    var HTMLIconPeopleMinusDownElement: {
+        prototype: HTMLIconPeopleMinusDownElement;
+        new (): HTMLIconPeopleMinusDownElement;
+    };
+    interface HTMLIconPeopleMinusUpElement extends Components.IconPeopleMinusUp, HTMLStencilElement {
+    }
+    var HTMLIconPeopleMinusUpElement: {
+        prototype: HTMLIconPeopleMinusUpElement;
+        new (): HTMLIconPeopleMinusUpElement;
+    };
+    interface HTMLIconPeoplePlusDownElement extends Components.IconPeoplePlusDown, HTMLStencilElement {
+    }
+    var HTMLIconPeoplePlusDownElement: {
+        prototype: HTMLIconPeoplePlusDownElement;
+        new (): HTMLIconPeoplePlusDownElement;
+    };
+    interface HTMLIconPeoplePlusUpElement extends Components.IconPeoplePlusUp, HTMLStencilElement {
+    }
+    var HTMLIconPeoplePlusUpElement: {
+        prototype: HTMLIconPeoplePlusUpElement;
+        new (): HTMLIconPeoplePlusUpElement;
+    };
+    interface HTMLIconPeoplesElement extends Components.IconPeoples, HTMLStencilElement {
+    }
+    var HTMLIconPeoplesElement: {
+        prototype: HTMLIconPeoplesElement;
+        new (): HTMLIconPeoplesElement;
+    };
+    interface HTMLIconPercentageElement extends Components.IconPercentage, HTMLStencilElement {
+    }
+    var HTMLIconPercentageElement: {
+        prototype: HTMLIconPercentageElement;
+        new (): HTMLIconPercentageElement;
+    };
+    interface HTMLIconPerformanceElement extends Components.IconPerformance, HTMLStencilElement {
+    }
+    var HTMLIconPerformanceElement: {
+        prototype: HTMLIconPerformanceElement;
+        new (): HTMLIconPerformanceElement;
+    };
+    interface HTMLIconPhoneElement extends Components.IconPhone, HTMLStencilElement {
+    }
+    var HTMLIconPhoneElement: {
+        prototype: HTMLIconPhoneElement;
+        new (): HTMLIconPhoneElement;
+    };
+    interface HTMLIconPhoneCallElement extends Components.IconPhoneCall, HTMLStencilElement {
+    }
+    var HTMLIconPhoneCallElement: {
+        prototype: HTMLIconPhoneCallElement;
+        new (): HTMLIconPhoneCallElement;
+    };
+    interface HTMLIconPhoneCallFilledElement extends Components.IconPhoneCallFilled, HTMLStencilElement {
+    }
+    var HTMLIconPhoneCallFilledElement: {
+        prototype: HTMLIconPhoneCallFilledElement;
+        new (): HTMLIconPhoneCallFilledElement;
+    };
+    interface HTMLIconPhoneFilledElement extends Components.IconPhoneFilled, HTMLStencilElement {
+    }
+    var HTMLIconPhoneFilledElement: {
+        prototype: HTMLIconPhoneFilledElement;
+        new (): HTMLIconPhoneFilledElement;
+    };
+    interface HTMLIconPicFilledElement extends Components.IconPicFilled, HTMLStencilElement {
+    }
+    var HTMLIconPicFilledElement: {
+        prototype: HTMLIconPicFilledElement;
+        new (): HTMLIconPicFilledElement;
+    };
+    interface HTMLIconPieCircleElement extends Components.IconPieCircle, HTMLStencilElement {
+    }
+    var HTMLIconPieCircleElement: {
+        prototype: HTMLIconPieCircleElement;
+        new (): HTMLIconPieCircleElement;
+    };
+    interface HTMLIconPlayElement extends Components.IconPlay, HTMLStencilElement {
+    }
+    var HTMLIconPlayElement: {
+        prototype: HTMLIconPlayElement;
+        new (): HTMLIconPlayElement;
+    };
+    interface HTMLIconPlayCircleElement extends Components.IconPlayCircle, HTMLStencilElement {
+    }
+    var HTMLIconPlayCircleElement: {
+        prototype: HTMLIconPlayCircleElement;
+        new (): HTMLIconPlayCircleElement;
+    };
+    interface HTMLIconPlayCircleFilledElement extends Components.IconPlayCircleFilled, HTMLStencilElement {
+    }
+    var HTMLIconPlayCircleFilledElement: {
+        prototype: HTMLIconPlayCircleFilledElement;
+        new (): HTMLIconPlayCircleFilledElement;
+    };
+    interface HTMLIconPlayCycleElement extends Components.IconPlayCycle, HTMLStencilElement {
+    }
+    var HTMLIconPlayCycleElement: {
+        prototype: HTMLIconPlayCycleElement;
+        new (): HTMLIconPlayCycleElement;
+    };
+    interface HTMLIconPlayFilledElement extends Components.IconPlayFilled, HTMLStencilElement {
+    }
+    var HTMLIconPlayFilledElement: {
+        prototype: HTMLIconPlayFilledElement;
+        new (): HTMLIconPlayFilledElement;
+    };
+    interface HTMLIconPlayOnceElement extends Components.IconPlayOnce, HTMLStencilElement {
+    }
+    var HTMLIconPlayOnceElement: {
+        prototype: HTMLIconPlayOnceElement;
+        new (): HTMLIconPlayOnceElement;
+    };
+    interface HTMLIconPlusElement extends Components.IconPlus, HTMLStencilElement {
+    }
+    var HTMLIconPlusElement: {
+        prototype: HTMLIconPlusElement;
+        new (): HTMLIconPlusElement;
+    };
+    interface HTMLIconPlusCrossElement extends Components.IconPlusCross, HTMLStencilElement {
+    }
+    var HTMLIconPlusCrossElement: {
+        prototype: HTMLIconPlusCrossElement;
+        new (): HTMLIconPlusCrossElement;
+    };
+    interface HTMLIconPowerElement extends Components.IconPower, HTMLStencilElement {
+    }
+    var HTMLIconPowerElement: {
+        prototype: HTMLIconPowerElement;
+        new (): HTMLIconPowerElement;
+    };
+    interface HTMLIconPrinterElement extends Components.IconPrinter, HTMLStencilElement {
+    }
+    var HTMLIconPrinterElement: {
+        prototype: HTMLIconPrinterElement;
+        new (): HTMLIconPrinterElement;
+    };
+    interface HTMLIconProtectElement extends Components.IconProtect, HTMLStencilElement {
+    }
+    var HTMLIconProtectElement: {
+        prototype: HTMLIconProtectElement;
+        new (): HTMLIconProtectElement;
+    };
+    interface HTMLIconProtectFilledElement extends Components.IconProtectFilled, HTMLStencilElement {
+    }
+    var HTMLIconProtectFilledElement: {
+        prototype: HTMLIconProtectFilledElement;
+        new (): HTMLIconProtectFilledElement;
+    };
+    interface HTMLIconQrcodeElement extends Components.IconQrcode, HTMLStencilElement {
+    }
+    var HTMLIconQrcodeElement: {
+        prototype: HTMLIconQrcodeElement;
+        new (): HTMLIconQrcodeElement;
+    };
+    interface HTMLIconRadioElement extends Components.IconRadio, HTMLStencilElement {
+    }
+    var HTMLIconRadioElement: {
+        prototype: HTMLIconRadioElement;
+        new (): HTMLIconRadioElement;
+    };
+    interface HTMLIconRadioFilledElement extends Components.IconRadioFilled, HTMLStencilElement {
+    }
+    var HTMLIconRadioFilledElement: {
+        prototype: HTMLIconRadioFilledElement;
+        new (): HTMLIconRadioFilledElement;
+    };
+    interface HTMLIconRecordDiscElement extends Components.IconRecordDisc, HTMLStencilElement {
+    }
+    var HTMLIconRecordDiscElement: {
+        prototype: HTMLIconRecordDiscElement;
+        new (): HTMLIconRecordDiscElement;
+    };
+    interface HTMLIconRedoCircleElement extends Components.IconRedoCircle, HTMLStencilElement {
+    }
+    var HTMLIconRedoCircleElement: {
+        prototype: HTMLIconRedoCircleElement;
+        new (): HTMLIconRedoCircleElement;
+    };
+    interface HTMLIconReduceCircleElement extends Components.IconReduceCircle, HTMLStencilElement {
+    }
+    var HTMLIconReduceCircleElement: {
+        prototype: HTMLIconReduceCircleElement;
+        new (): HTMLIconReduceCircleElement;
+    };
+    interface HTMLIconReduceCircleFilledElement extends Components.IconReduceCircleFilled, HTMLStencilElement {
+    }
+    var HTMLIconReduceCircleFilledElement: {
+        prototype: HTMLIconReduceCircleFilledElement;
+        new (): HTMLIconReduceCircleFilledElement;
+    };
+    interface HTMLIconReduceSquareFilledElement extends Components.IconReduceSquareFilled, HTMLStencilElement {
+    }
+    var HTMLIconReduceSquareFilledElement: {
+        prototype: HTMLIconReduceSquareFilledElement;
+        new (): HTMLIconReduceSquareFilledElement;
+    };
+    interface HTMLIconRefreshElement extends Components.IconRefresh, HTMLStencilElement {
+    }
+    var HTMLIconRefreshElement: {
+        prototype: HTMLIconRefreshElement;
+        new (): HTMLIconRefreshElement;
+    };
+    interface HTMLIconRemindElement extends Components.IconRemind, HTMLStencilElement {
+    }
+    var HTMLIconRemindElement: {
+        prototype: HTMLIconRemindElement;
+        new (): HTMLIconRemindElement;
+    };
+    interface HTMLIconRemindFilledElement extends Components.IconRemindFilled, HTMLStencilElement {
+    }
+    var HTMLIconRemindFilledElement: {
+        prototype: HTMLIconRemindFilledElement;
+        new (): HTMLIconRemindFilledElement;
+    };
+    interface HTMLIconReturnElement extends Components.IconReturn, HTMLStencilElement {
+    }
+    var HTMLIconReturnElement: {
+        prototype: HTMLIconReturnElement;
+        new (): HTMLIconReturnElement;
+    };
+    interface HTMLIconRightElement extends Components.IconRight, HTMLStencilElement {
+    }
+    var HTMLIconRightElement: {
+        prototype: HTMLIconRightElement;
+        new (): HTMLIconRightElement;
+    };
+    interface HTMLIconRightCircleElement extends Components.IconRightCircle, HTMLStencilElement {
+    }
+    var HTMLIconRightCircleElement: {
+        prototype: HTMLIconRightCircleElement;
+        new (): HTMLIconRightCircleElement;
+    };
+    interface HTMLIconRightSquareElement extends Components.IconRightSquare, HTMLStencilElement {
+    }
+    var HTMLIconRightSquareElement: {
+        prototype: HTMLIconRightSquareElement;
+        new (): HTMLIconRightSquareElement;
+    };
+    interface HTMLIconRoundElement extends Components.IconRound, HTMLStencilElement {
+    }
+    var HTMLIconRoundElement: {
+        prototype: HTMLIconRoundElement;
+        new (): HTMLIconRoundElement;
+    };
+    interface HTMLIconRoundFilledElement extends Components.IconRoundFilled, HTMLStencilElement {
+    }
+    var HTMLIconRoundFilledElement: {
+        prototype: HTMLIconRoundFilledElement;
+        new (): HTMLIconRoundFilledElement;
+    };
+    interface HTMLIconRssElement extends Components.IconRss, HTMLStencilElement {
+    }
+    var HTMLIconRssElement: {
+        prototype: HTMLIconRssElement;
+        new (): HTMLIconRssElement;
+    };
+    interface HTMLIconScanCodeElement extends Components.IconScanCode, HTMLStencilElement {
+    }
+    var HTMLIconScanCodeElement: {
+        prototype: HTMLIconScanCodeElement;
+        new (): HTMLIconScanCodeElement;
+    };
+    interface HTMLIconScanningElement extends Components.IconScanning, HTMLStencilElement {
+    }
+    var HTMLIconScanningElement: {
+        prototype: HTMLIconScanningElement;
+        new (): HTMLIconScanningElement;
+    };
+    interface HTMLIconScreenshotElement extends Components.IconScreenshot, HTMLStencilElement {
+    }
+    var HTMLIconScreenshotElement: {
+        prototype: HTMLIconScreenshotElement;
+        new (): HTMLIconScreenshotElement;
+    };
+    interface HTMLIconScreenshotFilledElement extends Components.IconScreenshotFilled, HTMLStencilElement {
+    }
+    var HTMLIconScreenshotFilledElement: {
+        prototype: HTMLIconScreenshotFilledElement;
+        new (): HTMLIconScreenshotFilledElement;
+    };
+    interface HTMLIconSearchElement extends Components.IconSearch, HTMLStencilElement {
+    }
+    var HTMLIconSearchElement: {
+        prototype: HTMLIconSearchElement;
+        new (): HTMLIconSearchElement;
+    };
+    interface HTMLIconSendElement extends Components.IconSend, HTMLStencilElement {
+    }
+    var HTMLIconSendElement: {
+        prototype: HTMLIconSendElement;
+        new (): HTMLIconSendElement;
+    };
+    interface HTMLIconSettingElement extends Components.IconSetting, HTMLStencilElement {
+    }
+    var HTMLIconSettingElement: {
+        prototype: HTMLIconSettingElement;
+        new (): HTMLIconSettingElement;
+    };
+    interface HTMLIconSettingConfigElement extends Components.IconSettingConfig, HTMLStencilElement {
+    }
+    var HTMLIconSettingConfigElement: {
+        prototype: HTMLIconSettingConfigElement;
+        new (): HTMLIconSettingConfigElement;
+    };
+    interface HTMLIconSettingFilledElement extends Components.IconSettingFilled, HTMLStencilElement {
+    }
+    var HTMLIconSettingFilledElement: {
+        prototype: HTMLIconSettingFilledElement;
+        new (): HTMLIconSettingFilledElement;
+    };
+    interface HTMLIconSettingsElement extends Components.IconSettings, HTMLStencilElement {
+    }
+    var HTMLIconSettingsElement: {
+        prototype: HTMLIconSettingsElement;
+        new (): HTMLIconSettingsElement;
+    };
+    interface HTMLIconSettingsFilledElement extends Components.IconSettingsFilled, HTMLStencilElement {
+    }
+    var HTMLIconSettingsFilledElement: {
+        prototype: HTMLIconSettingsFilledElement;
+        new (): HTMLIconSettingsFilledElement;
+    };
+    interface HTMLIconShakeElement extends Components.IconShake, HTMLStencilElement {
+    }
+    var HTMLIconShakeElement: {
+        prototype: HTMLIconShakeElement;
+        new (): HTMLIconShakeElement;
+    };
+    interface HTMLIconShareElement extends Components.IconShare, HTMLStencilElement {
+    }
+    var HTMLIconShareElement: {
+        prototype: HTMLIconShareElement;
+        new (): HTMLIconShareElement;
+    };
+    interface HTMLIconShareFilledElement extends Components.IconShareFilled, HTMLStencilElement {
+    }
+    var HTMLIconShareFilledElement: {
+        prototype: HTMLIconShareFilledElement;
+        new (): HTMLIconShareFilledElement;
+    };
+    interface HTMLIconShieldAddElement extends Components.IconShieldAdd, HTMLStencilElement {
+    }
+    var HTMLIconShieldAddElement: {
+        prototype: HTMLIconShieldAddElement;
+        new (): HTMLIconShieldAddElement;
+    };
+    interface HTMLIconShieldAddFilledElement extends Components.IconShieldAddFilled, HTMLStencilElement {
+    }
+    var HTMLIconShieldAddFilledElement: {
+        prototype: HTMLIconShieldAddFilledElement;
+        new (): HTMLIconShieldAddFilledElement;
+    };
+    interface HTMLIconShoppingBagElement extends Components.IconShoppingBag, HTMLStencilElement {
+    }
+    var HTMLIconShoppingBagElement: {
+        prototype: HTMLIconShoppingBagElement;
+        new (): HTMLIconShoppingBagElement;
+    };
+    interface HTMLIconShoppingBagFilledElement extends Components.IconShoppingBagFilled, HTMLStencilElement {
+    }
+    var HTMLIconShoppingBagFilledElement: {
+        prototype: HTMLIconShoppingBagFilledElement;
+        new (): HTMLIconShoppingBagFilledElement;
+    };
+    interface HTMLIconShoppingCartElement extends Components.IconShoppingCart, HTMLStencilElement {
+    }
+    var HTMLIconShoppingCartElement: {
+        prototype: HTMLIconShoppingCartElement;
+        new (): HTMLIconShoppingCartElement;
+    };
+    interface HTMLIconShoppingCartAddElement extends Components.IconShoppingCartAdd, HTMLStencilElement {
+    }
+    var HTMLIconShoppingCartAddElement: {
+        prototype: HTMLIconShoppingCartAddElement;
+        new (): HTMLIconShoppingCartAddElement;
+    };
+    interface HTMLIconShoppingCartAddFilledElement extends Components.IconShoppingCartAddFilled, HTMLStencilElement {
+    }
+    var HTMLIconShoppingCartAddFilledElement: {
+        prototype: HTMLIconShoppingCartAddFilledElement;
+        new (): HTMLIconShoppingCartAddFilledElement;
+    };
+    interface HTMLIconShoppingCartDelElement extends Components.IconShoppingCartDel, HTMLStencilElement {
+    }
+    var HTMLIconShoppingCartDelElement: {
+        prototype: HTMLIconShoppingCartDelElement;
+        new (): HTMLIconShoppingCartDelElement;
+    };
+    interface HTMLIconShoppingCartDelFilledElement extends Components.IconShoppingCartDelFilled, HTMLStencilElement {
+    }
+    var HTMLIconShoppingCartDelFilledElement: {
+        prototype: HTMLIconShoppingCartDelFilledElement;
+        new (): HTMLIconShoppingCartDelFilledElement;
+    };
+    interface HTMLIconShoppingCartFilledElement extends Components.IconShoppingCartFilled, HTMLStencilElement {
+    }
+    var HTMLIconShoppingCartFilledElement: {
+        prototype: HTMLIconShoppingCartFilledElement;
+        new (): HTMLIconShoppingCartFilledElement;
+    };
+    interface HTMLIconSmallCheckElement extends Components.IconSmallCheck, HTMLStencilElement {
+    }
+    var HTMLIconSmallCheckElement: {
+        prototype: HTMLIconSmallCheckElement;
+        new (): HTMLIconSmallCheckElement;
+    };
+    interface HTMLIconSmallCloseElement extends Components.IconSmallClose, HTMLStencilElement {
+    }
+    var HTMLIconSmallCloseElement: {
+        prototype: HTMLIconSmallCloseElement;
+        new (): HTMLIconSmallCloseElement;
+    };
+    interface HTMLIconSmallDownElement extends Components.IconSmallDown, HTMLStencilElement {
+    }
+    var HTMLIconSmallDownElement: {
+        prototype: HTMLIconSmallDownElement;
+        new (): HTMLIconSmallDownElement;
+    };
+    interface HTMLIconSmallLeftElement extends Components.IconSmallLeft, HTMLStencilElement {
+    }
+    var HTMLIconSmallLeftElement: {
+        prototype: HTMLIconSmallLeftElement;
+        new (): HTMLIconSmallLeftElement;
+    };
+    interface HTMLIconSmallRightElement extends Components.IconSmallRight, HTMLStencilElement {
+    }
+    var HTMLIconSmallRightElement: {
+        prototype: HTMLIconSmallRightElement;
+        new (): HTMLIconSmallRightElement;
+    };
+    interface HTMLIconSquareElement extends Components.IconSquare, HTMLStencilElement {
+    }
+    var HTMLIconSquareElement: {
+        prototype: HTMLIconSquareElement;
+        new (): HTMLIconSquareElement;
+    };
+    interface HTMLIconStarElement extends Components.IconStar, HTMLStencilElement {
+    }
+    var HTMLIconStarElement: {
+        prototype: HTMLIconStarElement;
+        new (): HTMLIconStarElement;
+    };
+    interface HTMLIconStarFilledElement extends Components.IconStarFilled, HTMLStencilElement {
+    }
+    var HTMLIconStarFilledElement: {
+        prototype: HTMLIconStarFilledElement;
+        new (): HTMLIconStarFilledElement;
+    };
+    interface HTMLIconSunElement extends Components.IconSun, HTMLStencilElement {
+    }
+    var HTMLIconSunElement: {
+        prototype: HTMLIconSunElement;
+        new (): HTMLIconSunElement;
+    };
+    interface HTMLIconSunFilledElement extends Components.IconSunFilled, HTMLStencilElement {
+    }
+    var HTMLIconSunFilledElement: {
+        prototype: HTMLIconSunFilledElement;
+        new (): HTMLIconSunFilledElement;
+    };
+    interface HTMLIconSwitchButtonElement extends Components.IconSwitchButton, HTMLStencilElement {
+    }
+    var HTMLIconSwitchButtonElement: {
+        prototype: HTMLIconSwitchButtonElement;
+        new (): HTMLIconSwitchButtonElement;
+    };
+    interface HTMLIconSwitchButtonFilledElement extends Components.IconSwitchButtonFilled, HTMLStencilElement {
+    }
+    var HTMLIconSwitchButtonFilledElement: {
+        prototype: HTMLIconSwitchButtonFilledElement;
+        new (): HTMLIconSwitchButtonFilledElement;
+    };
+    interface HTMLIconTagElement extends Components.IconTag, HTMLStencilElement {
+    }
+    var HTMLIconTagElement: {
+        prototype: HTMLIconTagElement;
+        new (): HTMLIconTagElement;
+    };
+    interface HTMLIconTaobaoCircleElement extends Components.IconTaobaoCircle, HTMLStencilElement {
+    }
+    var HTMLIconTaobaoCircleElement: {
+        prototype: HTMLIconTaobaoCircleElement;
+        new (): HTMLIconTaobaoCircleElement;
+    };
+    interface HTMLIconTelegramElement extends Components.IconTelegram, HTMLStencilElement {
+    }
+    var HTMLIconTelegramElement: {
+        prototype: HTMLIconTelegramElement;
+        new (): HTMLIconTelegramElement;
+    };
+    interface HTMLIconTencentQqElement extends Components.IconTencentQq, HTMLStencilElement {
+    }
+    var HTMLIconTencentQqElement: {
+        prototype: HTMLIconTencentQqElement;
+        new (): HTMLIconTencentQqElement;
+    };
+    interface HTMLIconTextBoldElement extends Components.IconTextBold, HTMLStencilElement {
+    }
+    var HTMLIconTextBoldElement: {
+        prototype: HTMLIconTextBoldElement;
+        new (): HTMLIconTextBoldElement;
+    };
+    interface HTMLIconTextItalicElement extends Components.IconTextItalic, HTMLStencilElement {
+    }
+    var HTMLIconTextItalicElement: {
+        prototype: HTMLIconTextItalicElement;
+        new (): HTMLIconTextItalicElement;
+    };
+    interface HTMLIconTextStyleElement extends Components.IconTextStyle, HTMLStencilElement {
+    }
+    var HTMLIconTextStyleElement: {
+        prototype: HTMLIconTextStyleElement;
+        new (): HTMLIconTextStyleElement;
+    };
+    interface HTMLIconTextStyleListElement extends Components.IconTextStyleList, HTMLStencilElement {
+    }
+    var HTMLIconTextStyleListElement: {
+        prototype: HTMLIconTextStyleListElement;
+        new (): HTMLIconTextStyleListElement;
+    };
+    interface HTMLIconTextUnderlineElement extends Components.IconTextUnderline, HTMLStencilElement {
+    }
+    var HTMLIconTextUnderlineElement: {
+        prototype: HTMLIconTextUnderlineElement;
+        new (): HTMLIconTextUnderlineElement;
+    };
+    interface HTMLIconThumbsDownElement extends Components.IconThumbsDown, HTMLStencilElement {
+    }
+    var HTMLIconThumbsDownElement: {
+        prototype: HTMLIconThumbsDownElement;
+        new (): HTMLIconThumbsDownElement;
+    };
+    interface HTMLIconThumbsDownRFilledElement extends Components.IconThumbsDownRFilled, HTMLStencilElement {
+    }
+    var HTMLIconThumbsDownRFilledElement: {
+        prototype: HTMLIconThumbsDownRFilledElement;
+        new (): HTMLIconThumbsDownRFilledElement;
+    };
+    interface HTMLIconThumbsUpElement extends Components.IconThumbsUp, HTMLStencilElement {
+    }
+    var HTMLIconThumbsUpElement: {
+        prototype: HTMLIconThumbsUpElement;
+        new (): HTMLIconThumbsUpElement;
+    };
+    interface HTMLIconThumbsUpLFilledElement extends Components.IconThumbsUpLFilled, HTMLStencilElement {
+    }
+    var HTMLIconThumbsUpLFilledElement: {
+        prototype: HTMLIconThumbsUpLFilledElement;
+        new (): HTMLIconThumbsUpLFilledElement;
+    };
+    interface HTMLIconTiktokFilledElement extends Components.IconTiktokFilled, HTMLStencilElement {
+    }
+    var HTMLIconTiktokFilledElement: {
+        prototype: HTMLIconTiktokFilledElement;
+        new (): HTMLIconTiktokFilledElement;
+    };
+    interface HTMLIconToLeftElement extends Components.IconToLeft, HTMLStencilElement {
+    }
+    var HTMLIconToLeftElement: {
+        prototype: HTMLIconToLeftElement;
+        new (): HTMLIconToLeftElement;
+    };
+    interface HTMLIconToRightElement extends Components.IconToRight, HTMLStencilElement {
+    }
+    var HTMLIconToRightElement: {
+        prototype: HTMLIconToRightElement;
+        new (): HTMLIconToRightElement;
+    };
+    interface HTMLIconToTopElement extends Components.IconToTop, HTMLStencilElement {
+    }
+    var HTMLIconToTopElement: {
+        prototype: HTMLIconToTopElement;
+        new (): HTMLIconToTopElement;
+    };
+    interface HTMLIconToTopSmallElement extends Components.IconToTopSmall, HTMLStencilElement {
+    }
+    var HTMLIconToTopSmallElement: {
+        prototype: HTMLIconToTopSmallElement;
+        new (): HTMLIconToTopSmallElement;
+    };
+    interface HTMLIconToutiaoElement extends Components.IconToutiao, HTMLStencilElement {
+    }
+    var HTMLIconToutiaoElement: {
+        prototype: HTMLIconToutiaoElement;
+        new (): HTMLIconToutiaoElement;
+    };
+    interface HTMLIconTranslateElement extends Components.IconTranslate, HTMLStencilElement {
+    }
+    var HTMLIconTranslateElement: {
+        prototype: HTMLIconTranslateElement;
+        new (): HTMLIconTranslateElement;
+    };
+    interface HTMLIconTwitterFilledElement extends Components.IconTwitterFilled, HTMLStencilElement {
+    }
+    var HTMLIconTwitterFilledElement: {
+        prototype: HTMLIconTwitterFilledElement;
+        new (): HTMLIconTwitterFilledElement;
+    };
+    interface HTMLIconUndoCircleElement extends Components.IconUndoCircle, HTMLStencilElement {
+    }
+    var HTMLIconUndoCircleElement: {
+        prototype: HTMLIconUndoCircleElement;
+        new (): HTMLIconUndoCircleElement;
+    };
+    interface HTMLIconUnlockElement extends Components.IconUnlock, HTMLStencilElement {
+    }
+    var HTMLIconUnlockElement: {
+        prototype: HTMLIconUnlockElement;
+        new (): HTMLIconUnlockElement;
+    };
+    interface HTMLIconUnlockFilledElement extends Components.IconUnlockFilled, HTMLStencilElement {
+    }
+    var HTMLIconUnlockFilledElement: {
+        prototype: HTMLIconUnlockFilledElement;
+        new (): HTMLIconUnlockFilledElement;
+    };
+    interface HTMLIconUpElement extends Components.IconUp, HTMLStencilElement {
+    }
+    var HTMLIconUpElement: {
+        prototype: HTMLIconUpElement;
+        new (): HTMLIconUpElement;
+    };
+    interface HTMLIconUpCircleElement extends Components.IconUpCircle, HTMLStencilElement {
+    }
+    var HTMLIconUpCircleElement: {
+        prototype: HTMLIconUpCircleElement;
+        new (): HTMLIconUpCircleElement;
+    };
+    interface HTMLIconUpSquareElement extends Components.IconUpSquare, HTMLStencilElement {
+    }
+    var HTMLIconUpSquareElement: {
+        prototype: HTMLIconUpSquareElement;
+        new (): HTMLIconUpSquareElement;
+    };
+    interface HTMLIconUploadElement extends Components.IconUpload, HTMLStencilElement {
+    }
+    var HTMLIconUploadElement: {
+        prototype: HTMLIconUploadElement;
+        new (): HTMLIconUploadElement;
+    };
+    interface HTMLIconUploadCloudElement extends Components.IconUploadCloud, HTMLStencilElement {
+    }
+    var HTMLIconUploadCloudElement: {
+        prototype: HTMLIconUploadCloudElement;
+        new (): HTMLIconUploadCloudElement;
+    };
+    interface HTMLIconUploadLogsElement extends Components.IconUploadLogs, HTMLStencilElement {
+    }
+    var HTMLIconUploadLogsElement: {
+        prototype: HTMLIconUploadLogsElement;
+        new (): HTMLIconUploadLogsElement;
+    };
+    interface HTMLIconViewGridCardElement extends Components.IconViewGridCard, HTMLStencilElement {
+    }
+    var HTMLIconViewGridCardElement: {
+        prototype: HTMLIconViewGridCardElement;
+        new (): HTMLIconViewGridCardElement;
+    };
+    interface HTMLIconViewGridDetailElement extends Components.IconViewGridDetail, HTMLStencilElement {
+    }
+    var HTMLIconViewGridDetailElement: {
+        prototype: HTMLIconViewGridDetailElement;
+        new (): HTMLIconViewGridDetailElement;
+    };
+    interface HTMLIconViewGridListElement extends Components.IconViewGridList, HTMLStencilElement {
+    }
+    var HTMLIconViewGridListElement: {
+        prototype: HTMLIconViewGridListElement;
+        new (): HTMLIconViewGridListElement;
+    };
+    interface HTMLIconVoiceElement extends Components.IconVoice, HTMLStencilElement {
+    }
+    var HTMLIconVoiceElement: {
+        prototype: HTMLIconVoiceElement;
+        new (): HTMLIconVoiceElement;
+    };
+    interface HTMLIconVoiceFilledElement extends Components.IconVoiceFilled, HTMLStencilElement {
+    }
+    var HTMLIconVoiceFilledElement: {
+        prototype: HTMLIconVoiceFilledElement;
+        new (): HTMLIconVoiceFilledElement;
+    };
+    interface HTMLIconVoiceInputElement extends Components.IconVoiceInput, HTMLStencilElement {
+    }
+    var HTMLIconVoiceInputElement: {
+        prototype: HTMLIconVoiceInputElement;
+        new (): HTMLIconVoiceInputElement;
+    };
+    interface HTMLIconVoiceInputFilledElement extends Components.IconVoiceInputFilled, HTMLStencilElement {
+    }
+    var HTMLIconVoiceInputFilledElement: {
+        prototype: HTMLIconVoiceInputFilledElement;
+        new (): HTMLIconVoiceInputFilledElement;
+    };
+    interface HTMLIconVoiceOffElement extends Components.IconVoiceOff, HTMLStencilElement {
+    }
+    var HTMLIconVoiceOffElement: {
+        prototype: HTMLIconVoiceOffElement;
+        new (): HTMLIconVoiceOffElement;
+    };
+    interface HTMLIconVoicePlayElement extends Components.IconVoicePlay, HTMLStencilElement {
+    }
+    var HTMLIconVoicePlayElement: {
+        prototype: HTMLIconVoicePlayElement;
+        new (): HTMLIconVoicePlayElement;
+    };
+    interface HTMLIconVolumeDownElement extends Components.IconVolumeDown, HTMLStencilElement {
+    }
+    var HTMLIconVolumeDownElement: {
+        prototype: HTMLIconVolumeDownElement;
+        new (): HTMLIconVolumeDownElement;
+    };
+    interface HTMLIconVolumeDownFilledElement extends Components.IconVolumeDownFilled, HTMLStencilElement {
+    }
+    var HTMLIconVolumeDownFilledElement: {
+        prototype: HTMLIconVolumeDownFilledElement;
+        new (): HTMLIconVolumeDownFilledElement;
+    };
+    interface HTMLIconVolumeMuteElement extends Components.IconVolumeMute, HTMLStencilElement {
+    }
+    var HTMLIconVolumeMuteElement: {
+        prototype: HTMLIconVolumeMuteElement;
+        new (): HTMLIconVolumeMuteElement;
+    };
+    interface HTMLIconVolumeMuteFilledElement extends Components.IconVolumeMuteFilled, HTMLStencilElement {
+    }
+    var HTMLIconVolumeMuteFilledElement: {
+        prototype: HTMLIconVolumeMuteFilledElement;
+        new (): HTMLIconVolumeMuteFilledElement;
+    };
+    interface HTMLIconVolumeNoticeElement extends Components.IconVolumeNotice, HTMLStencilElement {
+    }
+    var HTMLIconVolumeNoticeElement: {
+        prototype: HTMLIconVolumeNoticeElement;
+        new (): HTMLIconVolumeNoticeElement;
+    };
+    interface HTMLIconVolumeNoticeFilledElement extends Components.IconVolumeNoticeFilled, HTMLStencilElement {
+    }
+    var HTMLIconVolumeNoticeFilledElement: {
+        prototype: HTMLIconVolumeNoticeFilledElement;
+        new (): HTMLIconVolumeNoticeFilledElement;
+    };
+    interface HTMLIconVolumeSmallElement extends Components.IconVolumeSmall, HTMLStencilElement {
+    }
+    var HTMLIconVolumeSmallElement: {
+        prototype: HTMLIconVolumeSmallElement;
+        new (): HTMLIconVolumeSmallElement;
+    };
+    interface HTMLIconVolumeSmallFilledElement extends Components.IconVolumeSmallFilled, HTMLStencilElement {
+    }
+    var HTMLIconVolumeSmallFilledElement: {
+        prototype: HTMLIconVolumeSmallFilledElement;
+        new (): HTMLIconVolumeSmallFilledElement;
+    };
+    interface HTMLIconVolumeUpElement extends Components.IconVolumeUp, HTMLStencilElement {
+    }
+    var HTMLIconVolumeUpElement: {
+        prototype: HTMLIconVolumeUpElement;
+        new (): HTMLIconVolumeUpElement;
+    };
+    interface HTMLIconVolumeUpFilledElement extends Components.IconVolumeUpFilled, HTMLStencilElement {
+    }
+    var HTMLIconVolumeUpFilledElement: {
+        prototype: HTMLIconVolumeUpFilledElement;
+        new (): HTMLIconVolumeUpFilledElement;
+    };
+    interface HTMLIconWalletElement extends Components.IconWallet, HTMLStencilElement {
+    }
+    var HTMLIconWalletElement: {
+        prototype: HTMLIconWalletElement;
+        new (): HTMLIconWalletElement;
+    };
+    interface HTMLIconWaterfallsHElement extends Components.IconWaterfallsH, HTMLStencilElement {
+    }
+    var HTMLIconWaterfallsHElement: {
+        prototype: HTMLIconWaterfallsHElement;
+        new (): HTMLIconWaterfallsHElement;
+    };
+    interface HTMLIconWaterfallsVElement extends Components.IconWaterfallsV, HTMLStencilElement {
+    }
+    var HTMLIconWaterfallsVElement: {
+        prototype: HTMLIconWaterfallsVElement;
+        new (): HTMLIconWaterfallsVElement;
+    };
+    interface HTMLIconWavesLeftElement extends Components.IconWavesLeft, HTMLStencilElement {
+    }
+    var HTMLIconWavesLeftElement: {
+        prototype: HTMLIconWavesLeftElement;
+        new (): HTMLIconWavesLeftElement;
+    };
+    interface HTMLIconWavesRightElement extends Components.IconWavesRight, HTMLStencilElement {
+    }
+    var HTMLIconWavesRightElement: {
+        prototype: HTMLIconWavesRightElement;
+        new (): HTMLIconWavesRightElement;
+    };
+    interface HTMLIconWeiboFilledElement extends Components.IconWeiboFilled, HTMLStencilElement {
+    }
+    var HTMLIconWeiboFilledElement: {
+        prototype: HTMLIconWeiboFilledElement;
+        new (): HTMLIconWeiboFilledElement;
+    };
+    interface HTMLIconWeixinScanFilledElement extends Components.IconWeixinScanFilled, HTMLStencilElement {
+    }
+    var HTMLIconWeixinScanFilledElement: {
+        prototype: HTMLIconWeixinScanFilledElement;
+        new (): HTMLIconWeixinScanFilledElement;
+    };
+    interface HTMLIconWifiElement extends Components.IconWifi, HTMLStencilElement {
+    }
+    var HTMLIconWifiElement: {
+        prototype: HTMLIconWifiElement;
+        new (): HTMLIconWifiElement;
+    };
+    interface HTMLIconWindowsFilledElement extends Components.IconWindowsFilled, HTMLStencilElement {
+    }
+    var HTMLIconWindowsFilledElement: {
+        prototype: HTMLIconWindowsFilledElement;
+        new (): HTMLIconWindowsFilledElement;
+    };
+    interface HTMLIconYoutubeFilledElement extends Components.IconYoutubeFilled, HTMLStencilElement {
+    }
+    var HTMLIconYoutubeFilledElement: {
+        prototype: HTMLIconYoutubeFilledElement;
+        new (): HTMLIconYoutubeFilledElement;
+    };
+    interface HTMLIconZoomInElement extends Components.IconZoomIn, HTMLStencilElement {
+    }
+    var HTMLIconZoomInElement: {
+        prototype: HTMLIconZoomInElement;
+        new (): HTMLIconZoomInElement;
+    };
+    interface HTMLIconZoomOutElement extends Components.IconZoomOut, HTMLStencilElement {
+    }
+    var HTMLIconZoomOutElement: {
+        prototype: HTMLIconZoomOutElement;
+        new (): HTMLIconZoomOutElement;
+    };
     interface HTMLElementTagNameMap {
-        "icon-add": HTMLIconAddElement;
+        "icon-acoustic": HTMLIconAcousticElement;
+        "icon-add-circle": HTMLIconAddCircleElement;
+        "icon-add-circle-filled": HTMLIconAddCircleFilledElement;
+        "icon-add-square": HTMLIconAddSquareElement;
+        "icon-add-square-filled": HTMLIconAddSquareFilledElement;
+        "icon-add-text": HTMLIconAddTextElement;
+        "icon-align-text-both": HTMLIconAlignTextBothElement;
+        "icon-align-text-center": HTMLIconAlignTextCenterElement;
+        "icon-align-text-left": HTMLIconAlignTextLeftElement;
+        "icon-align-text-middle": HTMLIconAlignTextMiddleElement;
+        "icon-align-text-right": HTMLIconAlignTextRightElement;
+        "icon-alipay": HTMLIconAlipayElement;
+        "icon-alphabetical-sorting-asc": HTMLIconAlphabeticalSortingAscElement;
+        "icon-alphabetical-sorting-desc": HTMLIconAlphabeticalSortingDescElement;
+        "icon-announcement": HTMLIconAnnouncementElement;
+        "icon-announcement-filled": HTMLIconAnnouncementFilledElement;
+        "icon-apple": HTMLIconAppleElement;
+        "icon-arrow-down": HTMLIconArrowDownElement;
+        "icon-arrow-down-circle": HTMLIconArrowDownCircleElement;
+        "icon-arrow-left": HTMLIconArrowLeftElement;
+        "icon-arrow-left-circle": HTMLIconArrowLeftCircleElement;
+        "icon-arrow-right": HTMLIconArrowRightElement;
+        "icon-arrow-right-circle": HTMLIconArrowRightCircleElement;
+        "icon-arrow-up": HTMLIconArrowUpElement;
+        "icon-arrow-up-circle": HTMLIconArrowUpCircleElement;
+        "icon-at": HTMLIconAtElement;
+        "icon-attention-circle": HTMLIconAttentionCircleElement;
+        "icon-attention-circle-filled": HTMLIconAttentionCircleFilledElement;
+        "icon-auto-line-height": HTMLIconAutoLineHeightElement;
+        "icon-avatar": HTMLIconAvatarElement;
+        "icon-back": HTMLIconBackElement;
+        "icon-back-filled": HTMLIconBackFilledElement;
+        "icon-background-color": HTMLIconBackgroundColorElement;
+        "icon-backspace": HTMLIconBackspaceElement;
+        "icon-bank-card": HTMLIconBankCardElement;
+        "icon-book": HTMLIconBookElement;
+        "icon-book-open": HTMLIconBookOpenElement;
+        "icon-bookmark": HTMLIconBookmarkElement;
+        "icon-brightness": HTMLIconBrightnessElement;
+        "icon-brightness-filled": HTMLIconBrightnessFilledElement;
+        "icon-browser-chrome": HTMLIconBrowserChromeElement;
+        "icon-browser-safari": HTMLIconBrowserSafariElement;
+        "icon-browser-safari-filled": HTMLIconBrowserSafariFilledElement;
+        "icon-calendar": HTMLIconCalendarElement;
+        "icon-calendar-filled": HTMLIconCalendarFilledElement;
+        "icon-camera": HTMLIconCameraElement;
+        "icon-camera-filled": HTMLIconCameraFilledElement;
+        "icon-caret-down": HTMLIconCaretDownElement;
+        "icon-caret-left": HTMLIconCaretLeftElement;
+        "icon-caret-right": HTMLIconCaretRightElement;
+        "icon-caret-up": HTMLIconCaretUpElement;
+        "icon-check": HTMLIconCheckElement;
+        "icon-check-circle": HTMLIconCheckCircleElement;
+        "icon-check-circle-filled": HTMLIconCheckCircleFilledElement;
+        "icon-clear-format": HTMLIconClearFormatElement;
+        "icon-clear-format-filled": HTMLIconClearFormatFilledElement;
+        "icon-close": HTMLIconCloseElement;
+        "icon-close-circle": HTMLIconCloseCircleElement;
+        "icon-close-circle-filled": HTMLIconCloseCircleFilledElement;
+        "icon-close-remind": HTMLIconCloseRemindElement;
+        "icon-close-wifi": HTMLIconCloseWifiElement;
+        "icon-code": HTMLIconCodeElement;
+        "icon-code-brackets": HTMLIconCodeBracketsElement;
+        "icon-collection-records": HTMLIconCollectionRecordsElement;
+        "icon-communication": HTMLIconCommunicationElement;
+        "icon-communication-filled": HTMLIconCommunicationFilledElement;
+        "icon-copy": HTMLIconCopyElement;
+        "icon-copy-filled": HTMLIconCopyFilledElement;
+        "icon-correct": HTMLIconCorrectElement;
+        "icon-currency": HTMLIconCurrencyElement;
+        "icon-customer-service-filled": HTMLIconCustomerServiceFilledElement;
+        "icon-cutting": HTMLIconCuttingElement;
+        "icon-damage-map": HTMLIconDamageMapElement;
         "icon-delete": HTMLIconDeleteElement;
+        "icon-delete-filled": HTMLIconDeleteFilledElement;
+        "icon-dislike": HTMLIconDislikeElement;
+        "icon-dot": HTMLIconDotElement;
+        "icon-double-down": HTMLIconDoubleDownElement;
+        "icon-double-down-circle": HTMLIconDoubleDownCircleElement;
+        "icon-double-left": HTMLIconDoubleLeftElement;
+        "icon-double-left-circle": HTMLIconDoubleLeftCircleElement;
+        "icon-double-right": HTMLIconDoubleRightElement;
+        "icon-double-right-circle": HTMLIconDoubleRightCircleElement;
+        "icon-double-up": HTMLIconDoubleUpElement;
+        "icon-double-up-circle": HTMLIconDoubleUpCircleElement;
+        "icon-down": HTMLIconDownElement;
+        "icon-down-circle": HTMLIconDownCircleElement;
+        "icon-down-square": HTMLIconDownSquareElement;
+        "icon-download": HTMLIconDownloadElement;
+        "icon-download-cloud": HTMLIconDownloadCloudElement;
+        "icon-drop-down-list": HTMLIconDropDownListElement;
+        "icon-edit": HTMLIconEditElement;
+        "icon-edit-file": HTMLIconEditFileElement;
+        "icon-edit-filled": HTMLIconEditFilledElement;
+        "icon-edit-name": HTMLIconEditNameElement;
+        "icon-edit-square": HTMLIconEditSquareElement;
+        "icon-edit-square-filled": HTMLIconEditSquareFilledElement;
+        "icon-error": HTMLIconErrorElement;
+        "icon-expand-down": HTMLIconExpandDownElement;
+        "icon-eye": HTMLIconEyeElement;
+        "icon-eye-filled": HTMLIconEyeFilledElement;
+        "icon-eye-slash": HTMLIconEyeSlashElement;
+        "icon-eyes": HTMLIconEyesElement;
+        "icon-eyes-close": HTMLIconEyesCloseElement;
+        "icon-eyes-filled": HTMLIconEyesFilledElement;
+        "icon-facebook": HTMLIconFacebookElement;
+        "icon-facebook-square": HTMLIconFacebookSquareElement;
+        "icon-female": HTMLIconFemaleElement;
+        "icon-filter": HTMLIconFilterElement;
+        "icon-filter-filled": HTMLIconFilterFilledElement;
+        "icon-finance": HTMLIconFinanceElement;
+        "icon-find-list": HTMLIconFindListElement;
+        "icon-fingerprint": HTMLIconFingerprintElement;
+        "icon-fold-up": HTMLIconFoldUpElement;
+        "icon-folder-open": HTMLIconFolderOpenElement;
+        "icon-folder-open-filled": HTMLIconFolderOpenFilledElement;
+        "icon-folder-plus": HTMLIconFolderPlusElement;
+        "icon-folder-success": HTMLIconFolderSuccessElement;
+        "icon-font-size": HTMLIconFontSizeElement;
+        "icon-forbid": HTMLIconForbidElement;
+        "icon-forbid-filled": HTMLIconForbidFilledElement;
+        "icon-friends-circle-filled": HTMLIconFriendsCircleFilledElement;
+        "icon-full-screen": HTMLIconFullScreenElement;
+        "icon-full-screen-play": HTMLIconFullScreenPlayElement;
+        "icon-full-screen-play-filled": HTMLIconFullScreenPlayFilledElement;
+        "icon-full-selection": HTMLIconFullSelectionElement;
+        "icon-full-selection-filled": HTMLIconFullSelectionFilledElement;
+        "icon-github": HTMLIconGithubElement;
+        "icon-github-circle": HTMLIconGithubCircleElement;
+        "icon-gitlab-filled": HTMLIconGitlabFilledElement;
+        "icon-go-end": HTMLIconGoEndElement;
+        "icon-go-on": HTMLIconGoOnElement;
+        "icon-go-start": HTMLIconGoStartElement;
+        "icon-google-filled": HTMLIconGoogleFilledElement;
+        "icon-h": HTMLIconHElement;
+        "icon-h1": HTMLIconH1Element;
+        "icon-h2": HTMLIconH2Element;
+        "icon-h3": HTMLIconH3Element;
+        "icon-h4": HTMLIconH4Element;
+        "icon-h5": HTMLIconH5Element;
+        "icon-h6": HTMLIconH6Element;
+        "icon-h7": HTMLIconH7Element;
+        "icon-h8": HTMLIconH8Element;
+        "icon-h9": HTMLIconH9Element;
+        "icon-harm": HTMLIconHarmElement;
+        "icon-harm-filled": HTMLIconHarmFilledElement;
+        "icon-help-circle": HTMLIconHelpCircleElement;
+        "icon-help-circle-filled": HTMLIconHelpCircleFilledElement;
+        "icon-help-square": HTMLIconHelpSquareElement;
+        "icon-help-square-filled": HTMLIconHelpSquareFilledElement;
+        "icon-history": HTMLIconHistoryElement;
+        "icon-home": HTMLIconHomeElement;
+        "icon-home-filled": HTMLIconHomeFilledElement;
+        "icon-html-five-filled": HTMLIconHtmlFiveFilledElement;
+        "icon-id-card-h": HTMLIconIdCardHElement;
+        "icon-indent-left": HTMLIconIndentLeftElement;
+        "icon-indent-right": HTMLIconIndentRightElement;
+        "icon-info-circle": HTMLIconInfoCircleElement;
+        "icon-info-circle-filled": HTMLIconInfoCircleFilledElement;
+        "icon-intersection": HTMLIconIntersectionElement;
+        "icon-lark-filled": HTMLIconLarkFilledElement;
+        "icon-layers": HTMLIconLayersElement;
+        "icon-layers-filled": HTMLIconLayersFilledElement;
+        "icon-left": HTMLIconLeftElement;
+        "icon-left-circle": HTMLIconLeftCircleElement;
+        "icon-left-square": HTMLIconLeftSquareElement;
+        "icon-like": HTMLIconLikeElement;
+        "icon-like-filled": HTMLIconLikeFilledElement;
+        "icon-link": HTMLIconLinkElement;
+        "icon-list-add": HTMLIconListAddElement;
+        "icon-list-alphabet": HTMLIconListAlphabetElement;
+        "icon-list-numbers": HTMLIconListNumbersElement;
+        "icon-loading": HTMLIconLoadingElement;
+        "icon-loading-dot": HTMLIconLoadingDotElement;
+        "icon-local": HTMLIconLocalElement;
+        "icon-local-filled": HTMLIconLocalFilledElement;
+        "icon-location": HTMLIconLocationElement;
+        "icon-location-filled": HTMLIconLocationFilledElement;
+        "icon-lock": HTMLIconLockElement;
+        "icon-lock-filled": HTMLIconLockFilledElement;
+        "icon-log": HTMLIconLogElement;
+        "icon-loop-once": HTMLIconLoopOnceElement;
+        "icon-mail-open": HTMLIconMailOpenElement;
+        "icon-mail-open-filled": HTMLIconMailOpenFilledElement;
+        "icon-mail-review": HTMLIconMailReviewElement;
+        "icon-male": HTMLIconMaleElement;
+        "icon-map-draw": HTMLIconMapDrawElement;
+        "icon-map-draw-filled": HTMLIconMapDrawFilledElement;
+        "icon-message": HTMLIconMessageElement;
+        "icon-message-filled": HTMLIconMessageFilledElement;
+        "icon-message-unread": HTMLIconMessageUnreadElement;
+        "icon-minus": HTMLIconMinusElement;
+        "icon-moon": HTMLIconMoonElement;
+        "icon-moon-filled": HTMLIconMoonFilledElement;
+        "icon-more": HTMLIconMoreElement;
+        "icon-more-app": HTMLIconMoreAppElement;
+        "icon-more-app-filled": HTMLIconMoreAppFilledElement;
+        "icon-more-circle": HTMLIconMoreCircleElement;
+        "icon-more-circle-filled": HTMLIconMoreCircleFilledElement;
+        "icon-more-vertical": HTMLIconMoreVerticalElement;
+        "icon-more-vertical-circle": HTMLIconMoreVerticalCircleElement;
+        "icon-more-vertical-circle-filled": HTMLIconMoreVerticalCircleFilledElement;
+        "icon-move": HTMLIconMoveElement;
+        "icon-mp-weixin-circle-filled": HTMLIconMpWeixinCircleFilledElement;
+        "icon-music": HTMLIconMusicElement;
+        "icon-music-byte": HTMLIconMusicByteElement;
+        "icon-music-byte-filled": HTMLIconMusicByteFilledElement;
+        "icon-music-filled": HTMLIconMusicFilledElement;
+        "icon-music-list": HTMLIconMusicListElement;
+        "icon-mute": HTMLIconMuteElement;
+        "icon-mute-filled": HTMLIconMuteFilledElement;
+        "icon-next": HTMLIconNextElement;
+        "icon-next-filled": HTMLIconNextFilledElement;
+        "icon-notebook-and-pen": HTMLIconNotebookAndPenElement;
+        "icon-notebook-and-pen-filled": HTMLIconNotebookAndPenFilledElement;
+        "icon-off-screen": HTMLIconOffScreenElement;
+        "icon-one-to-one": HTMLIconOneToOneElement;
+        "icon-pause": HTMLIconPauseElement;
+        "icon-pause-circle": HTMLIconPauseCircleElement;
+        "icon-pause-circle-filled": HTMLIconPauseCircleFilledElement;
+        "icon-people": HTMLIconPeopleElement;
+        "icon-people-filled": HTMLIconPeopleFilledElement;
+        "icon-people-minus-down": HTMLIconPeopleMinusDownElement;
+        "icon-people-minus-up": HTMLIconPeopleMinusUpElement;
+        "icon-people-plus-down": HTMLIconPeoplePlusDownElement;
+        "icon-people-plus-up": HTMLIconPeoplePlusUpElement;
+        "icon-peoples": HTMLIconPeoplesElement;
+        "icon-percentage": HTMLIconPercentageElement;
+        "icon-performance": HTMLIconPerformanceElement;
+        "icon-phone": HTMLIconPhoneElement;
+        "icon-phone-call": HTMLIconPhoneCallElement;
+        "icon-phone-call-filled": HTMLIconPhoneCallFilledElement;
+        "icon-phone-filled": HTMLIconPhoneFilledElement;
+        "icon-pic-filled": HTMLIconPicFilledElement;
+        "icon-pie-circle": HTMLIconPieCircleElement;
+        "icon-play": HTMLIconPlayElement;
+        "icon-play-circle": HTMLIconPlayCircleElement;
+        "icon-play-circle-filled": HTMLIconPlayCircleFilledElement;
+        "icon-play-cycle": HTMLIconPlayCycleElement;
+        "icon-play-filled": HTMLIconPlayFilledElement;
+        "icon-play-once": HTMLIconPlayOnceElement;
+        "icon-plus": HTMLIconPlusElement;
+        "icon-plus-cross": HTMLIconPlusCrossElement;
+        "icon-power": HTMLIconPowerElement;
+        "icon-printer": HTMLIconPrinterElement;
+        "icon-protect": HTMLIconProtectElement;
+        "icon-protect-filled": HTMLIconProtectFilledElement;
+        "icon-qrcode": HTMLIconQrcodeElement;
+        "icon-radio": HTMLIconRadioElement;
+        "icon-radio-filled": HTMLIconRadioFilledElement;
+        "icon-record-disc": HTMLIconRecordDiscElement;
+        "icon-redo-circle": HTMLIconRedoCircleElement;
+        "icon-reduce-circle": HTMLIconReduceCircleElement;
+        "icon-reduce-circle-filled": HTMLIconReduceCircleFilledElement;
+        "icon-reduce-square-filled": HTMLIconReduceSquareFilledElement;
+        "icon-refresh": HTMLIconRefreshElement;
+        "icon-remind": HTMLIconRemindElement;
+        "icon-remind-filled": HTMLIconRemindFilledElement;
+        "icon-return": HTMLIconReturnElement;
+        "icon-right": HTMLIconRightElement;
+        "icon-right-circle": HTMLIconRightCircleElement;
+        "icon-right-square": HTMLIconRightSquareElement;
+        "icon-round": HTMLIconRoundElement;
+        "icon-round-filled": HTMLIconRoundFilledElement;
+        "icon-rss": HTMLIconRssElement;
+        "icon-scan-code": HTMLIconScanCodeElement;
+        "icon-scanning": HTMLIconScanningElement;
+        "icon-screenshot": HTMLIconScreenshotElement;
+        "icon-screenshot-filled": HTMLIconScreenshotFilledElement;
+        "icon-search": HTMLIconSearchElement;
+        "icon-send": HTMLIconSendElement;
+        "icon-setting": HTMLIconSettingElement;
+        "icon-setting-config": HTMLIconSettingConfigElement;
+        "icon-setting-filled": HTMLIconSettingFilledElement;
+        "icon-settings": HTMLIconSettingsElement;
+        "icon-settings-filled": HTMLIconSettingsFilledElement;
+        "icon-shake": HTMLIconShakeElement;
+        "icon-share": HTMLIconShareElement;
+        "icon-share-filled": HTMLIconShareFilledElement;
+        "icon-shield-add": HTMLIconShieldAddElement;
+        "icon-shield-add-filled": HTMLIconShieldAddFilledElement;
+        "icon-shopping-bag": HTMLIconShoppingBagElement;
+        "icon-shopping-bag-filled": HTMLIconShoppingBagFilledElement;
+        "icon-shopping-cart": HTMLIconShoppingCartElement;
+        "icon-shopping-cart-add": HTMLIconShoppingCartAddElement;
+        "icon-shopping-cart-add-filled": HTMLIconShoppingCartAddFilledElement;
+        "icon-shopping-cart-del": HTMLIconShoppingCartDelElement;
+        "icon-shopping-cart-del-filled": HTMLIconShoppingCartDelFilledElement;
+        "icon-shopping-cart-filled": HTMLIconShoppingCartFilledElement;
+        "icon-small-check": HTMLIconSmallCheckElement;
+        "icon-small-close": HTMLIconSmallCloseElement;
+        "icon-small-down": HTMLIconSmallDownElement;
+        "icon-small-left": HTMLIconSmallLeftElement;
+        "icon-small-right": HTMLIconSmallRightElement;
+        "icon-square": HTMLIconSquareElement;
+        "icon-star": HTMLIconStarElement;
+        "icon-star-filled": HTMLIconStarFilledElement;
+        "icon-sun": HTMLIconSunElement;
+        "icon-sun-filled": HTMLIconSunFilledElement;
+        "icon-switch-button": HTMLIconSwitchButtonElement;
+        "icon-switch-button-filled": HTMLIconSwitchButtonFilledElement;
+        "icon-tag": HTMLIconTagElement;
+        "icon-taobao-circle": HTMLIconTaobaoCircleElement;
+        "icon-telegram": HTMLIconTelegramElement;
+        "icon-tencent-qq": HTMLIconTencentQqElement;
+        "icon-text-bold": HTMLIconTextBoldElement;
+        "icon-text-italic": HTMLIconTextItalicElement;
+        "icon-text-style": HTMLIconTextStyleElement;
+        "icon-text-style-list": HTMLIconTextStyleListElement;
+        "icon-text-underline": HTMLIconTextUnderlineElement;
+        "icon-thumbs-down": HTMLIconThumbsDownElement;
+        "icon-thumbs-down-r-filled": HTMLIconThumbsDownRFilledElement;
+        "icon-thumbs-up": HTMLIconThumbsUpElement;
+        "icon-thumbs-up-l-filled": HTMLIconThumbsUpLFilledElement;
+        "icon-tiktok-filled": HTMLIconTiktokFilledElement;
+        "icon-to-left": HTMLIconToLeftElement;
+        "icon-to-right": HTMLIconToRightElement;
+        "icon-to-top": HTMLIconToTopElement;
+        "icon-to-top-small": HTMLIconToTopSmallElement;
+        "icon-toutiao": HTMLIconToutiaoElement;
+        "icon-translate": HTMLIconTranslateElement;
+        "icon-twitter-filled": HTMLIconTwitterFilledElement;
+        "icon-undo-circle": HTMLIconUndoCircleElement;
+        "icon-unlock": HTMLIconUnlockElement;
+        "icon-unlock-filled": HTMLIconUnlockFilledElement;
+        "icon-up": HTMLIconUpElement;
+        "icon-up-circle": HTMLIconUpCircleElement;
+        "icon-up-square": HTMLIconUpSquareElement;
+        "icon-upload": HTMLIconUploadElement;
+        "icon-upload-cloud": HTMLIconUploadCloudElement;
+        "icon-upload-logs": HTMLIconUploadLogsElement;
+        "icon-view-grid-card": HTMLIconViewGridCardElement;
+        "icon-view-grid-detail": HTMLIconViewGridDetailElement;
+        "icon-view-grid-list": HTMLIconViewGridListElement;
+        "icon-voice": HTMLIconVoiceElement;
+        "icon-voice-filled": HTMLIconVoiceFilledElement;
+        "icon-voice-input": HTMLIconVoiceInputElement;
+        "icon-voice-input-filled": HTMLIconVoiceInputFilledElement;
+        "icon-voice-off": HTMLIconVoiceOffElement;
+        "icon-voice-play": HTMLIconVoicePlayElement;
+        "icon-volume-down": HTMLIconVolumeDownElement;
+        "icon-volume-down-filled": HTMLIconVolumeDownFilledElement;
+        "icon-volume-mute": HTMLIconVolumeMuteElement;
+        "icon-volume-mute-filled": HTMLIconVolumeMuteFilledElement;
+        "icon-volume-notice": HTMLIconVolumeNoticeElement;
+        "icon-volume-notice-filled": HTMLIconVolumeNoticeFilledElement;
+        "icon-volume-small": HTMLIconVolumeSmallElement;
+        "icon-volume-small-filled": HTMLIconVolumeSmallFilledElement;
+        "icon-volume-up": HTMLIconVolumeUpElement;
+        "icon-volume-up-filled": HTMLIconVolumeUpFilledElement;
+        "icon-wallet": HTMLIconWalletElement;
+        "icon-waterfalls-h": HTMLIconWaterfallsHElement;
+        "icon-waterfalls-v": HTMLIconWaterfallsVElement;
+        "icon-waves-left": HTMLIconWavesLeftElement;
+        "icon-waves-right": HTMLIconWavesRightElement;
+        "icon-weibo-filled": HTMLIconWeiboFilledElement;
+        "icon-weixin-scan-filled": HTMLIconWeixinScanFilledElement;
+        "icon-wifi": HTMLIconWifiElement;
+        "icon-windows-filled": HTMLIconWindowsFilledElement;
+        "icon-youtube-filled": HTMLIconYoutubeFilledElement;
+        "icon-zoom-in": HTMLIconZoomInElement;
+        "icon-zoom-out": HTMLIconZoomOutElement;
     }
 }
 declare namespace LocalJSX {
-    interface IconAdd {
+    interface IconAcoustic {
         /**
           * 图标颜色
          */
         "color"?: string;
         /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
           * 图标大小
          */
         "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconAddCircle {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconAddCircleFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconAddSquare {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconAddSquareFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconAddText {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconAlignTextBoth {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconAlignTextCenter {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconAlignTextLeft {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconAlignTextMiddle {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconAlignTextRight {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconAlipay {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconAlphabeticalSortingAsc {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconAlphabeticalSortingDesc {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconAnnouncement {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconAnnouncementFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconApple {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconArrowDown {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconArrowDownCircle {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconArrowLeft {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconArrowLeftCircle {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconArrowRight {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconArrowRightCircle {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconArrowUp {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconArrowUpCircle {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconAt {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconAttentionCircle {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconAttentionCircleFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconAutoLineHeight {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconAvatar {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconBack {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconBackFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconBackgroundColor {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconBackspace {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconBankCard {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconBook {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconBookOpen {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconBookmark {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconBrightness {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconBrightnessFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconBrowserChrome {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconBrowserSafari {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconBrowserSafariFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconCalendar {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconCalendarFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconCamera {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconCameraFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconCaretDown {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconCaretLeft {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconCaretRight {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconCaretUp {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconCheck {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconCheckCircle {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconCheckCircleFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconClearFormat {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconClearFormatFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconClose {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconCloseCircle {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconCloseCircleFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconCloseRemind {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconCloseWifi {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconCode {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconCodeBrackets {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconCollectionRecords {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconCommunication {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconCommunicationFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconCopy {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconCopyFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconCorrect {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconCurrency {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconCustomerServiceFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconCutting {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconDamageMap {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
         /**
           * 图标线条宽度
          */
@@ -74,25 +17342,10557 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
           * 图标大小
          */
         "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconDeleteFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconDislike {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconDot {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconDoubleDown {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconDoubleDownCircle {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconDoubleLeft {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconDoubleLeftCircle {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconDoubleRight {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconDoubleRightCircle {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconDoubleUp {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconDoubleUpCircle {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconDown {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconDownCircle {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconDownSquare {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconDownload {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconDownloadCloud {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconDropDownList {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconEdit {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconEditFile {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconEditFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconEditName {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconEditSquare {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconEditSquareFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconError {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconExpandDown {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconEye {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconEyeFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconEyeSlash {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconEyes {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconEyesClose {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconEyesFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconFacebook {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconFacebookSquare {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconFemale {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconFilter {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconFilterFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconFinance {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconFindList {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconFingerprint {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconFoldUp {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconFolderOpen {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconFolderOpenFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconFolderPlus {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconFolderSuccess {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconFontSize {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconForbid {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconForbidFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconFriendsCircleFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconFullScreen {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconFullScreenPlay {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconFullScreenPlayFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconFullSelection {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconFullSelectionFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconGithub {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconGithubCircle {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconGitlabFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconGoEnd {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconGoOn {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconGoStart {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconGoogleFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconH {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconH1 {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconH2 {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconH3 {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconH4 {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconH5 {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconH6 {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconH7 {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconH8 {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconH9 {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconHarm {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconHarmFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconHelpCircle {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconHelpCircleFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconHelpSquare {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconHelpSquareFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconHistory {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconHome {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconHomeFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconHtmlFiveFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconIdCardH {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconIndentLeft {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconIndentRight {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconInfoCircle {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconInfoCircleFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconIntersection {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconLarkFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconLayers {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconLayersFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconLeft {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconLeftCircle {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconLeftSquare {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconLike {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconLikeFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconLink {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconListAdd {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconListAlphabet {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconListNumbers {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconLoading {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconLoadingDot {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconLocal {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconLocalFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconLocation {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconLocationFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconLock {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconLockFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconLog {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconLoopOnce {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconMailOpen {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconMailOpenFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconMailReview {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconMale {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconMapDraw {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconMapDrawFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconMessage {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconMessageFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconMessageUnread {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconMinus {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconMoon {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconMoonFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconMore {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconMoreApp {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconMoreAppFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconMoreCircle {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconMoreCircleFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconMoreVertical {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconMoreVerticalCircle {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconMoreVerticalCircleFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconMove {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconMpWeixinCircleFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconMusic {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconMusicByte {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconMusicByteFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconMusicFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconMusicList {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconMute {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconMuteFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconNext {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconNextFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconNotebookAndPen {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconNotebookAndPenFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconOffScreen {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconOneToOne {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconPause {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconPauseCircle {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconPauseCircleFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconPeople {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconPeopleFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconPeopleMinusDown {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconPeopleMinusUp {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconPeoplePlusDown {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconPeoplePlusUp {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconPeoples {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconPercentage {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconPerformance {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconPhone {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconPhoneCall {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconPhoneCallFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconPhoneFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconPicFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconPieCircle {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconPlay {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconPlayCircle {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconPlayCircleFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconPlayCycle {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconPlayFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconPlayOnce {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconPlus {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconPlusCross {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconPower {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconPrinter {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconProtect {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconProtectFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconQrcode {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconRadio {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconRadioFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconRecordDisc {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconRedoCircle {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconReduceCircle {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconReduceCircleFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconReduceSquareFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconRefresh {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconRemind {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconRemindFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconReturn {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconRight {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconRightCircle {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconRightSquare {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconRound {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconRoundFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconRss {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconScanCode {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconScanning {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconScreenshot {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconScreenshotFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconSearch {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconSend {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconSetting {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconSettingConfig {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconSettingFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconSettings {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconSettingsFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconShake {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconShare {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconShareFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconShieldAdd {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconShieldAddFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconShoppingBag {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconShoppingBagFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconShoppingCart {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconShoppingCartAdd {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconShoppingCartAddFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconShoppingCartDel {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconShoppingCartDelFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconShoppingCartFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconSmallCheck {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconSmallClose {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconSmallDown {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconSmallLeft {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconSmallRight {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconSquare {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconStar {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconStarFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconSun {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconSunFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconSwitchButton {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconSwitchButtonFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconTag {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconTaobaoCircle {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconTelegram {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconTencentQq {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconTextBold {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconTextItalic {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconTextStyle {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconTextStyleList {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconTextUnderline {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconThumbsDown {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconThumbsDownRFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconThumbsUp {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconThumbsUpLFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconTiktokFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconToLeft {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconToRight {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconToTop {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconToTopSmall {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconToutiao {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconTranslate {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconTwitterFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconUndoCircle {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconUnlock {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconUnlockFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconUp {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconUpCircle {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconUpSquare {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconUpload {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconUploadCloud {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconUploadLogs {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconViewGridCard {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconViewGridDetail {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconViewGridList {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconVoice {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconVoiceFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconVoiceInput {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconVoiceInputFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconVoiceOff {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconVoicePlay {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconVolumeDown {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconVolumeDownFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconVolumeMute {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconVolumeMuteFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconVolumeNotice {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconVolumeNoticeFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconVolumeSmall {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconVolumeSmallFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconVolumeUp {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconVolumeUpFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconWallet {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconWaterfallsH {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconWaterfallsV {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconWavesLeft {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconWavesRight {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconWeiboFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconWeixinScanFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconWifi {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconWindowsFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconYoutubeFilled {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconZoomIn {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
+    }
+    interface IconZoomOut {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
         /**
           * 图标线条宽度
          */
         "strokeWidth"?: number;
     }
     interface IntrinsicElements {
-        "icon-add": IconAdd;
+        "icon-acoustic": IconAcoustic;
+        "icon-add-circle": IconAddCircle;
+        "icon-add-circle-filled": IconAddCircleFilled;
+        "icon-add-square": IconAddSquare;
+        "icon-add-square-filled": IconAddSquareFilled;
+        "icon-add-text": IconAddText;
+        "icon-align-text-both": IconAlignTextBoth;
+        "icon-align-text-center": IconAlignTextCenter;
+        "icon-align-text-left": IconAlignTextLeft;
+        "icon-align-text-middle": IconAlignTextMiddle;
+        "icon-align-text-right": IconAlignTextRight;
+        "icon-alipay": IconAlipay;
+        "icon-alphabetical-sorting-asc": IconAlphabeticalSortingAsc;
+        "icon-alphabetical-sorting-desc": IconAlphabeticalSortingDesc;
+        "icon-announcement": IconAnnouncement;
+        "icon-announcement-filled": IconAnnouncementFilled;
+        "icon-apple": IconApple;
+        "icon-arrow-down": IconArrowDown;
+        "icon-arrow-down-circle": IconArrowDownCircle;
+        "icon-arrow-left": IconArrowLeft;
+        "icon-arrow-left-circle": IconArrowLeftCircle;
+        "icon-arrow-right": IconArrowRight;
+        "icon-arrow-right-circle": IconArrowRightCircle;
+        "icon-arrow-up": IconArrowUp;
+        "icon-arrow-up-circle": IconArrowUpCircle;
+        "icon-at": IconAt;
+        "icon-attention-circle": IconAttentionCircle;
+        "icon-attention-circle-filled": IconAttentionCircleFilled;
+        "icon-auto-line-height": IconAutoLineHeight;
+        "icon-avatar": IconAvatar;
+        "icon-back": IconBack;
+        "icon-back-filled": IconBackFilled;
+        "icon-background-color": IconBackgroundColor;
+        "icon-backspace": IconBackspace;
+        "icon-bank-card": IconBankCard;
+        "icon-book": IconBook;
+        "icon-book-open": IconBookOpen;
+        "icon-bookmark": IconBookmark;
+        "icon-brightness": IconBrightness;
+        "icon-brightness-filled": IconBrightnessFilled;
+        "icon-browser-chrome": IconBrowserChrome;
+        "icon-browser-safari": IconBrowserSafari;
+        "icon-browser-safari-filled": IconBrowserSafariFilled;
+        "icon-calendar": IconCalendar;
+        "icon-calendar-filled": IconCalendarFilled;
+        "icon-camera": IconCamera;
+        "icon-camera-filled": IconCameraFilled;
+        "icon-caret-down": IconCaretDown;
+        "icon-caret-left": IconCaretLeft;
+        "icon-caret-right": IconCaretRight;
+        "icon-caret-up": IconCaretUp;
+        "icon-check": IconCheck;
+        "icon-check-circle": IconCheckCircle;
+        "icon-check-circle-filled": IconCheckCircleFilled;
+        "icon-clear-format": IconClearFormat;
+        "icon-clear-format-filled": IconClearFormatFilled;
+        "icon-close": IconClose;
+        "icon-close-circle": IconCloseCircle;
+        "icon-close-circle-filled": IconCloseCircleFilled;
+        "icon-close-remind": IconCloseRemind;
+        "icon-close-wifi": IconCloseWifi;
+        "icon-code": IconCode;
+        "icon-code-brackets": IconCodeBrackets;
+        "icon-collection-records": IconCollectionRecords;
+        "icon-communication": IconCommunication;
+        "icon-communication-filled": IconCommunicationFilled;
+        "icon-copy": IconCopy;
+        "icon-copy-filled": IconCopyFilled;
+        "icon-correct": IconCorrect;
+        "icon-currency": IconCurrency;
+        "icon-customer-service-filled": IconCustomerServiceFilled;
+        "icon-cutting": IconCutting;
+        "icon-damage-map": IconDamageMap;
         "icon-delete": IconDelete;
+        "icon-delete-filled": IconDeleteFilled;
+        "icon-dislike": IconDislike;
+        "icon-dot": IconDot;
+        "icon-double-down": IconDoubleDown;
+        "icon-double-down-circle": IconDoubleDownCircle;
+        "icon-double-left": IconDoubleLeft;
+        "icon-double-left-circle": IconDoubleLeftCircle;
+        "icon-double-right": IconDoubleRight;
+        "icon-double-right-circle": IconDoubleRightCircle;
+        "icon-double-up": IconDoubleUp;
+        "icon-double-up-circle": IconDoubleUpCircle;
+        "icon-down": IconDown;
+        "icon-down-circle": IconDownCircle;
+        "icon-down-square": IconDownSquare;
+        "icon-download": IconDownload;
+        "icon-download-cloud": IconDownloadCloud;
+        "icon-drop-down-list": IconDropDownList;
+        "icon-edit": IconEdit;
+        "icon-edit-file": IconEditFile;
+        "icon-edit-filled": IconEditFilled;
+        "icon-edit-name": IconEditName;
+        "icon-edit-square": IconEditSquare;
+        "icon-edit-square-filled": IconEditSquareFilled;
+        "icon-error": IconError;
+        "icon-expand-down": IconExpandDown;
+        "icon-eye": IconEye;
+        "icon-eye-filled": IconEyeFilled;
+        "icon-eye-slash": IconEyeSlash;
+        "icon-eyes": IconEyes;
+        "icon-eyes-close": IconEyesClose;
+        "icon-eyes-filled": IconEyesFilled;
+        "icon-facebook": IconFacebook;
+        "icon-facebook-square": IconFacebookSquare;
+        "icon-female": IconFemale;
+        "icon-filter": IconFilter;
+        "icon-filter-filled": IconFilterFilled;
+        "icon-finance": IconFinance;
+        "icon-find-list": IconFindList;
+        "icon-fingerprint": IconFingerprint;
+        "icon-fold-up": IconFoldUp;
+        "icon-folder-open": IconFolderOpen;
+        "icon-folder-open-filled": IconFolderOpenFilled;
+        "icon-folder-plus": IconFolderPlus;
+        "icon-folder-success": IconFolderSuccess;
+        "icon-font-size": IconFontSize;
+        "icon-forbid": IconForbid;
+        "icon-forbid-filled": IconForbidFilled;
+        "icon-friends-circle-filled": IconFriendsCircleFilled;
+        "icon-full-screen": IconFullScreen;
+        "icon-full-screen-play": IconFullScreenPlay;
+        "icon-full-screen-play-filled": IconFullScreenPlayFilled;
+        "icon-full-selection": IconFullSelection;
+        "icon-full-selection-filled": IconFullSelectionFilled;
+        "icon-github": IconGithub;
+        "icon-github-circle": IconGithubCircle;
+        "icon-gitlab-filled": IconGitlabFilled;
+        "icon-go-end": IconGoEnd;
+        "icon-go-on": IconGoOn;
+        "icon-go-start": IconGoStart;
+        "icon-google-filled": IconGoogleFilled;
+        "icon-h": IconH;
+        "icon-h1": IconH1;
+        "icon-h2": IconH2;
+        "icon-h3": IconH3;
+        "icon-h4": IconH4;
+        "icon-h5": IconH5;
+        "icon-h6": IconH6;
+        "icon-h7": IconH7;
+        "icon-h8": IconH8;
+        "icon-h9": IconH9;
+        "icon-harm": IconHarm;
+        "icon-harm-filled": IconHarmFilled;
+        "icon-help-circle": IconHelpCircle;
+        "icon-help-circle-filled": IconHelpCircleFilled;
+        "icon-help-square": IconHelpSquare;
+        "icon-help-square-filled": IconHelpSquareFilled;
+        "icon-history": IconHistory;
+        "icon-home": IconHome;
+        "icon-home-filled": IconHomeFilled;
+        "icon-html-five-filled": IconHtmlFiveFilled;
+        "icon-id-card-h": IconIdCardH;
+        "icon-indent-left": IconIndentLeft;
+        "icon-indent-right": IconIndentRight;
+        "icon-info-circle": IconInfoCircle;
+        "icon-info-circle-filled": IconInfoCircleFilled;
+        "icon-intersection": IconIntersection;
+        "icon-lark-filled": IconLarkFilled;
+        "icon-layers": IconLayers;
+        "icon-layers-filled": IconLayersFilled;
+        "icon-left": IconLeft;
+        "icon-left-circle": IconLeftCircle;
+        "icon-left-square": IconLeftSquare;
+        "icon-like": IconLike;
+        "icon-like-filled": IconLikeFilled;
+        "icon-link": IconLink;
+        "icon-list-add": IconListAdd;
+        "icon-list-alphabet": IconListAlphabet;
+        "icon-list-numbers": IconListNumbers;
+        "icon-loading": IconLoading;
+        "icon-loading-dot": IconLoadingDot;
+        "icon-local": IconLocal;
+        "icon-local-filled": IconLocalFilled;
+        "icon-location": IconLocation;
+        "icon-location-filled": IconLocationFilled;
+        "icon-lock": IconLock;
+        "icon-lock-filled": IconLockFilled;
+        "icon-log": IconLog;
+        "icon-loop-once": IconLoopOnce;
+        "icon-mail-open": IconMailOpen;
+        "icon-mail-open-filled": IconMailOpenFilled;
+        "icon-mail-review": IconMailReview;
+        "icon-male": IconMale;
+        "icon-map-draw": IconMapDraw;
+        "icon-map-draw-filled": IconMapDrawFilled;
+        "icon-message": IconMessage;
+        "icon-message-filled": IconMessageFilled;
+        "icon-message-unread": IconMessageUnread;
+        "icon-minus": IconMinus;
+        "icon-moon": IconMoon;
+        "icon-moon-filled": IconMoonFilled;
+        "icon-more": IconMore;
+        "icon-more-app": IconMoreApp;
+        "icon-more-app-filled": IconMoreAppFilled;
+        "icon-more-circle": IconMoreCircle;
+        "icon-more-circle-filled": IconMoreCircleFilled;
+        "icon-more-vertical": IconMoreVertical;
+        "icon-more-vertical-circle": IconMoreVerticalCircle;
+        "icon-more-vertical-circle-filled": IconMoreVerticalCircleFilled;
+        "icon-move": IconMove;
+        "icon-mp-weixin-circle-filled": IconMpWeixinCircleFilled;
+        "icon-music": IconMusic;
+        "icon-music-byte": IconMusicByte;
+        "icon-music-byte-filled": IconMusicByteFilled;
+        "icon-music-filled": IconMusicFilled;
+        "icon-music-list": IconMusicList;
+        "icon-mute": IconMute;
+        "icon-mute-filled": IconMuteFilled;
+        "icon-next": IconNext;
+        "icon-next-filled": IconNextFilled;
+        "icon-notebook-and-pen": IconNotebookAndPen;
+        "icon-notebook-and-pen-filled": IconNotebookAndPenFilled;
+        "icon-off-screen": IconOffScreen;
+        "icon-one-to-one": IconOneToOne;
+        "icon-pause": IconPause;
+        "icon-pause-circle": IconPauseCircle;
+        "icon-pause-circle-filled": IconPauseCircleFilled;
+        "icon-people": IconPeople;
+        "icon-people-filled": IconPeopleFilled;
+        "icon-people-minus-down": IconPeopleMinusDown;
+        "icon-people-minus-up": IconPeopleMinusUp;
+        "icon-people-plus-down": IconPeoplePlusDown;
+        "icon-people-plus-up": IconPeoplePlusUp;
+        "icon-peoples": IconPeoples;
+        "icon-percentage": IconPercentage;
+        "icon-performance": IconPerformance;
+        "icon-phone": IconPhone;
+        "icon-phone-call": IconPhoneCall;
+        "icon-phone-call-filled": IconPhoneCallFilled;
+        "icon-phone-filled": IconPhoneFilled;
+        "icon-pic-filled": IconPicFilled;
+        "icon-pie-circle": IconPieCircle;
+        "icon-play": IconPlay;
+        "icon-play-circle": IconPlayCircle;
+        "icon-play-circle-filled": IconPlayCircleFilled;
+        "icon-play-cycle": IconPlayCycle;
+        "icon-play-filled": IconPlayFilled;
+        "icon-play-once": IconPlayOnce;
+        "icon-plus": IconPlus;
+        "icon-plus-cross": IconPlusCross;
+        "icon-power": IconPower;
+        "icon-printer": IconPrinter;
+        "icon-protect": IconProtect;
+        "icon-protect-filled": IconProtectFilled;
+        "icon-qrcode": IconQrcode;
+        "icon-radio": IconRadio;
+        "icon-radio-filled": IconRadioFilled;
+        "icon-record-disc": IconRecordDisc;
+        "icon-redo-circle": IconRedoCircle;
+        "icon-reduce-circle": IconReduceCircle;
+        "icon-reduce-circle-filled": IconReduceCircleFilled;
+        "icon-reduce-square-filled": IconReduceSquareFilled;
+        "icon-refresh": IconRefresh;
+        "icon-remind": IconRemind;
+        "icon-remind-filled": IconRemindFilled;
+        "icon-return": IconReturn;
+        "icon-right": IconRight;
+        "icon-right-circle": IconRightCircle;
+        "icon-right-square": IconRightSquare;
+        "icon-round": IconRound;
+        "icon-round-filled": IconRoundFilled;
+        "icon-rss": IconRss;
+        "icon-scan-code": IconScanCode;
+        "icon-scanning": IconScanning;
+        "icon-screenshot": IconScreenshot;
+        "icon-screenshot-filled": IconScreenshotFilled;
+        "icon-search": IconSearch;
+        "icon-send": IconSend;
+        "icon-setting": IconSetting;
+        "icon-setting-config": IconSettingConfig;
+        "icon-setting-filled": IconSettingFilled;
+        "icon-settings": IconSettings;
+        "icon-settings-filled": IconSettingsFilled;
+        "icon-shake": IconShake;
+        "icon-share": IconShare;
+        "icon-share-filled": IconShareFilled;
+        "icon-shield-add": IconShieldAdd;
+        "icon-shield-add-filled": IconShieldAddFilled;
+        "icon-shopping-bag": IconShoppingBag;
+        "icon-shopping-bag-filled": IconShoppingBagFilled;
+        "icon-shopping-cart": IconShoppingCart;
+        "icon-shopping-cart-add": IconShoppingCartAdd;
+        "icon-shopping-cart-add-filled": IconShoppingCartAddFilled;
+        "icon-shopping-cart-del": IconShoppingCartDel;
+        "icon-shopping-cart-del-filled": IconShoppingCartDelFilled;
+        "icon-shopping-cart-filled": IconShoppingCartFilled;
+        "icon-small-check": IconSmallCheck;
+        "icon-small-close": IconSmallClose;
+        "icon-small-down": IconSmallDown;
+        "icon-small-left": IconSmallLeft;
+        "icon-small-right": IconSmallRight;
+        "icon-square": IconSquare;
+        "icon-star": IconStar;
+        "icon-star-filled": IconStarFilled;
+        "icon-sun": IconSun;
+        "icon-sun-filled": IconSunFilled;
+        "icon-switch-button": IconSwitchButton;
+        "icon-switch-button-filled": IconSwitchButtonFilled;
+        "icon-tag": IconTag;
+        "icon-taobao-circle": IconTaobaoCircle;
+        "icon-telegram": IconTelegram;
+        "icon-tencent-qq": IconTencentQq;
+        "icon-text-bold": IconTextBold;
+        "icon-text-italic": IconTextItalic;
+        "icon-text-style": IconTextStyle;
+        "icon-text-style-list": IconTextStyleList;
+        "icon-text-underline": IconTextUnderline;
+        "icon-thumbs-down": IconThumbsDown;
+        "icon-thumbs-down-r-filled": IconThumbsDownRFilled;
+        "icon-thumbs-up": IconThumbsUp;
+        "icon-thumbs-up-l-filled": IconThumbsUpLFilled;
+        "icon-tiktok-filled": IconTiktokFilled;
+        "icon-to-left": IconToLeft;
+        "icon-to-right": IconToRight;
+        "icon-to-top": IconToTop;
+        "icon-to-top-small": IconToTopSmall;
+        "icon-toutiao": IconToutiao;
+        "icon-translate": IconTranslate;
+        "icon-twitter-filled": IconTwitterFilled;
+        "icon-undo-circle": IconUndoCircle;
+        "icon-unlock": IconUnlock;
+        "icon-unlock-filled": IconUnlockFilled;
+        "icon-up": IconUp;
+        "icon-up-circle": IconUpCircle;
+        "icon-up-square": IconUpSquare;
+        "icon-upload": IconUpload;
+        "icon-upload-cloud": IconUploadCloud;
+        "icon-upload-logs": IconUploadLogs;
+        "icon-view-grid-card": IconViewGridCard;
+        "icon-view-grid-detail": IconViewGridDetail;
+        "icon-view-grid-list": IconViewGridList;
+        "icon-voice": IconVoice;
+        "icon-voice-filled": IconVoiceFilled;
+        "icon-voice-input": IconVoiceInput;
+        "icon-voice-input-filled": IconVoiceInputFilled;
+        "icon-voice-off": IconVoiceOff;
+        "icon-voice-play": IconVoicePlay;
+        "icon-volume-down": IconVolumeDown;
+        "icon-volume-down-filled": IconVolumeDownFilled;
+        "icon-volume-mute": IconVolumeMute;
+        "icon-volume-mute-filled": IconVolumeMuteFilled;
+        "icon-volume-notice": IconVolumeNotice;
+        "icon-volume-notice-filled": IconVolumeNoticeFilled;
+        "icon-volume-small": IconVolumeSmall;
+        "icon-volume-small-filled": IconVolumeSmallFilled;
+        "icon-volume-up": IconVolumeUp;
+        "icon-volume-up-filled": IconVolumeUpFilled;
+        "icon-wallet": IconWallet;
+        "icon-waterfalls-h": IconWaterfallsH;
+        "icon-waterfalls-v": IconWaterfallsV;
+        "icon-waves-left": IconWavesLeft;
+        "icon-waves-right": IconWavesRight;
+        "icon-weibo-filled": IconWeiboFilled;
+        "icon-weixin-scan-filled": IconWeixinScanFilled;
+        "icon-wifi": IconWifi;
+        "icon-windows-filled": IconWindowsFilled;
+        "icon-youtube-filled": IconYoutubeFilled;
+        "icon-zoom-in": IconZoomIn;
+        "icon-zoom-out": IconZoomOut;
     }
 }
 export { LocalJSX as JSX };
 declare module "@stencil/core" {
     export namespace JSX {
         interface IntrinsicElements {
-            "icon-add": LocalJSX.IconAdd & JSXBase.HTMLAttributes<HTMLIconAddElement>;
+            "icon-acoustic": LocalJSX.IconAcoustic & JSXBase.HTMLAttributes<HTMLIconAcousticElement>;
+            "icon-add-circle": LocalJSX.IconAddCircle & JSXBase.HTMLAttributes<HTMLIconAddCircleElement>;
+            "icon-add-circle-filled": LocalJSX.IconAddCircleFilled & JSXBase.HTMLAttributes<HTMLIconAddCircleFilledElement>;
+            "icon-add-square": LocalJSX.IconAddSquare & JSXBase.HTMLAttributes<HTMLIconAddSquareElement>;
+            "icon-add-square-filled": LocalJSX.IconAddSquareFilled & JSXBase.HTMLAttributes<HTMLIconAddSquareFilledElement>;
+            "icon-add-text": LocalJSX.IconAddText & JSXBase.HTMLAttributes<HTMLIconAddTextElement>;
+            "icon-align-text-both": LocalJSX.IconAlignTextBoth & JSXBase.HTMLAttributes<HTMLIconAlignTextBothElement>;
+            "icon-align-text-center": LocalJSX.IconAlignTextCenter & JSXBase.HTMLAttributes<HTMLIconAlignTextCenterElement>;
+            "icon-align-text-left": LocalJSX.IconAlignTextLeft & JSXBase.HTMLAttributes<HTMLIconAlignTextLeftElement>;
+            "icon-align-text-middle": LocalJSX.IconAlignTextMiddle & JSXBase.HTMLAttributes<HTMLIconAlignTextMiddleElement>;
+            "icon-align-text-right": LocalJSX.IconAlignTextRight & JSXBase.HTMLAttributes<HTMLIconAlignTextRightElement>;
+            "icon-alipay": LocalJSX.IconAlipay & JSXBase.HTMLAttributes<HTMLIconAlipayElement>;
+            "icon-alphabetical-sorting-asc": LocalJSX.IconAlphabeticalSortingAsc & JSXBase.HTMLAttributes<HTMLIconAlphabeticalSortingAscElement>;
+            "icon-alphabetical-sorting-desc": LocalJSX.IconAlphabeticalSortingDesc & JSXBase.HTMLAttributes<HTMLIconAlphabeticalSortingDescElement>;
+            "icon-announcement": LocalJSX.IconAnnouncement & JSXBase.HTMLAttributes<HTMLIconAnnouncementElement>;
+            "icon-announcement-filled": LocalJSX.IconAnnouncementFilled & JSXBase.HTMLAttributes<HTMLIconAnnouncementFilledElement>;
+            "icon-apple": LocalJSX.IconApple & JSXBase.HTMLAttributes<HTMLIconAppleElement>;
+            "icon-arrow-down": LocalJSX.IconArrowDown & JSXBase.HTMLAttributes<HTMLIconArrowDownElement>;
+            "icon-arrow-down-circle": LocalJSX.IconArrowDownCircle & JSXBase.HTMLAttributes<HTMLIconArrowDownCircleElement>;
+            "icon-arrow-left": LocalJSX.IconArrowLeft & JSXBase.HTMLAttributes<HTMLIconArrowLeftElement>;
+            "icon-arrow-left-circle": LocalJSX.IconArrowLeftCircle & JSXBase.HTMLAttributes<HTMLIconArrowLeftCircleElement>;
+            "icon-arrow-right": LocalJSX.IconArrowRight & JSXBase.HTMLAttributes<HTMLIconArrowRightElement>;
+            "icon-arrow-right-circle": LocalJSX.IconArrowRightCircle & JSXBase.HTMLAttributes<HTMLIconArrowRightCircleElement>;
+            "icon-arrow-up": LocalJSX.IconArrowUp & JSXBase.HTMLAttributes<HTMLIconArrowUpElement>;
+            "icon-arrow-up-circle": LocalJSX.IconArrowUpCircle & JSXBase.HTMLAttributes<HTMLIconArrowUpCircleElement>;
+            "icon-at": LocalJSX.IconAt & JSXBase.HTMLAttributes<HTMLIconAtElement>;
+            "icon-attention-circle": LocalJSX.IconAttentionCircle & JSXBase.HTMLAttributes<HTMLIconAttentionCircleElement>;
+            "icon-attention-circle-filled": LocalJSX.IconAttentionCircleFilled & JSXBase.HTMLAttributes<HTMLIconAttentionCircleFilledElement>;
+            "icon-auto-line-height": LocalJSX.IconAutoLineHeight & JSXBase.HTMLAttributes<HTMLIconAutoLineHeightElement>;
+            "icon-avatar": LocalJSX.IconAvatar & JSXBase.HTMLAttributes<HTMLIconAvatarElement>;
+            "icon-back": LocalJSX.IconBack & JSXBase.HTMLAttributes<HTMLIconBackElement>;
+            "icon-back-filled": LocalJSX.IconBackFilled & JSXBase.HTMLAttributes<HTMLIconBackFilledElement>;
+            "icon-background-color": LocalJSX.IconBackgroundColor & JSXBase.HTMLAttributes<HTMLIconBackgroundColorElement>;
+            "icon-backspace": LocalJSX.IconBackspace & JSXBase.HTMLAttributes<HTMLIconBackspaceElement>;
+            "icon-bank-card": LocalJSX.IconBankCard & JSXBase.HTMLAttributes<HTMLIconBankCardElement>;
+            "icon-book": LocalJSX.IconBook & JSXBase.HTMLAttributes<HTMLIconBookElement>;
+            "icon-book-open": LocalJSX.IconBookOpen & JSXBase.HTMLAttributes<HTMLIconBookOpenElement>;
+            "icon-bookmark": LocalJSX.IconBookmark & JSXBase.HTMLAttributes<HTMLIconBookmarkElement>;
+            "icon-brightness": LocalJSX.IconBrightness & JSXBase.HTMLAttributes<HTMLIconBrightnessElement>;
+            "icon-brightness-filled": LocalJSX.IconBrightnessFilled & JSXBase.HTMLAttributes<HTMLIconBrightnessFilledElement>;
+            "icon-browser-chrome": LocalJSX.IconBrowserChrome & JSXBase.HTMLAttributes<HTMLIconBrowserChromeElement>;
+            "icon-browser-safari": LocalJSX.IconBrowserSafari & JSXBase.HTMLAttributes<HTMLIconBrowserSafariElement>;
+            "icon-browser-safari-filled": LocalJSX.IconBrowserSafariFilled & JSXBase.HTMLAttributes<HTMLIconBrowserSafariFilledElement>;
+            "icon-calendar": LocalJSX.IconCalendar & JSXBase.HTMLAttributes<HTMLIconCalendarElement>;
+            "icon-calendar-filled": LocalJSX.IconCalendarFilled & JSXBase.HTMLAttributes<HTMLIconCalendarFilledElement>;
+            "icon-camera": LocalJSX.IconCamera & JSXBase.HTMLAttributes<HTMLIconCameraElement>;
+            "icon-camera-filled": LocalJSX.IconCameraFilled & JSXBase.HTMLAttributes<HTMLIconCameraFilledElement>;
+            "icon-caret-down": LocalJSX.IconCaretDown & JSXBase.HTMLAttributes<HTMLIconCaretDownElement>;
+            "icon-caret-left": LocalJSX.IconCaretLeft & JSXBase.HTMLAttributes<HTMLIconCaretLeftElement>;
+            "icon-caret-right": LocalJSX.IconCaretRight & JSXBase.HTMLAttributes<HTMLIconCaretRightElement>;
+            "icon-caret-up": LocalJSX.IconCaretUp & JSXBase.HTMLAttributes<HTMLIconCaretUpElement>;
+            "icon-check": LocalJSX.IconCheck & JSXBase.HTMLAttributes<HTMLIconCheckElement>;
+            "icon-check-circle": LocalJSX.IconCheckCircle & JSXBase.HTMLAttributes<HTMLIconCheckCircleElement>;
+            "icon-check-circle-filled": LocalJSX.IconCheckCircleFilled & JSXBase.HTMLAttributes<HTMLIconCheckCircleFilledElement>;
+            "icon-clear-format": LocalJSX.IconClearFormat & JSXBase.HTMLAttributes<HTMLIconClearFormatElement>;
+            "icon-clear-format-filled": LocalJSX.IconClearFormatFilled & JSXBase.HTMLAttributes<HTMLIconClearFormatFilledElement>;
+            "icon-close": LocalJSX.IconClose & JSXBase.HTMLAttributes<HTMLIconCloseElement>;
+            "icon-close-circle": LocalJSX.IconCloseCircle & JSXBase.HTMLAttributes<HTMLIconCloseCircleElement>;
+            "icon-close-circle-filled": LocalJSX.IconCloseCircleFilled & JSXBase.HTMLAttributes<HTMLIconCloseCircleFilledElement>;
+            "icon-close-remind": LocalJSX.IconCloseRemind & JSXBase.HTMLAttributes<HTMLIconCloseRemindElement>;
+            "icon-close-wifi": LocalJSX.IconCloseWifi & JSXBase.HTMLAttributes<HTMLIconCloseWifiElement>;
+            "icon-code": LocalJSX.IconCode & JSXBase.HTMLAttributes<HTMLIconCodeElement>;
+            "icon-code-brackets": LocalJSX.IconCodeBrackets & JSXBase.HTMLAttributes<HTMLIconCodeBracketsElement>;
+            "icon-collection-records": LocalJSX.IconCollectionRecords & JSXBase.HTMLAttributes<HTMLIconCollectionRecordsElement>;
+            "icon-communication": LocalJSX.IconCommunication & JSXBase.HTMLAttributes<HTMLIconCommunicationElement>;
+            "icon-communication-filled": LocalJSX.IconCommunicationFilled & JSXBase.HTMLAttributes<HTMLIconCommunicationFilledElement>;
+            "icon-copy": LocalJSX.IconCopy & JSXBase.HTMLAttributes<HTMLIconCopyElement>;
+            "icon-copy-filled": LocalJSX.IconCopyFilled & JSXBase.HTMLAttributes<HTMLIconCopyFilledElement>;
+            "icon-correct": LocalJSX.IconCorrect & JSXBase.HTMLAttributes<HTMLIconCorrectElement>;
+            "icon-currency": LocalJSX.IconCurrency & JSXBase.HTMLAttributes<HTMLIconCurrencyElement>;
+            "icon-customer-service-filled": LocalJSX.IconCustomerServiceFilled & JSXBase.HTMLAttributes<HTMLIconCustomerServiceFilledElement>;
+            "icon-cutting": LocalJSX.IconCutting & JSXBase.HTMLAttributes<HTMLIconCuttingElement>;
+            "icon-damage-map": LocalJSX.IconDamageMap & JSXBase.HTMLAttributes<HTMLIconDamageMapElement>;
             "icon-delete": LocalJSX.IconDelete & JSXBase.HTMLAttributes<HTMLIconDeleteElement>;
+            "icon-delete-filled": LocalJSX.IconDeleteFilled & JSXBase.HTMLAttributes<HTMLIconDeleteFilledElement>;
+            "icon-dislike": LocalJSX.IconDislike & JSXBase.HTMLAttributes<HTMLIconDislikeElement>;
+            "icon-dot": LocalJSX.IconDot & JSXBase.HTMLAttributes<HTMLIconDotElement>;
+            "icon-double-down": LocalJSX.IconDoubleDown & JSXBase.HTMLAttributes<HTMLIconDoubleDownElement>;
+            "icon-double-down-circle": LocalJSX.IconDoubleDownCircle & JSXBase.HTMLAttributes<HTMLIconDoubleDownCircleElement>;
+            "icon-double-left": LocalJSX.IconDoubleLeft & JSXBase.HTMLAttributes<HTMLIconDoubleLeftElement>;
+            "icon-double-left-circle": LocalJSX.IconDoubleLeftCircle & JSXBase.HTMLAttributes<HTMLIconDoubleLeftCircleElement>;
+            "icon-double-right": LocalJSX.IconDoubleRight & JSXBase.HTMLAttributes<HTMLIconDoubleRightElement>;
+            "icon-double-right-circle": LocalJSX.IconDoubleRightCircle & JSXBase.HTMLAttributes<HTMLIconDoubleRightCircleElement>;
+            "icon-double-up": LocalJSX.IconDoubleUp & JSXBase.HTMLAttributes<HTMLIconDoubleUpElement>;
+            "icon-double-up-circle": LocalJSX.IconDoubleUpCircle & JSXBase.HTMLAttributes<HTMLIconDoubleUpCircleElement>;
+            "icon-down": LocalJSX.IconDown & JSXBase.HTMLAttributes<HTMLIconDownElement>;
+            "icon-down-circle": LocalJSX.IconDownCircle & JSXBase.HTMLAttributes<HTMLIconDownCircleElement>;
+            "icon-down-square": LocalJSX.IconDownSquare & JSXBase.HTMLAttributes<HTMLIconDownSquareElement>;
+            "icon-download": LocalJSX.IconDownload & JSXBase.HTMLAttributes<HTMLIconDownloadElement>;
+            "icon-download-cloud": LocalJSX.IconDownloadCloud & JSXBase.HTMLAttributes<HTMLIconDownloadCloudElement>;
+            "icon-drop-down-list": LocalJSX.IconDropDownList & JSXBase.HTMLAttributes<HTMLIconDropDownListElement>;
+            "icon-edit": LocalJSX.IconEdit & JSXBase.HTMLAttributes<HTMLIconEditElement>;
+            "icon-edit-file": LocalJSX.IconEditFile & JSXBase.HTMLAttributes<HTMLIconEditFileElement>;
+            "icon-edit-filled": LocalJSX.IconEditFilled & JSXBase.HTMLAttributes<HTMLIconEditFilledElement>;
+            "icon-edit-name": LocalJSX.IconEditName & JSXBase.HTMLAttributes<HTMLIconEditNameElement>;
+            "icon-edit-square": LocalJSX.IconEditSquare & JSXBase.HTMLAttributes<HTMLIconEditSquareElement>;
+            "icon-edit-square-filled": LocalJSX.IconEditSquareFilled & JSXBase.HTMLAttributes<HTMLIconEditSquareFilledElement>;
+            "icon-error": LocalJSX.IconError & JSXBase.HTMLAttributes<HTMLIconErrorElement>;
+            "icon-expand-down": LocalJSX.IconExpandDown & JSXBase.HTMLAttributes<HTMLIconExpandDownElement>;
+            "icon-eye": LocalJSX.IconEye & JSXBase.HTMLAttributes<HTMLIconEyeElement>;
+            "icon-eye-filled": LocalJSX.IconEyeFilled & JSXBase.HTMLAttributes<HTMLIconEyeFilledElement>;
+            "icon-eye-slash": LocalJSX.IconEyeSlash & JSXBase.HTMLAttributes<HTMLIconEyeSlashElement>;
+            "icon-eyes": LocalJSX.IconEyes & JSXBase.HTMLAttributes<HTMLIconEyesElement>;
+            "icon-eyes-close": LocalJSX.IconEyesClose & JSXBase.HTMLAttributes<HTMLIconEyesCloseElement>;
+            "icon-eyes-filled": LocalJSX.IconEyesFilled & JSXBase.HTMLAttributes<HTMLIconEyesFilledElement>;
+            "icon-facebook": LocalJSX.IconFacebook & JSXBase.HTMLAttributes<HTMLIconFacebookElement>;
+            "icon-facebook-square": LocalJSX.IconFacebookSquare & JSXBase.HTMLAttributes<HTMLIconFacebookSquareElement>;
+            "icon-female": LocalJSX.IconFemale & JSXBase.HTMLAttributes<HTMLIconFemaleElement>;
+            "icon-filter": LocalJSX.IconFilter & JSXBase.HTMLAttributes<HTMLIconFilterElement>;
+            "icon-filter-filled": LocalJSX.IconFilterFilled & JSXBase.HTMLAttributes<HTMLIconFilterFilledElement>;
+            "icon-finance": LocalJSX.IconFinance & JSXBase.HTMLAttributes<HTMLIconFinanceElement>;
+            "icon-find-list": LocalJSX.IconFindList & JSXBase.HTMLAttributes<HTMLIconFindListElement>;
+            "icon-fingerprint": LocalJSX.IconFingerprint & JSXBase.HTMLAttributes<HTMLIconFingerprintElement>;
+            "icon-fold-up": LocalJSX.IconFoldUp & JSXBase.HTMLAttributes<HTMLIconFoldUpElement>;
+            "icon-folder-open": LocalJSX.IconFolderOpen & JSXBase.HTMLAttributes<HTMLIconFolderOpenElement>;
+            "icon-folder-open-filled": LocalJSX.IconFolderOpenFilled & JSXBase.HTMLAttributes<HTMLIconFolderOpenFilledElement>;
+            "icon-folder-plus": LocalJSX.IconFolderPlus & JSXBase.HTMLAttributes<HTMLIconFolderPlusElement>;
+            "icon-folder-success": LocalJSX.IconFolderSuccess & JSXBase.HTMLAttributes<HTMLIconFolderSuccessElement>;
+            "icon-font-size": LocalJSX.IconFontSize & JSXBase.HTMLAttributes<HTMLIconFontSizeElement>;
+            "icon-forbid": LocalJSX.IconForbid & JSXBase.HTMLAttributes<HTMLIconForbidElement>;
+            "icon-forbid-filled": LocalJSX.IconForbidFilled & JSXBase.HTMLAttributes<HTMLIconForbidFilledElement>;
+            "icon-friends-circle-filled": LocalJSX.IconFriendsCircleFilled & JSXBase.HTMLAttributes<HTMLIconFriendsCircleFilledElement>;
+            "icon-full-screen": LocalJSX.IconFullScreen & JSXBase.HTMLAttributes<HTMLIconFullScreenElement>;
+            "icon-full-screen-play": LocalJSX.IconFullScreenPlay & JSXBase.HTMLAttributes<HTMLIconFullScreenPlayElement>;
+            "icon-full-screen-play-filled": LocalJSX.IconFullScreenPlayFilled & JSXBase.HTMLAttributes<HTMLIconFullScreenPlayFilledElement>;
+            "icon-full-selection": LocalJSX.IconFullSelection & JSXBase.HTMLAttributes<HTMLIconFullSelectionElement>;
+            "icon-full-selection-filled": LocalJSX.IconFullSelectionFilled & JSXBase.HTMLAttributes<HTMLIconFullSelectionFilledElement>;
+            "icon-github": LocalJSX.IconGithub & JSXBase.HTMLAttributes<HTMLIconGithubElement>;
+            "icon-github-circle": LocalJSX.IconGithubCircle & JSXBase.HTMLAttributes<HTMLIconGithubCircleElement>;
+            "icon-gitlab-filled": LocalJSX.IconGitlabFilled & JSXBase.HTMLAttributes<HTMLIconGitlabFilledElement>;
+            "icon-go-end": LocalJSX.IconGoEnd & JSXBase.HTMLAttributes<HTMLIconGoEndElement>;
+            "icon-go-on": LocalJSX.IconGoOn & JSXBase.HTMLAttributes<HTMLIconGoOnElement>;
+            "icon-go-start": LocalJSX.IconGoStart & JSXBase.HTMLAttributes<HTMLIconGoStartElement>;
+            "icon-google-filled": LocalJSX.IconGoogleFilled & JSXBase.HTMLAttributes<HTMLIconGoogleFilledElement>;
+            "icon-h": LocalJSX.IconH & JSXBase.HTMLAttributes<HTMLIconHElement>;
+            "icon-h1": LocalJSX.IconH1 & JSXBase.HTMLAttributes<HTMLIconH1Element>;
+            "icon-h2": LocalJSX.IconH2 & JSXBase.HTMLAttributes<HTMLIconH2Element>;
+            "icon-h3": LocalJSX.IconH3 & JSXBase.HTMLAttributes<HTMLIconH3Element>;
+            "icon-h4": LocalJSX.IconH4 & JSXBase.HTMLAttributes<HTMLIconH4Element>;
+            "icon-h5": LocalJSX.IconH5 & JSXBase.HTMLAttributes<HTMLIconH5Element>;
+            "icon-h6": LocalJSX.IconH6 & JSXBase.HTMLAttributes<HTMLIconH6Element>;
+            "icon-h7": LocalJSX.IconH7 & JSXBase.HTMLAttributes<HTMLIconH7Element>;
+            "icon-h8": LocalJSX.IconH8 & JSXBase.HTMLAttributes<HTMLIconH8Element>;
+            "icon-h9": LocalJSX.IconH9 & JSXBase.HTMLAttributes<HTMLIconH9Element>;
+            "icon-harm": LocalJSX.IconHarm & JSXBase.HTMLAttributes<HTMLIconHarmElement>;
+            "icon-harm-filled": LocalJSX.IconHarmFilled & JSXBase.HTMLAttributes<HTMLIconHarmFilledElement>;
+            "icon-help-circle": LocalJSX.IconHelpCircle & JSXBase.HTMLAttributes<HTMLIconHelpCircleElement>;
+            "icon-help-circle-filled": LocalJSX.IconHelpCircleFilled & JSXBase.HTMLAttributes<HTMLIconHelpCircleFilledElement>;
+            "icon-help-square": LocalJSX.IconHelpSquare & JSXBase.HTMLAttributes<HTMLIconHelpSquareElement>;
+            "icon-help-square-filled": LocalJSX.IconHelpSquareFilled & JSXBase.HTMLAttributes<HTMLIconHelpSquareFilledElement>;
+            "icon-history": LocalJSX.IconHistory & JSXBase.HTMLAttributes<HTMLIconHistoryElement>;
+            "icon-home": LocalJSX.IconHome & JSXBase.HTMLAttributes<HTMLIconHomeElement>;
+            "icon-home-filled": LocalJSX.IconHomeFilled & JSXBase.HTMLAttributes<HTMLIconHomeFilledElement>;
+            "icon-html-five-filled": LocalJSX.IconHtmlFiveFilled & JSXBase.HTMLAttributes<HTMLIconHtmlFiveFilledElement>;
+            "icon-id-card-h": LocalJSX.IconIdCardH & JSXBase.HTMLAttributes<HTMLIconIdCardHElement>;
+            "icon-indent-left": LocalJSX.IconIndentLeft & JSXBase.HTMLAttributes<HTMLIconIndentLeftElement>;
+            "icon-indent-right": LocalJSX.IconIndentRight & JSXBase.HTMLAttributes<HTMLIconIndentRightElement>;
+            "icon-info-circle": LocalJSX.IconInfoCircle & JSXBase.HTMLAttributes<HTMLIconInfoCircleElement>;
+            "icon-info-circle-filled": LocalJSX.IconInfoCircleFilled & JSXBase.HTMLAttributes<HTMLIconInfoCircleFilledElement>;
+            "icon-intersection": LocalJSX.IconIntersection & JSXBase.HTMLAttributes<HTMLIconIntersectionElement>;
+            "icon-lark-filled": LocalJSX.IconLarkFilled & JSXBase.HTMLAttributes<HTMLIconLarkFilledElement>;
+            "icon-layers": LocalJSX.IconLayers & JSXBase.HTMLAttributes<HTMLIconLayersElement>;
+            "icon-layers-filled": LocalJSX.IconLayersFilled & JSXBase.HTMLAttributes<HTMLIconLayersFilledElement>;
+            "icon-left": LocalJSX.IconLeft & JSXBase.HTMLAttributes<HTMLIconLeftElement>;
+            "icon-left-circle": LocalJSX.IconLeftCircle & JSXBase.HTMLAttributes<HTMLIconLeftCircleElement>;
+            "icon-left-square": LocalJSX.IconLeftSquare & JSXBase.HTMLAttributes<HTMLIconLeftSquareElement>;
+            "icon-like": LocalJSX.IconLike & JSXBase.HTMLAttributes<HTMLIconLikeElement>;
+            "icon-like-filled": LocalJSX.IconLikeFilled & JSXBase.HTMLAttributes<HTMLIconLikeFilledElement>;
+            "icon-link": LocalJSX.IconLink & JSXBase.HTMLAttributes<HTMLIconLinkElement>;
+            "icon-list-add": LocalJSX.IconListAdd & JSXBase.HTMLAttributes<HTMLIconListAddElement>;
+            "icon-list-alphabet": LocalJSX.IconListAlphabet & JSXBase.HTMLAttributes<HTMLIconListAlphabetElement>;
+            "icon-list-numbers": LocalJSX.IconListNumbers & JSXBase.HTMLAttributes<HTMLIconListNumbersElement>;
+            "icon-loading": LocalJSX.IconLoading & JSXBase.HTMLAttributes<HTMLIconLoadingElement>;
+            "icon-loading-dot": LocalJSX.IconLoadingDot & JSXBase.HTMLAttributes<HTMLIconLoadingDotElement>;
+            "icon-local": LocalJSX.IconLocal & JSXBase.HTMLAttributes<HTMLIconLocalElement>;
+            "icon-local-filled": LocalJSX.IconLocalFilled & JSXBase.HTMLAttributes<HTMLIconLocalFilledElement>;
+            "icon-location": LocalJSX.IconLocation & JSXBase.HTMLAttributes<HTMLIconLocationElement>;
+            "icon-location-filled": LocalJSX.IconLocationFilled & JSXBase.HTMLAttributes<HTMLIconLocationFilledElement>;
+            "icon-lock": LocalJSX.IconLock & JSXBase.HTMLAttributes<HTMLIconLockElement>;
+            "icon-lock-filled": LocalJSX.IconLockFilled & JSXBase.HTMLAttributes<HTMLIconLockFilledElement>;
+            "icon-log": LocalJSX.IconLog & JSXBase.HTMLAttributes<HTMLIconLogElement>;
+            "icon-loop-once": LocalJSX.IconLoopOnce & JSXBase.HTMLAttributes<HTMLIconLoopOnceElement>;
+            "icon-mail-open": LocalJSX.IconMailOpen & JSXBase.HTMLAttributes<HTMLIconMailOpenElement>;
+            "icon-mail-open-filled": LocalJSX.IconMailOpenFilled & JSXBase.HTMLAttributes<HTMLIconMailOpenFilledElement>;
+            "icon-mail-review": LocalJSX.IconMailReview & JSXBase.HTMLAttributes<HTMLIconMailReviewElement>;
+            "icon-male": LocalJSX.IconMale & JSXBase.HTMLAttributes<HTMLIconMaleElement>;
+            "icon-map-draw": LocalJSX.IconMapDraw & JSXBase.HTMLAttributes<HTMLIconMapDrawElement>;
+            "icon-map-draw-filled": LocalJSX.IconMapDrawFilled & JSXBase.HTMLAttributes<HTMLIconMapDrawFilledElement>;
+            "icon-message": LocalJSX.IconMessage & JSXBase.HTMLAttributes<HTMLIconMessageElement>;
+            "icon-message-filled": LocalJSX.IconMessageFilled & JSXBase.HTMLAttributes<HTMLIconMessageFilledElement>;
+            "icon-message-unread": LocalJSX.IconMessageUnread & JSXBase.HTMLAttributes<HTMLIconMessageUnreadElement>;
+            "icon-minus": LocalJSX.IconMinus & JSXBase.HTMLAttributes<HTMLIconMinusElement>;
+            "icon-moon": LocalJSX.IconMoon & JSXBase.HTMLAttributes<HTMLIconMoonElement>;
+            "icon-moon-filled": LocalJSX.IconMoonFilled & JSXBase.HTMLAttributes<HTMLIconMoonFilledElement>;
+            "icon-more": LocalJSX.IconMore & JSXBase.HTMLAttributes<HTMLIconMoreElement>;
+            "icon-more-app": LocalJSX.IconMoreApp & JSXBase.HTMLAttributes<HTMLIconMoreAppElement>;
+            "icon-more-app-filled": LocalJSX.IconMoreAppFilled & JSXBase.HTMLAttributes<HTMLIconMoreAppFilledElement>;
+            "icon-more-circle": LocalJSX.IconMoreCircle & JSXBase.HTMLAttributes<HTMLIconMoreCircleElement>;
+            "icon-more-circle-filled": LocalJSX.IconMoreCircleFilled & JSXBase.HTMLAttributes<HTMLIconMoreCircleFilledElement>;
+            "icon-more-vertical": LocalJSX.IconMoreVertical & JSXBase.HTMLAttributes<HTMLIconMoreVerticalElement>;
+            "icon-more-vertical-circle": LocalJSX.IconMoreVerticalCircle & JSXBase.HTMLAttributes<HTMLIconMoreVerticalCircleElement>;
+            "icon-more-vertical-circle-filled": LocalJSX.IconMoreVerticalCircleFilled & JSXBase.HTMLAttributes<HTMLIconMoreVerticalCircleFilledElement>;
+            "icon-move": LocalJSX.IconMove & JSXBase.HTMLAttributes<HTMLIconMoveElement>;
+            "icon-mp-weixin-circle-filled": LocalJSX.IconMpWeixinCircleFilled & JSXBase.HTMLAttributes<HTMLIconMpWeixinCircleFilledElement>;
+            "icon-music": LocalJSX.IconMusic & JSXBase.HTMLAttributes<HTMLIconMusicElement>;
+            "icon-music-byte": LocalJSX.IconMusicByte & JSXBase.HTMLAttributes<HTMLIconMusicByteElement>;
+            "icon-music-byte-filled": LocalJSX.IconMusicByteFilled & JSXBase.HTMLAttributes<HTMLIconMusicByteFilledElement>;
+            "icon-music-filled": LocalJSX.IconMusicFilled & JSXBase.HTMLAttributes<HTMLIconMusicFilledElement>;
+            "icon-music-list": LocalJSX.IconMusicList & JSXBase.HTMLAttributes<HTMLIconMusicListElement>;
+            "icon-mute": LocalJSX.IconMute & JSXBase.HTMLAttributes<HTMLIconMuteElement>;
+            "icon-mute-filled": LocalJSX.IconMuteFilled & JSXBase.HTMLAttributes<HTMLIconMuteFilledElement>;
+            "icon-next": LocalJSX.IconNext & JSXBase.HTMLAttributes<HTMLIconNextElement>;
+            "icon-next-filled": LocalJSX.IconNextFilled & JSXBase.HTMLAttributes<HTMLIconNextFilledElement>;
+            "icon-notebook-and-pen": LocalJSX.IconNotebookAndPen & JSXBase.HTMLAttributes<HTMLIconNotebookAndPenElement>;
+            "icon-notebook-and-pen-filled": LocalJSX.IconNotebookAndPenFilled & JSXBase.HTMLAttributes<HTMLIconNotebookAndPenFilledElement>;
+            "icon-off-screen": LocalJSX.IconOffScreen & JSXBase.HTMLAttributes<HTMLIconOffScreenElement>;
+            "icon-one-to-one": LocalJSX.IconOneToOne & JSXBase.HTMLAttributes<HTMLIconOneToOneElement>;
+            "icon-pause": LocalJSX.IconPause & JSXBase.HTMLAttributes<HTMLIconPauseElement>;
+            "icon-pause-circle": LocalJSX.IconPauseCircle & JSXBase.HTMLAttributes<HTMLIconPauseCircleElement>;
+            "icon-pause-circle-filled": LocalJSX.IconPauseCircleFilled & JSXBase.HTMLAttributes<HTMLIconPauseCircleFilledElement>;
+            "icon-people": LocalJSX.IconPeople & JSXBase.HTMLAttributes<HTMLIconPeopleElement>;
+            "icon-people-filled": LocalJSX.IconPeopleFilled & JSXBase.HTMLAttributes<HTMLIconPeopleFilledElement>;
+            "icon-people-minus-down": LocalJSX.IconPeopleMinusDown & JSXBase.HTMLAttributes<HTMLIconPeopleMinusDownElement>;
+            "icon-people-minus-up": LocalJSX.IconPeopleMinusUp & JSXBase.HTMLAttributes<HTMLIconPeopleMinusUpElement>;
+            "icon-people-plus-down": LocalJSX.IconPeoplePlusDown & JSXBase.HTMLAttributes<HTMLIconPeoplePlusDownElement>;
+            "icon-people-plus-up": LocalJSX.IconPeoplePlusUp & JSXBase.HTMLAttributes<HTMLIconPeoplePlusUpElement>;
+            "icon-peoples": LocalJSX.IconPeoples & JSXBase.HTMLAttributes<HTMLIconPeoplesElement>;
+            "icon-percentage": LocalJSX.IconPercentage & JSXBase.HTMLAttributes<HTMLIconPercentageElement>;
+            "icon-performance": LocalJSX.IconPerformance & JSXBase.HTMLAttributes<HTMLIconPerformanceElement>;
+            "icon-phone": LocalJSX.IconPhone & JSXBase.HTMLAttributes<HTMLIconPhoneElement>;
+            "icon-phone-call": LocalJSX.IconPhoneCall & JSXBase.HTMLAttributes<HTMLIconPhoneCallElement>;
+            "icon-phone-call-filled": LocalJSX.IconPhoneCallFilled & JSXBase.HTMLAttributes<HTMLIconPhoneCallFilledElement>;
+            "icon-phone-filled": LocalJSX.IconPhoneFilled & JSXBase.HTMLAttributes<HTMLIconPhoneFilledElement>;
+            "icon-pic-filled": LocalJSX.IconPicFilled & JSXBase.HTMLAttributes<HTMLIconPicFilledElement>;
+            "icon-pie-circle": LocalJSX.IconPieCircle & JSXBase.HTMLAttributes<HTMLIconPieCircleElement>;
+            "icon-play": LocalJSX.IconPlay & JSXBase.HTMLAttributes<HTMLIconPlayElement>;
+            "icon-play-circle": LocalJSX.IconPlayCircle & JSXBase.HTMLAttributes<HTMLIconPlayCircleElement>;
+            "icon-play-circle-filled": LocalJSX.IconPlayCircleFilled & JSXBase.HTMLAttributes<HTMLIconPlayCircleFilledElement>;
+            "icon-play-cycle": LocalJSX.IconPlayCycle & JSXBase.HTMLAttributes<HTMLIconPlayCycleElement>;
+            "icon-play-filled": LocalJSX.IconPlayFilled & JSXBase.HTMLAttributes<HTMLIconPlayFilledElement>;
+            "icon-play-once": LocalJSX.IconPlayOnce & JSXBase.HTMLAttributes<HTMLIconPlayOnceElement>;
+            "icon-plus": LocalJSX.IconPlus & JSXBase.HTMLAttributes<HTMLIconPlusElement>;
+            "icon-plus-cross": LocalJSX.IconPlusCross & JSXBase.HTMLAttributes<HTMLIconPlusCrossElement>;
+            "icon-power": LocalJSX.IconPower & JSXBase.HTMLAttributes<HTMLIconPowerElement>;
+            "icon-printer": LocalJSX.IconPrinter & JSXBase.HTMLAttributes<HTMLIconPrinterElement>;
+            "icon-protect": LocalJSX.IconProtect & JSXBase.HTMLAttributes<HTMLIconProtectElement>;
+            "icon-protect-filled": LocalJSX.IconProtectFilled & JSXBase.HTMLAttributes<HTMLIconProtectFilledElement>;
+            "icon-qrcode": LocalJSX.IconQrcode & JSXBase.HTMLAttributes<HTMLIconQrcodeElement>;
+            "icon-radio": LocalJSX.IconRadio & JSXBase.HTMLAttributes<HTMLIconRadioElement>;
+            "icon-radio-filled": LocalJSX.IconRadioFilled & JSXBase.HTMLAttributes<HTMLIconRadioFilledElement>;
+            "icon-record-disc": LocalJSX.IconRecordDisc & JSXBase.HTMLAttributes<HTMLIconRecordDiscElement>;
+            "icon-redo-circle": LocalJSX.IconRedoCircle & JSXBase.HTMLAttributes<HTMLIconRedoCircleElement>;
+            "icon-reduce-circle": LocalJSX.IconReduceCircle & JSXBase.HTMLAttributes<HTMLIconReduceCircleElement>;
+            "icon-reduce-circle-filled": LocalJSX.IconReduceCircleFilled & JSXBase.HTMLAttributes<HTMLIconReduceCircleFilledElement>;
+            "icon-reduce-square-filled": LocalJSX.IconReduceSquareFilled & JSXBase.HTMLAttributes<HTMLIconReduceSquareFilledElement>;
+            "icon-refresh": LocalJSX.IconRefresh & JSXBase.HTMLAttributes<HTMLIconRefreshElement>;
+            "icon-remind": LocalJSX.IconRemind & JSXBase.HTMLAttributes<HTMLIconRemindElement>;
+            "icon-remind-filled": LocalJSX.IconRemindFilled & JSXBase.HTMLAttributes<HTMLIconRemindFilledElement>;
+            "icon-return": LocalJSX.IconReturn & JSXBase.HTMLAttributes<HTMLIconReturnElement>;
+            "icon-right": LocalJSX.IconRight & JSXBase.HTMLAttributes<HTMLIconRightElement>;
+            "icon-right-circle": LocalJSX.IconRightCircle & JSXBase.HTMLAttributes<HTMLIconRightCircleElement>;
+            "icon-right-square": LocalJSX.IconRightSquare & JSXBase.HTMLAttributes<HTMLIconRightSquareElement>;
+            "icon-round": LocalJSX.IconRound & JSXBase.HTMLAttributes<HTMLIconRoundElement>;
+            "icon-round-filled": LocalJSX.IconRoundFilled & JSXBase.HTMLAttributes<HTMLIconRoundFilledElement>;
+            "icon-rss": LocalJSX.IconRss & JSXBase.HTMLAttributes<HTMLIconRssElement>;
+            "icon-scan-code": LocalJSX.IconScanCode & JSXBase.HTMLAttributes<HTMLIconScanCodeElement>;
+            "icon-scanning": LocalJSX.IconScanning & JSXBase.HTMLAttributes<HTMLIconScanningElement>;
+            "icon-screenshot": LocalJSX.IconScreenshot & JSXBase.HTMLAttributes<HTMLIconScreenshotElement>;
+            "icon-screenshot-filled": LocalJSX.IconScreenshotFilled & JSXBase.HTMLAttributes<HTMLIconScreenshotFilledElement>;
+            "icon-search": LocalJSX.IconSearch & JSXBase.HTMLAttributes<HTMLIconSearchElement>;
+            "icon-send": LocalJSX.IconSend & JSXBase.HTMLAttributes<HTMLIconSendElement>;
+            "icon-setting": LocalJSX.IconSetting & JSXBase.HTMLAttributes<HTMLIconSettingElement>;
+            "icon-setting-config": LocalJSX.IconSettingConfig & JSXBase.HTMLAttributes<HTMLIconSettingConfigElement>;
+            "icon-setting-filled": LocalJSX.IconSettingFilled & JSXBase.HTMLAttributes<HTMLIconSettingFilledElement>;
+            "icon-settings": LocalJSX.IconSettings & JSXBase.HTMLAttributes<HTMLIconSettingsElement>;
+            "icon-settings-filled": LocalJSX.IconSettingsFilled & JSXBase.HTMLAttributes<HTMLIconSettingsFilledElement>;
+            "icon-shake": LocalJSX.IconShake & JSXBase.HTMLAttributes<HTMLIconShakeElement>;
+            "icon-share": LocalJSX.IconShare & JSXBase.HTMLAttributes<HTMLIconShareElement>;
+            "icon-share-filled": LocalJSX.IconShareFilled & JSXBase.HTMLAttributes<HTMLIconShareFilledElement>;
+            "icon-shield-add": LocalJSX.IconShieldAdd & JSXBase.HTMLAttributes<HTMLIconShieldAddElement>;
+            "icon-shield-add-filled": LocalJSX.IconShieldAddFilled & JSXBase.HTMLAttributes<HTMLIconShieldAddFilledElement>;
+            "icon-shopping-bag": LocalJSX.IconShoppingBag & JSXBase.HTMLAttributes<HTMLIconShoppingBagElement>;
+            "icon-shopping-bag-filled": LocalJSX.IconShoppingBagFilled & JSXBase.HTMLAttributes<HTMLIconShoppingBagFilledElement>;
+            "icon-shopping-cart": LocalJSX.IconShoppingCart & JSXBase.HTMLAttributes<HTMLIconShoppingCartElement>;
+            "icon-shopping-cart-add": LocalJSX.IconShoppingCartAdd & JSXBase.HTMLAttributes<HTMLIconShoppingCartAddElement>;
+            "icon-shopping-cart-add-filled": LocalJSX.IconShoppingCartAddFilled & JSXBase.HTMLAttributes<HTMLIconShoppingCartAddFilledElement>;
+            "icon-shopping-cart-del": LocalJSX.IconShoppingCartDel & JSXBase.HTMLAttributes<HTMLIconShoppingCartDelElement>;
+            "icon-shopping-cart-del-filled": LocalJSX.IconShoppingCartDelFilled & JSXBase.HTMLAttributes<HTMLIconShoppingCartDelFilledElement>;
+            "icon-shopping-cart-filled": LocalJSX.IconShoppingCartFilled & JSXBase.HTMLAttributes<HTMLIconShoppingCartFilledElement>;
+            "icon-small-check": LocalJSX.IconSmallCheck & JSXBase.HTMLAttributes<HTMLIconSmallCheckElement>;
+            "icon-small-close": LocalJSX.IconSmallClose & JSXBase.HTMLAttributes<HTMLIconSmallCloseElement>;
+            "icon-small-down": LocalJSX.IconSmallDown & JSXBase.HTMLAttributes<HTMLIconSmallDownElement>;
+            "icon-small-left": LocalJSX.IconSmallLeft & JSXBase.HTMLAttributes<HTMLIconSmallLeftElement>;
+            "icon-small-right": LocalJSX.IconSmallRight & JSXBase.HTMLAttributes<HTMLIconSmallRightElement>;
+            "icon-square": LocalJSX.IconSquare & JSXBase.HTMLAttributes<HTMLIconSquareElement>;
+            "icon-star": LocalJSX.IconStar & JSXBase.HTMLAttributes<HTMLIconStarElement>;
+            "icon-star-filled": LocalJSX.IconStarFilled & JSXBase.HTMLAttributes<HTMLIconStarFilledElement>;
+            "icon-sun": LocalJSX.IconSun & JSXBase.HTMLAttributes<HTMLIconSunElement>;
+            "icon-sun-filled": LocalJSX.IconSunFilled & JSXBase.HTMLAttributes<HTMLIconSunFilledElement>;
+            "icon-switch-button": LocalJSX.IconSwitchButton & JSXBase.HTMLAttributes<HTMLIconSwitchButtonElement>;
+            "icon-switch-button-filled": LocalJSX.IconSwitchButtonFilled & JSXBase.HTMLAttributes<HTMLIconSwitchButtonFilledElement>;
+            "icon-tag": LocalJSX.IconTag & JSXBase.HTMLAttributes<HTMLIconTagElement>;
+            "icon-taobao-circle": LocalJSX.IconTaobaoCircle & JSXBase.HTMLAttributes<HTMLIconTaobaoCircleElement>;
+            "icon-telegram": LocalJSX.IconTelegram & JSXBase.HTMLAttributes<HTMLIconTelegramElement>;
+            "icon-tencent-qq": LocalJSX.IconTencentQq & JSXBase.HTMLAttributes<HTMLIconTencentQqElement>;
+            "icon-text-bold": LocalJSX.IconTextBold & JSXBase.HTMLAttributes<HTMLIconTextBoldElement>;
+            "icon-text-italic": LocalJSX.IconTextItalic & JSXBase.HTMLAttributes<HTMLIconTextItalicElement>;
+            "icon-text-style": LocalJSX.IconTextStyle & JSXBase.HTMLAttributes<HTMLIconTextStyleElement>;
+            "icon-text-style-list": LocalJSX.IconTextStyleList & JSXBase.HTMLAttributes<HTMLIconTextStyleListElement>;
+            "icon-text-underline": LocalJSX.IconTextUnderline & JSXBase.HTMLAttributes<HTMLIconTextUnderlineElement>;
+            "icon-thumbs-down": LocalJSX.IconThumbsDown & JSXBase.HTMLAttributes<HTMLIconThumbsDownElement>;
+            "icon-thumbs-down-r-filled": LocalJSX.IconThumbsDownRFilled & JSXBase.HTMLAttributes<HTMLIconThumbsDownRFilledElement>;
+            "icon-thumbs-up": LocalJSX.IconThumbsUp & JSXBase.HTMLAttributes<HTMLIconThumbsUpElement>;
+            "icon-thumbs-up-l-filled": LocalJSX.IconThumbsUpLFilled & JSXBase.HTMLAttributes<HTMLIconThumbsUpLFilledElement>;
+            "icon-tiktok-filled": LocalJSX.IconTiktokFilled & JSXBase.HTMLAttributes<HTMLIconTiktokFilledElement>;
+            "icon-to-left": LocalJSX.IconToLeft & JSXBase.HTMLAttributes<HTMLIconToLeftElement>;
+            "icon-to-right": LocalJSX.IconToRight & JSXBase.HTMLAttributes<HTMLIconToRightElement>;
+            "icon-to-top": LocalJSX.IconToTop & JSXBase.HTMLAttributes<HTMLIconToTopElement>;
+            "icon-to-top-small": LocalJSX.IconToTopSmall & JSXBase.HTMLAttributes<HTMLIconToTopSmallElement>;
+            "icon-toutiao": LocalJSX.IconToutiao & JSXBase.HTMLAttributes<HTMLIconToutiaoElement>;
+            "icon-translate": LocalJSX.IconTranslate & JSXBase.HTMLAttributes<HTMLIconTranslateElement>;
+            "icon-twitter-filled": LocalJSX.IconTwitterFilled & JSXBase.HTMLAttributes<HTMLIconTwitterFilledElement>;
+            "icon-undo-circle": LocalJSX.IconUndoCircle & JSXBase.HTMLAttributes<HTMLIconUndoCircleElement>;
+            "icon-unlock": LocalJSX.IconUnlock & JSXBase.HTMLAttributes<HTMLIconUnlockElement>;
+            "icon-unlock-filled": LocalJSX.IconUnlockFilled & JSXBase.HTMLAttributes<HTMLIconUnlockFilledElement>;
+            "icon-up": LocalJSX.IconUp & JSXBase.HTMLAttributes<HTMLIconUpElement>;
+            "icon-up-circle": LocalJSX.IconUpCircle & JSXBase.HTMLAttributes<HTMLIconUpCircleElement>;
+            "icon-up-square": LocalJSX.IconUpSquare & JSXBase.HTMLAttributes<HTMLIconUpSquareElement>;
+            "icon-upload": LocalJSX.IconUpload & JSXBase.HTMLAttributes<HTMLIconUploadElement>;
+            "icon-upload-cloud": LocalJSX.IconUploadCloud & JSXBase.HTMLAttributes<HTMLIconUploadCloudElement>;
+            "icon-upload-logs": LocalJSX.IconUploadLogs & JSXBase.HTMLAttributes<HTMLIconUploadLogsElement>;
+            "icon-view-grid-card": LocalJSX.IconViewGridCard & JSXBase.HTMLAttributes<HTMLIconViewGridCardElement>;
+            "icon-view-grid-detail": LocalJSX.IconViewGridDetail & JSXBase.HTMLAttributes<HTMLIconViewGridDetailElement>;
+            "icon-view-grid-list": LocalJSX.IconViewGridList & JSXBase.HTMLAttributes<HTMLIconViewGridListElement>;
+            "icon-voice": LocalJSX.IconVoice & JSXBase.HTMLAttributes<HTMLIconVoiceElement>;
+            "icon-voice-filled": LocalJSX.IconVoiceFilled & JSXBase.HTMLAttributes<HTMLIconVoiceFilledElement>;
+            "icon-voice-input": LocalJSX.IconVoiceInput & JSXBase.HTMLAttributes<HTMLIconVoiceInputElement>;
+            "icon-voice-input-filled": LocalJSX.IconVoiceInputFilled & JSXBase.HTMLAttributes<HTMLIconVoiceInputFilledElement>;
+            "icon-voice-off": LocalJSX.IconVoiceOff & JSXBase.HTMLAttributes<HTMLIconVoiceOffElement>;
+            "icon-voice-play": LocalJSX.IconVoicePlay & JSXBase.HTMLAttributes<HTMLIconVoicePlayElement>;
+            "icon-volume-down": LocalJSX.IconVolumeDown & JSXBase.HTMLAttributes<HTMLIconVolumeDownElement>;
+            "icon-volume-down-filled": LocalJSX.IconVolumeDownFilled & JSXBase.HTMLAttributes<HTMLIconVolumeDownFilledElement>;
+            "icon-volume-mute": LocalJSX.IconVolumeMute & JSXBase.HTMLAttributes<HTMLIconVolumeMuteElement>;
+            "icon-volume-mute-filled": LocalJSX.IconVolumeMuteFilled & JSXBase.HTMLAttributes<HTMLIconVolumeMuteFilledElement>;
+            "icon-volume-notice": LocalJSX.IconVolumeNotice & JSXBase.HTMLAttributes<HTMLIconVolumeNoticeElement>;
+            "icon-volume-notice-filled": LocalJSX.IconVolumeNoticeFilled & JSXBase.HTMLAttributes<HTMLIconVolumeNoticeFilledElement>;
+            "icon-volume-small": LocalJSX.IconVolumeSmall & JSXBase.HTMLAttributes<HTMLIconVolumeSmallElement>;
+            "icon-volume-small-filled": LocalJSX.IconVolumeSmallFilled & JSXBase.HTMLAttributes<HTMLIconVolumeSmallFilledElement>;
+            "icon-volume-up": LocalJSX.IconVolumeUp & JSXBase.HTMLAttributes<HTMLIconVolumeUpElement>;
+            "icon-volume-up-filled": LocalJSX.IconVolumeUpFilled & JSXBase.HTMLAttributes<HTMLIconVolumeUpFilledElement>;
+            "icon-wallet": LocalJSX.IconWallet & JSXBase.HTMLAttributes<HTMLIconWalletElement>;
+            "icon-waterfalls-h": LocalJSX.IconWaterfallsH & JSXBase.HTMLAttributes<HTMLIconWaterfallsHElement>;
+            "icon-waterfalls-v": LocalJSX.IconWaterfallsV & JSXBase.HTMLAttributes<HTMLIconWaterfallsVElement>;
+            "icon-waves-left": LocalJSX.IconWavesLeft & JSXBase.HTMLAttributes<HTMLIconWavesLeftElement>;
+            "icon-waves-right": LocalJSX.IconWavesRight & JSXBase.HTMLAttributes<HTMLIconWavesRightElement>;
+            "icon-weibo-filled": LocalJSX.IconWeiboFilled & JSXBase.HTMLAttributes<HTMLIconWeiboFilledElement>;
+            "icon-weixin-scan-filled": LocalJSX.IconWeixinScanFilled & JSXBase.HTMLAttributes<HTMLIconWeixinScanFilledElement>;
+            "icon-wifi": LocalJSX.IconWifi & JSXBase.HTMLAttributes<HTMLIconWifiElement>;
+            "icon-windows-filled": LocalJSX.IconWindowsFilled & JSXBase.HTMLAttributes<HTMLIconWindowsFilledElement>;
+            "icon-youtube-filled": LocalJSX.IconYoutubeFilled & JSXBase.HTMLAttributes<HTMLIconYoutubeFilledElement>;
+            "icon-zoom-in": LocalJSX.IconZoomIn & JSXBase.HTMLAttributes<HTMLIconZoomInElement>;
+            "icon-zoom-out": LocalJSX.IconZoomOut & JSXBase.HTMLAttributes<HTMLIconZoomOutElement>;
         }
     }
 }

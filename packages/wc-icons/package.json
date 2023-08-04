@@ -1,5 +1,5 @@
 {
-  "name": "wc-icons",
+  "name": "@wcui/icons",
   "version": "0.0.1",
   "description": "Stencil Component Starter",
   "main": "dist/index.cjs.js",
@@ -12,12 +12,27 @@
   "unpkg": "dist/wc-icons/wc-icons.esm.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ionic-team/stencil-component-starter.git"
+    "url": "https://github.com/kviewui/wc-icons"
   },
   "files": [
     "dist/",
     "loader/"
   ],
+  "keywords": [
+    "stencil",
+    "webcomponents",
+    "web components",
+    "icons",
+    "wc-icons",
+    "wcui"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": {
+    "name": "kviewui",
+    "email": "kviewui@163.com"
+  },
   "scripts": {
     "build": "stencil build --docs",
     "start": "stencil build --dev --watch --serve",

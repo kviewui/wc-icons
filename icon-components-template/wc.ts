@@ -44,13 +44,49 @@ export const getWcIconComponentTemplate = (
         /**
          * 图标线条宽度
          */
-        @Prop() strokeWidth: number = 4; 
+        @Prop() strokeWidth: number = 4;
+        
+        /**
+         * 图标填充颜色
+         */
+        @Prop() fill: string = 'none';
+
+        /**
+         * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        @Prop() strokeLinecap: 'butt' | 'round' | 'square' | 'inherit' = 'round';
+
+        /**
+         * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        @Prop() strokeLinejoin: 'round' | 'inherit' | 'miter' | 'bevel' = 'round';
+        
+        /**
+         * 图标旋转角度
+         */
+        @Prop() rotate: number = 0;
+
+        /**
+         * 图标是否旋转
+         * + 为true时，图标将会做旋转动画
+         */
+        @Prop() spin: boolean = false;
+
+        /**
+         * 获取图标样式
+         */
+        getStyle() {
+            return {
+                transform: 'rotate(' + this.rotate + 'deg)',
+                animation: this.spin ? 'spin 1.5s linear infinite' : ''
+            };
+        }
 
         render() {
             return (<Fragment>
-                <svg width={this.size} height={this.size} viewBox="${viewBox}" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg width={this.size} height={this.size} viewBox="${viewBox}" style={this.getStyle()} fill="none" xmlns="http://www.w3.org/2000/svg">
                     ${pathds.map((d) => {
-                        return `<path d="${d}" fill="none" stroke={this.color} stroke-width={this.strokeWidth} stroke-linejoin="round" fill-opacity="0.9"></path>`;
+                        return `<path d="${d}" fill={this.fill} stroke={this.color} stroke-width={this.strokeWidth} stroke-linejoin={this.strokeLinejoin} stroke-linecap={this.strokeLinecap} fill-opacity="0.9"></path>`;
                     })}
                 </svg>
             </Fragment>);
