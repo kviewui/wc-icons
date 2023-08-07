@@ -44,6 +44,7 @@
     "@stencil/core": "^4.0.0"
   },
   "devDependencies": {
+    "@stencil/react-output-target": "^0.5.3",
     "@types/jest": "^27.5.2",
     "@types/node": "^16.18.11",
     "jest": "^27.5.1",
