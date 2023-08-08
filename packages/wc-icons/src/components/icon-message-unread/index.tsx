@@ -1,7 +1,7 @@
 
     /**
      * 此文件由脚本自动生成，请勿手动修改
-     * @created 2023/8/4 14:58:42
+     * @created 2023/8/8 17:37:16
      * @description message-unread 图标组件
      * @file icon-message-unread.tsx
      * @auther kviewui
@@ -11,12 +11,13 @@
     @Component({
         tag: 'icon-message-unread',
         shadow: true,
+        styleUrl: '../../styles/index.css'
     })
     export class IconMessageUnread {
         /**
          * 图标大小
          */
-        @Prop() size: number = 24;
+        @Prop() size: number = 16;
 
         /**
          * 图标颜色

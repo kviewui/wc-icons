@@ -29,12 +29,13 @@ export const getWcIconComponentTemplate = (
     @Component({
         tag: 'icon-${filename}',
         shadow: true,
+        styleUrl: '../../styles/index.css'
     })
     export class Icon${capitalize(filename)} {
         /**
          * 图标大小
          */
-        @Prop() size: number = 24;
+        @Prop() size: number = 16;
 
         /**
          * 图标颜色
