@@ -74,12 +74,20 @@ export const getWcIconComponentTemplate = (
         @Prop() spin: boolean = false;
 
         /**
+         * 动画时间
+         * + 单位: 秒
+         * + 默认值: 1
+         * + 仅当 spin 为 true 时有效
+         */
+        @Prop() duration: number = 1; 
+
+        /**
          * 获取图标样式
          */
         getStyle() {
             return {
                 transform: 'rotate(' + this.rotate + 'deg)',
-                animation: this.spin ? 'spin 1.5s linear infinite' : ''
+                animation: this.spin ? 'spin ' + this.duration + 's linear infinite' : 'none'
             };
         }
 

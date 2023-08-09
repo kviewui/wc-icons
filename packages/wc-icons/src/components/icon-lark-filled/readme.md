@@ -10,6 +10,7 @@
 | Property         | Attribute         | Description                                                    | Type                                         | Default   |
 | ---------------- | ----------------- | -------------------------------------------------------------- | -------------------------------------------- | --------- |
 | `color`          | `color`           | 图标颜色                                                           | `string`                                     | `'#333'`  |
+| `duration`       | `duration`        | 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效                     | `number`                                     | `1`       |
 | `fill`           | `fill`            | 图标填充颜色                                                         | `string`                                     | `'none'`  |
 | `rotate`         | `rotate`          | 图标旋转角度                                                         | `number`                                     | `0`       |
 | `size`           | `size`            | 图标大小                                                           | `number`                                     | `16`      |

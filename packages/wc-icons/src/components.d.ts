@@ -12,6 +12,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -45,6 +49,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -80,6 +88,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -113,6 +125,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -148,6 +164,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -181,6 +201,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -216,6 +240,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -249,6 +277,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -284,6 +316,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -317,6 +353,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -352,6 +392,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -385,6 +429,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -420,6 +468,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -453,6 +505,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -488,6 +544,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -521,6 +581,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -556,6 +620,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -589,6 +657,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -624,6 +696,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -657,6 +733,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -692,6 +772,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -725,6 +809,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -760,6 +848,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -793,6 +885,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -828,6 +924,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -861,6 +961,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -896,6 +1000,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -929,6 +1037,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -964,6 +1076,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -997,6 +1113,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -1032,6 +1152,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -1065,6 +1189,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -1100,6 +1228,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -1133,6 +1265,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -1168,6 +1304,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -1201,6 +1341,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -1236,6 +1380,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -1269,6 +1417,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -1304,6 +1456,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -1337,6 +1493,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -1372,6 +1532,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -1405,6 +1569,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -1440,6 +1608,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -1473,6 +1645,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -1508,6 +1684,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -1541,6 +1721,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -1576,6 +1760,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -1609,6 +1797,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -1644,6 +1836,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -1677,6 +1873,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -1712,6 +1912,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -1745,6 +1949,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -1780,6 +1988,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -1813,6 +2025,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -1848,6 +2064,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -1881,6 +2101,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -1916,6 +2140,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -1949,6 +2177,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -1984,6 +2216,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -2017,6 +2253,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -2052,6 +2292,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -2085,6 +2329,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -2120,6 +2368,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -2153,6 +2405,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -2188,6 +2444,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -2221,6 +2481,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -2256,6 +2520,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -2289,6 +2557,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -2324,6 +2596,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -2357,6 +2633,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -2392,6 +2672,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -2425,6 +2709,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -2460,6 +2748,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -2493,6 +2785,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -2528,6 +2824,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -2561,6 +2861,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -2596,6 +2900,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -2629,6 +2937,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -2664,6 +2976,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -2697,6 +3013,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -2732,6 +3052,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -2765,6 +3089,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -2800,6 +3128,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -2833,6 +3165,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -2868,6 +3204,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -2901,6 +3241,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -2936,6 +3280,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -2969,6 +3317,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -3004,6 +3356,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -3037,6 +3393,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -3072,6 +3432,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -3105,6 +3469,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -3140,6 +3508,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -3173,6 +3545,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -3208,6 +3584,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -3241,6 +3621,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -3276,6 +3660,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -3309,6 +3697,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -3344,6 +3736,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -3377,6 +3773,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -3412,6 +3812,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -3445,6 +3849,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -3480,6 +3888,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -3513,6 +3925,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -3548,6 +3964,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -3581,6 +4001,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -3616,6 +4040,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -3649,6 +4077,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -3684,6 +4116,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -3717,6 +4153,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -3752,6 +4192,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -3785,6 +4229,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -3820,6 +4268,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -3853,6 +4305,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -3888,6 +4344,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -3921,6 +4381,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -3956,6 +4420,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -3989,6 +4457,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -4024,6 +4496,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -4057,6 +4533,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -4092,6 +4572,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -4125,6 +4609,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -4160,6 +4648,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -4193,6 +4685,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -4228,6 +4724,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -4261,6 +4761,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -4296,6 +4800,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -4329,6 +4837,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -4364,6 +4876,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -4397,6 +4913,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -4432,6 +4952,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -4465,6 +4989,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -4500,6 +5028,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -4533,6 +5065,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -4568,6 +5104,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -4601,6 +5141,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -4636,6 +5180,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -4669,6 +5217,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -4704,6 +5256,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -4737,6 +5293,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -4772,6 +5332,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -4805,6 +5369,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -4840,6 +5408,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -4873,6 +5445,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -4908,6 +5484,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -4941,6 +5521,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -4976,6 +5560,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -5009,6 +5597,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -5044,6 +5636,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -5077,6 +5673,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -5112,6 +5712,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -5145,6 +5749,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -5180,6 +5788,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -5213,6 +5825,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -5248,6 +5864,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -5281,6 +5901,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -5316,6 +5940,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -5349,6 +5977,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -5384,6 +6016,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -5417,6 +6053,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -5452,6 +6092,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -5485,6 +6129,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -5520,6 +6168,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -5553,6 +6205,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -5588,6 +6244,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -5621,6 +6281,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -5656,6 +6320,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -5689,6 +6357,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -5724,6 +6396,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -5757,6 +6433,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -5792,6 +6472,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -5825,6 +6509,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -5860,6 +6548,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -5893,6 +6585,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -5928,6 +6624,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -5961,6 +6661,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -5996,6 +6700,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -6029,6 +6737,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -6064,6 +6776,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -6097,6 +6813,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -6132,6 +6852,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -6165,6 +6889,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -6200,6 +6928,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -6233,6 +6965,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -6268,6 +7004,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -6301,6 +7041,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -6336,6 +7080,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -6369,6 +7117,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -6404,6 +7156,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -6437,6 +7193,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -6472,6 +7232,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -6505,6 +7269,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -6540,6 +7308,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -6573,6 +7345,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -6608,6 +7384,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -6641,6 +7421,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -6676,6 +7460,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -6709,6 +7497,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -6744,6 +7536,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -6777,6 +7573,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -6812,6 +7612,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -6845,6 +7649,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -6880,6 +7688,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -6913,6 +7725,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -6948,6 +7764,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -6981,6 +7801,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -7016,6 +7840,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -7049,6 +7877,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -7084,6 +7916,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -7117,6 +7953,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -7152,6 +7992,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -7185,6 +8029,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -7220,6 +8068,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -7253,6 +8105,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -7288,6 +8144,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -7321,6 +8181,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -7356,6 +8220,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -7389,6 +8257,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -7424,6 +8296,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -7457,6 +8333,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -7492,6 +8372,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -7525,6 +8409,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -7560,6 +8448,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -7593,6 +8485,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -7628,6 +8524,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -7661,6 +8561,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -7696,6 +8600,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -7729,6 +8637,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -7764,6 +8676,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -7797,6 +8713,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -7832,6 +8752,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -7865,6 +8789,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -7900,6 +8828,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -7933,6 +8865,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -7968,6 +8904,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -8001,6 +8941,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -8036,6 +8980,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -8069,6 +9017,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -8104,6 +9056,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -8137,6 +9093,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -8172,6 +9132,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -8205,6 +9169,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -8240,6 +9208,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -8273,6 +9245,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -8308,6 +9284,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -8341,6 +9321,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -8376,6 +9360,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -8409,6 +9397,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -8444,6 +9436,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -8477,6 +9473,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -8512,6 +9512,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -8545,6 +9549,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -8580,6 +9588,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -8613,6 +9625,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -8648,6 +9664,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -8681,6 +9701,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -8716,6 +9740,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -8749,6 +9777,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -8784,6 +9816,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -8817,6 +9853,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -8852,6 +9892,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -8885,6 +9929,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -8920,6 +9968,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -8953,6 +10005,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -8988,6 +10044,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -9021,6 +10081,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -9056,6 +10120,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -9089,6 +10157,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -9124,6 +10196,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -9157,6 +10233,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -9192,6 +10272,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -9225,6 +10309,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -9260,6 +10348,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -9293,6 +10385,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -9328,6 +10424,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -9361,6 +10461,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -9396,6 +10500,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -9429,6 +10537,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -9464,6 +10576,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -9497,6 +10613,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -9532,6 +10652,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -9565,6 +10689,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -9600,6 +10728,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -9633,6 +10765,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -9668,6 +10804,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -9701,6 +10841,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -9736,6 +10880,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -9769,6 +10917,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -9804,6 +10956,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -9837,6 +10993,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -9872,6 +11032,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -9905,6 +11069,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -9940,6 +11108,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -9973,6 +11145,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -10008,6 +11184,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -10041,6 +11221,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -10076,6 +11260,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -10109,6 +11297,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -10144,6 +11336,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -10177,6 +11373,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -10212,6 +11412,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -10245,6 +11449,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -10280,6 +11488,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -10313,6 +11525,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -10348,6 +11564,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -10381,6 +11601,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -10416,6 +11640,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -10449,6 +11677,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -10484,6 +11716,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -10517,6 +11753,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -10552,6 +11792,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -10585,6 +11829,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -10620,6 +11868,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -10653,6 +11905,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -10688,6 +11944,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -10721,6 +11981,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -10756,6 +12020,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -10789,6 +12057,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -10824,6 +12096,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -10857,6 +12133,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -10892,6 +12172,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -10925,6 +12209,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -10960,6 +12248,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -10993,6 +12285,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -11028,6 +12324,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -11061,6 +12361,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -11096,6 +12400,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -11129,6 +12437,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -11164,6 +12476,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -11197,6 +12513,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -11232,6 +12552,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -11265,6 +12589,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -11300,6 +12628,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -11333,6 +12665,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -11368,6 +12704,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -11401,6 +12741,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -11436,6 +12780,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -11469,6 +12817,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -11504,6 +12856,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -11537,6 +12893,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -11572,6 +12932,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -11605,6 +12969,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -11640,6 +13008,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -11673,6 +13045,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -11708,6 +13084,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -11741,6 +13121,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -11776,6 +13160,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -11809,6 +13197,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -11844,6 +13236,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -11877,6 +13273,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -11912,6 +13312,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -11945,6 +13349,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -11980,6 +13388,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -12013,6 +13425,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -12048,6 +13464,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -12081,6 +13501,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -12116,6 +13540,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -12149,6 +13577,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -12184,6 +13616,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -12217,6 +13653,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -12252,6 +13692,10 @@ export namespace Components {
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
           * 图标填充颜色
          */
         "fill": string;
@@ -12285,6 +13729,10 @@ export namespace Components {
           * 图标颜色
          */
         "color": string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
         /**
           * 图标填充颜色
          */
@@ -14860,6 +16308,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -14893,6 +16345,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -14928,6 +16384,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -14961,6 +16421,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -14996,6 +16460,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -15029,6 +16497,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -15064,6 +16536,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -15097,6 +16573,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -15132,6 +16612,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -15165,6 +16649,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -15200,6 +16688,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -15233,6 +16725,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -15268,6 +16764,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -15301,6 +16801,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -15336,6 +16840,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -15369,6 +16877,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -15404,6 +16916,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -15437,6 +16953,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -15472,6 +16992,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -15505,6 +17029,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -15540,6 +17068,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -15573,6 +17105,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -15608,6 +17144,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -15641,6 +17181,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -15676,6 +17220,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -15709,6 +17257,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -15744,6 +17296,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -15777,6 +17333,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -15812,6 +17372,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -15845,6 +17409,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -15880,6 +17448,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -15913,6 +17485,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -15948,6 +17524,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -15981,6 +17561,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -16016,6 +17600,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -16049,6 +17637,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -16084,6 +17676,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -16117,6 +17713,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -16152,6 +17752,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -16185,6 +17789,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -16220,6 +17828,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -16253,6 +17865,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -16288,6 +17904,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -16321,6 +17941,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -16356,6 +17980,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -16389,6 +18017,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -16424,6 +18056,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -16457,6 +18093,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -16492,6 +18132,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -16525,6 +18169,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -16560,6 +18208,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -16593,6 +18245,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -16628,6 +18284,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -16661,6 +18321,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -16696,6 +18360,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -16729,6 +18397,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -16764,6 +18436,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -16797,6 +18473,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -16832,6 +18512,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -16865,6 +18549,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -16900,6 +18588,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -16933,6 +18625,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -16968,6 +18664,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -17001,6 +18701,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -17036,6 +18740,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -17069,6 +18777,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -17104,6 +18816,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -17137,6 +18853,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -17172,6 +18892,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -17205,6 +18929,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -17240,6 +18968,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -17273,6 +19005,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -17308,6 +19044,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -17341,6 +19081,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -17376,6 +19120,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -17409,6 +19157,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -17444,6 +19196,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -17477,6 +19233,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -17512,6 +19272,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -17545,6 +19309,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -17580,6 +19348,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -17613,6 +19385,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -17648,6 +19424,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -17681,6 +19461,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -17716,6 +19500,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -17749,6 +19537,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -17784,6 +19576,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -17817,6 +19613,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -17852,6 +19652,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -17885,6 +19689,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -17920,6 +19728,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -17953,6 +19765,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -17988,6 +19804,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -18021,6 +19841,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -18056,6 +19880,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -18089,6 +19917,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -18124,6 +19956,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -18157,6 +19993,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -18192,6 +20032,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -18225,6 +20069,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -18260,6 +20108,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -18293,6 +20145,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -18328,6 +20184,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -18361,6 +20221,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -18396,6 +20260,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -18429,6 +20297,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -18464,6 +20336,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -18497,6 +20373,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -18532,6 +20412,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -18565,6 +20449,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -18600,6 +20488,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -18633,6 +20525,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -18668,6 +20564,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -18701,6 +20601,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -18736,6 +20640,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -18769,6 +20677,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -18804,6 +20716,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -18837,6 +20753,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -18872,6 +20792,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -18905,6 +20829,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -18940,6 +20868,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -18973,6 +20905,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -19008,6 +20944,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -19041,6 +20981,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -19076,6 +21020,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -19109,6 +21057,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -19144,6 +21096,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -19177,6 +21133,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -19212,6 +21172,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -19245,6 +21209,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -19280,6 +21248,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -19313,6 +21285,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -19348,6 +21324,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -19381,6 +21361,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -19416,6 +21400,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -19449,6 +21437,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -19484,6 +21476,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -19517,6 +21513,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -19552,6 +21552,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -19585,6 +21589,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -19620,6 +21628,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -19653,6 +21665,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -19688,6 +21704,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -19721,6 +21741,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -19756,6 +21780,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -19789,6 +21817,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -19824,6 +21856,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -19857,6 +21893,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -19892,6 +21932,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -19925,6 +21969,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -19960,6 +22008,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -19993,6 +22045,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -20028,6 +22084,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -20061,6 +22121,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -20096,6 +22160,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -20129,6 +22197,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -20164,6 +22236,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -20197,6 +22273,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -20232,6 +22312,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -20265,6 +22349,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -20300,6 +22388,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -20333,6 +22425,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -20368,6 +22464,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -20401,6 +22501,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -20436,6 +22540,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -20469,6 +22577,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -20504,6 +22616,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -20537,6 +22653,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -20572,6 +22692,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -20605,6 +22729,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -20640,6 +22768,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -20673,6 +22805,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -20708,6 +22844,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -20741,6 +22881,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -20776,6 +22920,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -20809,6 +22957,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -20844,6 +22996,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -20877,6 +23033,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -20912,6 +23072,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -20945,6 +23109,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -20980,6 +23148,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -21013,6 +23185,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -21048,6 +23224,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -21081,6 +23261,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -21116,6 +23300,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -21149,6 +23337,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -21184,6 +23376,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -21217,6 +23413,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -21252,6 +23452,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -21285,6 +23489,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -21320,6 +23528,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -21353,6 +23565,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -21388,6 +23604,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -21421,6 +23641,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -21456,6 +23680,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -21489,6 +23717,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -21524,6 +23756,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -21557,6 +23793,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -21592,6 +23832,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -21625,6 +23869,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -21660,6 +23908,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -21693,6 +23945,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -21728,6 +23984,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -21761,6 +24021,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -21796,6 +24060,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -21829,6 +24097,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -21864,6 +24136,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -21897,6 +24173,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -21932,6 +24212,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -21965,6 +24249,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -22000,6 +24288,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -22033,6 +24325,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -22068,6 +24364,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -22101,6 +24401,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -22136,6 +24440,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -22169,6 +24477,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -22204,6 +24516,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -22237,6 +24553,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -22272,6 +24592,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -22305,6 +24629,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -22340,6 +24668,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -22373,6 +24705,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -22408,6 +24744,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -22441,6 +24781,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -22476,6 +24820,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -22509,6 +24857,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -22544,6 +24896,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -22577,6 +24933,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -22612,6 +24972,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -22645,6 +25009,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -22680,6 +25048,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -22713,6 +25085,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -22748,6 +25124,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -22781,6 +25161,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -22816,6 +25200,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -22849,6 +25237,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -22884,6 +25276,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -22917,6 +25313,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -22952,6 +25352,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -22985,6 +25389,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -23020,6 +25428,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -23053,6 +25465,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -23088,6 +25504,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -23121,6 +25541,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -23156,6 +25580,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -23189,6 +25617,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -23224,6 +25656,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -23257,6 +25693,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -23292,6 +25732,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -23325,6 +25769,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -23360,6 +25808,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -23393,6 +25845,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -23428,6 +25884,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -23461,6 +25921,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -23496,6 +25960,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -23529,6 +25997,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -23564,6 +26036,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -23597,6 +26073,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -23632,6 +26112,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -23665,6 +26149,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -23700,6 +26188,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -23733,6 +26225,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -23768,6 +26264,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -23801,6 +26301,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -23836,6 +26340,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -23869,6 +26377,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -23904,6 +26416,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -23937,6 +26453,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -23972,6 +26492,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -24005,6 +26529,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -24040,6 +26568,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -24073,6 +26605,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -24108,6 +26644,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -24141,6 +26681,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -24176,6 +26720,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -24209,6 +26757,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -24244,6 +26796,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -24277,6 +26833,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -24312,6 +26872,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -24345,6 +26909,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -24380,6 +26948,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -24413,6 +26985,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -24448,6 +27024,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -24481,6 +27061,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -24516,6 +27100,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -24549,6 +27137,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -24584,6 +27176,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -24617,6 +27213,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -24652,6 +27252,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -24685,6 +27289,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -24720,6 +27328,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -24753,6 +27365,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -24788,6 +27404,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -24821,6 +27441,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -24856,6 +27480,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -24889,6 +27517,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -24924,6 +27556,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -24957,6 +27593,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -24992,6 +27632,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -25025,6 +27669,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -25060,6 +27708,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -25093,6 +27745,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -25128,6 +27784,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -25161,6 +27821,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -25196,6 +27860,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -25229,6 +27897,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -25264,6 +27936,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -25297,6 +27973,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -25332,6 +28012,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -25365,6 +28049,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -25400,6 +28088,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -25433,6 +28125,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -25468,6 +28164,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -25501,6 +28201,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -25536,6 +28240,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -25569,6 +28277,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -25604,6 +28316,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -25637,6 +28353,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -25672,6 +28392,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -25705,6 +28429,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -25740,6 +28468,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -25773,6 +28505,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -25808,6 +28544,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -25841,6 +28581,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -25876,6 +28620,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -25909,6 +28657,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -25944,6 +28696,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -25977,6 +28733,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -26012,6 +28772,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -26045,6 +28809,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -26080,6 +28848,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -26113,6 +28885,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -26148,6 +28924,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -26181,6 +28961,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -26216,6 +29000,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -26249,6 +29037,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -26284,6 +29076,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -26317,6 +29113,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -26352,6 +29152,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -26385,6 +29189,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -26420,6 +29228,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -26453,6 +29265,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -26488,6 +29304,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -26521,6 +29341,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -26556,6 +29380,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -26589,6 +29417,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -26624,6 +29456,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -26657,6 +29493,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -26692,6 +29532,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -26725,6 +29569,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -26760,6 +29608,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -26793,6 +29645,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -26828,6 +29684,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -26861,6 +29721,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -26896,6 +29760,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -26929,6 +29797,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -26964,6 +29836,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -26997,6 +29873,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -27032,6 +29912,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -27065,6 +29949,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
@@ -27100,6 +29988,10 @@ declare namespace LocalJSX {
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
           * 图标填充颜色
          */
         "fill"?: string;
@@ -27133,6 +30025,10 @@ declare namespace LocalJSX {
           * 图标颜色
          */
         "color"?: string;
+        /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
         /**
           * 图标填充颜色
          */
