@@ -17,7 +17,10 @@ export const config: Config = {
     {
       type: 'www',
       serviceWorker: null, // disable service workers
-    },
+      copy: [
+        { src: '../../icons-svg-symbol', dest: './assets/icons-svg-symbol' },
+      ]
+    }
     // reactOutputTarget({
     //   componentCorePackage: '@wcui/icons-react',
     //   proxiesFile: '../wc-icons/src/components.ts',

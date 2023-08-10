@@ -13762,6 +13762,20 @@ export namespace Components {
          */
         "strokeWidth": number;
     }
+    interface WcIcon {
+        /**
+          * 图标颜色
+         */
+        "color": string;
+        /**
+          * 图标名称
+         */
+        "name": string;
+        /**
+          * 图标大小
+         */
+        "size": number;
+    }
 }
 declare global {
     interface HTMLIconAcousticElement extends Components.IconAcoustic, HTMLStencilElement {
@@ -15936,6 +15950,12 @@ declare global {
         prototype: HTMLIconZoomOutElement;
         new (): HTMLIconZoomOutElement;
     };
+    interface HTMLWcIconElement extends Components.WcIcon, HTMLStencilElement {
+    }
+    var HTMLWcIconElement: {
+        prototype: HTMLWcIconElement;
+        new (): HTMLWcIconElement;
+    };
     interface HTMLElementTagNameMap {
         "icon-acoustic": HTMLIconAcousticElement;
         "icon-add-circle": HTMLIconAddCircleElement;
@@ -16299,6 +16319,7 @@ declare global {
         "icon-youtube-filled": HTMLIconYoutubeFilledElement;
         "icon-zoom-in": HTMLIconZoomInElement;
         "icon-zoom-out": HTMLIconZoomOutElement;
+        "wc-icon": HTMLWcIconElement;
     }
 }
 declare namespace LocalJSX {
@@ -30058,6 +30079,20 @@ declare namespace LocalJSX {
          */
         "strokeWidth"?: number;
     }
+    interface WcIcon {
+        /**
+          * 图标颜色
+         */
+        "color"?: string;
+        /**
+          * 图标名称
+         */
+        "name"?: string;
+        /**
+          * 图标大小
+         */
+        "size"?: number;
+    }
     interface IntrinsicElements {
         "icon-acoustic": IconAcoustic;
         "icon-add-circle": IconAddCircle;
@@ -30421,6 +30456,7 @@ declare namespace LocalJSX {
         "icon-youtube-filled": IconYoutubeFilled;
         "icon-zoom-in": IconZoomIn;
         "icon-zoom-out": IconZoomOut;
+        "wc-icon": WcIcon;
     }
 }
 export { LocalJSX as JSX };
@@ -30789,6 +30825,7 @@ declare module "@stencil/core" {
             "icon-youtube-filled": LocalJSX.IconYoutubeFilled & JSXBase.HTMLAttributes<HTMLIconYoutubeFilledElement>;
             "icon-zoom-in": LocalJSX.IconZoomIn & JSXBase.HTMLAttributes<HTMLIconZoomInElement>;
             "icon-zoom-out": LocalJSX.IconZoomOut & JSXBase.HTMLAttributes<HTMLIconZoomOutElement>;
+            "wc-icon": LocalJSX.WcIcon & JSXBase.HTMLAttributes<HTMLWcIconElement>;
         }
     }
 }
