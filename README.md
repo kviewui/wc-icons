@@ -21,6 +21,7 @@ npm run gen:svg
 ```
 
 ## 图标组件生成说明
+### WC 图标组件
 **WC 图标组件生成**
 ```shell
 npm run gen:wc
