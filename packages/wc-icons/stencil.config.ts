@@ -18,7 +18,7 @@ export const config: Config = {
       type: 'www',
       serviceWorker: null, // disable service workers
       copy: [
-        { src: '../../icons-svg-symbol', dest: './assets/icons-svg-symbol' },
+        { src: '../../icons-svg-symbol/symbol', dest: './assets/icons-svg-symbol/symbol' },
       ]
     }
     // reactOutputTarget({

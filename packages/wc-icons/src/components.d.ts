@@ -13762,19 +13762,47 @@ export namespace Components {
          */
         "strokeWidth": number;
     }
-    interface WcIcon {
+    interface WcIcons {
         /**
           * 图标颜色
          */
         "color": string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration": number;
+        /**
+          * 图标填充颜色
+         */
+        "fill": string;
+        /**
           * 图标名称
          */
         "name": string;
         /**
+          * 图标旋转角度
+         */
+        "rotate": number;
+        /**
           * 图标大小
          */
         "size": number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin": boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap": 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin": 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth": number;
     }
 }
 declare global {
@@ -15950,11 +15978,11 @@ declare global {
         prototype: HTMLIconZoomOutElement;
         new (): HTMLIconZoomOutElement;
     };
-    interface HTMLWcIconElement extends Components.WcIcon, HTMLStencilElement {
+    interface HTMLWcIconsElement extends Components.WcIcons, HTMLStencilElement {
     }
-    var HTMLWcIconElement: {
-        prototype: HTMLWcIconElement;
-        new (): HTMLWcIconElement;
+    var HTMLWcIconsElement: {
+        prototype: HTMLWcIconsElement;
+        new (): HTMLWcIconsElement;
     };
     interface HTMLElementTagNameMap {
         "icon-acoustic": HTMLIconAcousticElement;
@@ -16319,7 +16347,7 @@ declare global {
         "icon-youtube-filled": HTMLIconYoutubeFilledElement;
         "icon-zoom-in": HTMLIconZoomInElement;
         "icon-zoom-out": HTMLIconZoomOutElement;
-        "wc-icon": HTMLWcIconElement;
+        "wc-icons": HTMLWcIconsElement;
     }
 }
 declare namespace LocalJSX {
@@ -30079,19 +30107,47 @@ declare namespace LocalJSX {
          */
         "strokeWidth"?: number;
     }
-    interface WcIcon {
+    interface WcIcons {
         /**
           * 图标颜色
          */
         "color"?: string;
         /**
+          * 动画时间 + 单位: 秒 + 默认值: 1 + 仅当 spin 为 true 时有效
+         */
+        "duration"?: number;
+        /**
+          * 图标填充颜色
+         */
+        "fill"?: string;
+        /**
           * 图标名称
          */
         "name"?: string;
         /**
+          * 图标旋转角度
+         */
+        "rotate"?: number;
+        /**
           * 图标大小
          */
         "size"?: number;
+        /**
+          * 图标是否旋转 + 为true时，图标将会做旋转动画
+         */
+        "spin"?: boolean;
+        /**
+          * 图标端点样式, 可选值: butt, round, square, inherit 默认值: round
+         */
+        "strokeLinecap"?: 'butt' | 'round' | 'square' | 'inherit';
+        /**
+          * 图标拐角样式, 可选值: arcs, bever, miter, miter-clip, round, 默认值: round
+         */
+        "strokeLinejoin"?: 'round' | 'inherit' | 'miter' | 'bevel';
+        /**
+          * 图标线条宽度
+         */
+        "strokeWidth"?: number;
     }
     interface IntrinsicElements {
         "icon-acoustic": IconAcoustic;
@@ -30456,7 +30512,7 @@ declare namespace LocalJSX {
         "icon-youtube-filled": IconYoutubeFilled;
         "icon-zoom-in": IconZoomIn;
         "icon-zoom-out": IconZoomOut;
-        "wc-icon": WcIcon;
+        "wc-icons": WcIcons;
     }
 }
 export { LocalJSX as JSX };
@@ -30825,7 +30881,7 @@ declare module "@stencil/core" {
             "icon-youtube-filled": LocalJSX.IconYoutubeFilled & JSXBase.HTMLAttributes<HTMLIconYoutubeFilledElement>;
             "icon-zoom-in": LocalJSX.IconZoomIn & JSXBase.HTMLAttributes<HTMLIconZoomInElement>;
             "icon-zoom-out": LocalJSX.IconZoomOut & JSXBase.HTMLAttributes<HTMLIconZoomOutElement>;
-            "wc-icon": LocalJSX.WcIcon & JSXBase.HTMLAttributes<HTMLWcIconElement>;
+            "wc-icons": LocalJSX.WcIcons & JSXBase.HTMLAttributes<HTMLWcIconsElement>;
         }
     }
 }

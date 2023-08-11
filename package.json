@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "gen:wc:dev": "rm -rf dist && tsc && node dist/scripts/generate.js",
     "gen:wc": "rm -rf dist && rm -rf packages/wc-icons/src/components/* && tsc && node dist/scripts/generate.js",
-    "gen:sprite": "rm -rf packages/icons-svg-symbol/* && tsc && node dist/scripts/generite-spriter.js"
+    "gen:svg": "rm -rf packages/icons-svg-symbol/svgs/* && tsc && node dist/scripts/generate-svg.js",
+    "gen:sprite": "npm run gen:svg && rm -rf packages/icons-svg-symbol/symbol/* && tsc && node dist/scripts/generite-spriter.js"
   },
   "private": true,
   "keywords": [],

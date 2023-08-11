@@ -7,7 +7,7 @@ import consola from "consola";
 // 创建 svg-sprite 实例
 const spriter = new svgSpriter({
     // 配置
-    dest: 'packages/icons-svg-symbol', // 输出目录
+    dest: 'packages/icons-svg-symbol/symbol', // 输出目录
     mode: {
         symbol: {
             dest: './', // 输出模式为 symbol
@@ -17,14 +17,14 @@ const spriter = new svgSpriter({
     },
     shape: {
         transform: [
-            'svgo', // 使用 svgo 插件优化 svg
+            'svgo'
         ]
     }
 });
 
 const Glob = require('glob').Glob;
 
-let svgFiles = `${process.cwd()}/packages/icons-svg/*.svg`;
+let svgFiles = `${process.cwd()}/packages/icons-svg-symbol/svgs/*.svg`;
 
 new Glob(svgFiles, {}, async (err: any, files: any) => {
     if (err) {

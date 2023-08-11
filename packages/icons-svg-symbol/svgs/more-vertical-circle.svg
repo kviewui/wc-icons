@@ -1,0 +1,5 @@
+
+    <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" class="icon">
+        <path d="M24 44c11.046 0 20-8.954 20-20S35.046 4 24 4 4 12.954 4 24s8.954 20 20 20Z" fill="var(--icon-fill, none)" stroke="var(--icon-stroke, currentColor)"></path><path d="M21.5 14a2.5 2.5 0 1 0 5 0 2.5 2.5 0 0 0-5 0Zm0 10a2.5 2.5 0 1 0 5 0 2.5 2.5 0 0 0-5 0ZM24 36.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5Z" fill="var(--icon-fill, none)" stroke="var(--icon-stroke, currentColor)"></path>
+    </svg>
+  

@@ -11,10 +11,29 @@
 + 文件名不能有特殊符号
 + 文件名中间可以有"-"连字符
 
+## svg 图标批量处理说明
+### 介绍
+把 `packages/icons-svg` 包中的图标通过脚本批量去除固定样式属性，方便通过全量图标组件调整图标颜色以及大小等。
+
+### 执行命令
+```shell
+npm run gen:svg
+```
+
 ## 图标组件生成说明
 **WC 图标组件生成**
 ```shell
 npm run gen:wc
+```
+
+**WC 图标组件单个按需引入使用**
+```html
+<icon-add-circle />
+```
+
+**WC 图标组件全量引入使用**
+```html
+<wc-icons name="add-circle" />
 ```
 
 ## symbol格式svg 生成说明
